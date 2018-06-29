@@ -4,7 +4,7 @@
 
 - Handynummer von CD auf "Datenschutz" ist ok, oder?
   > Nein. *Auch aus meta-Tags raus!*
-  > Verifizieren, ob in Datenschutzerkl. Tel.-nr. überhaupt notwendig
+  > Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
 
 - 1&1-Vertrag enthält auch die Domain [lernhilfe-hausaufgaben.de](http://www.lernhilfe-hausaufgaben.de) bei 1&1,
   kann man die evtl. zum Rumprobieren benutzen?
