@@ -52,7 +52,7 @@ textarea{width:300px;height:180px;line-height:120%}.form input.checkbox,
 input.radio{width:auto !important}.error{color:black;background-color:#FAEFEF;border:1px
 solid #c66;border-color:#c66 #FFB2B2 #FFB2B2 #c66;color:#000}.fehlerUser{margin:0px;border:2px
 solid #CF5D00;background:#EBC2AD;padding:10px;color:black}span.x-web-forms-sending-img{display:inline;width:16px;height:16px;margin:10px
-0 0 5px;padding:8px;background:url(../../../../s/img/cms/loading/16x16.gif) no-repeat center}.diy-button{cursor:pointer;background-color:transparent;border:none;padding:0px
+0 0 5px;padding:8px;background:url(../../../../s/img/cms/loading/16x16.html) no-repeat center}.diy-button{cursor:pointer;background-color:transparent;border:none;padding:0px
 !important;padding-right:5px !important;outline:none;max-width:200px;text-decoration:none !important;vertical-align:bottom}.diy-button .diy-innerbutton{display:inline-block;background-color:transparent;background-repeat:no-repeat;border:none;padding:0;line-height:0}.diy-button .diy-innerbutton
 span{display:inline-block;background-image:url(../../../../s/img/cms/buttons/btn_primary_action.png);background-repeat:no-repeat;background-position:right top;position:relative;top:-0px;right:-5px;padding:0px
 10px 0px 5px;font-weight:bold;font-size:11px;font-family:Arial,sans}.diy-button
@@ -88,7 +88,7 @@ solid #666;float:left;background:white;padding:0px;margin:0px}div.captcha
 a.refresh{background:url(../../../../s/img/captcha_refresh.jpg) no-repeat center white;border:1px
 solid #CCC;float:right;height:29px;width:29px;padding:0px;margin:0px;position:relative}div.captcha a.refresh:hover, div.captcha
 a.refresh.current{background:url(../../../../s/img/captcha_refresh_h.jpg) no-repeat center white}div.captcha a.refresh
-span{display:none}div.captcha div.captcha-bottom{background:url(../../../../s/img/captcha_pfeil.gif) left bottom no-repeat;padding-left:20px;margin:0px}div.captcha div.captcha-bottom
+span{display:none}div.captcha div.captcha-bottom{background:url(../../../../s/img/captcha_pfeil.html) left bottom no-repeat;padding-left:20px;margin:0px}div.captcha div.captcha-bottom
 span{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;color:#333;padding:0px;margin:0px;line-height:180%}div.captcha div.captcha-bottom span #captchafield,
 div.captcha div.captcha-bottom span
 input.single{padding:0px;margin:0px;width:105px !important;background-color:white;border:1px
@@ -143,7 +143,7 @@ img{width:100%}.diys-cap2{width:192px;border:1px
 solid #999;background:linear-gradient(#fff, #eee) repeat-x bottom left white;padding:5px}.diys-cap2
 span.character{height:50px;width:190px;border:1px
 solid #666;float:left;background:white;padding:0px;margin:0px;overflow:hidden}.diys-cap2
-.refresh{float:left;height:20px;width:20px;padding:0px;margin:0px;position:relative;text-decoration:none !important;color:#666 !important;font-size:16px}.diys-cap2 .refresh:hover{color:#0fa4bc !important}.diys-cap2 div.cap-bottom{background:url(../../../../s/img/captcha_pfeil.gif) left bottom no-repeat;padding-left:20px;margin:0px}.diys-cap2 div.cap-bottom
+.refresh{float:left;height:20px;width:20px;padding:0px;margin:0px;position:relative;text-decoration:none !important;color:#666 !important;font-size:16px}.diys-cap2 .refresh:hover{color:#0fa4bc !important}.diys-cap2 div.cap-bottom{background:url(../../../../s/img/captcha_pfeil.html) left bottom no-repeat;padding-left:20px;margin:0px}.diys-cap2 div.cap-bottom
 span{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;color:#333;padding:0px;margin:0px;line-height:180%}.diys-cap2 div.cap-bottom input.single,
 .diys-cap2 div.cap-bottom input.single:hover{padding:3px;margin:0px;width:105px !important;background-color:white;border:1px
 solid #bbb;box-shadow:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.nform .diys-cap2{margin-left:31%}@media only screen and (max-width: 568px){.nform .diys-cap2{margin-left:0}}.diywebSidebar .diys-cap2{-webkit-transform:scale(0.73);-moz-transform:scale(0.73);-ms-transform:scale(0.73);-o-transform:scale(0.73);transform:scale(0.73);-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0}.diyw .diys-cap2 span.character

@@ -2,9 +2,9 @@
 .apsinth-blocker-visible{background-color:#CCC;}.apsinth-dialog{background-color:#f5f7f7!important;position:absolute;color:#666;font-size:11px;border:2px solid gray;padding:5px 10px;text-align:left!important;font-family:Verdana,Arial;font-size:11px;letter-spacing:normal;line-height:15px;}
 .apsinth-dialog p{background-color:#f5f7f7!important;color:#666;}.apsinth-dialog-clean{padding:0!important;border:none!important;}
 .apsinth-dialog h1{color:#666;text-align:left!important;font-family:Verdana,Arial;font-size:18px;letter-spacing:normal;line-height:22px;font-weight:bold;}
-.flash_upload,.selectTemplateLayer{background:url(../img/1und1_header_bg_left.png) no-repeat 0 0 #f5f7f7;color:#666;font-size:11px;border:2px solid gray;border-bottom:none;padding:5px 10px;}
+.flash_upload,.selectTemplateLayer{background:url(../img/1und1_header_bg_left.html) no-repeat 0 0 #f5f7f7;color:#666;font-size:11px;border:2px solid gray;border-bottom:none;padding:5px 10px;}
 html .new-feed-settings *{font-family:Verdana,Arial;font-size:11px;letter-spacing:normal;line-height:15px;color:#666;}
-.flash_upload .dialog-title,.selectTemplateLayer .dialog-title{background:url(../img/1und1_header_bg_middle.png) repeat-x 6px 0;color:#434343;font-weight:bold;font-size:12px;font-family:Verdana,Arial;letter-spacing:normal;line-height:15px;margin:-5px -5px 10px;}
+.flash_upload .dialog-title,.selectTemplateLayer .dialog-title{background:url(../img/1und1_header_bg_middle.html) repeat-x 6px 0;color:#434343;font-weight:bold;font-size:12px;font-family:Verdana,Arial;letter-spacing:normal;line-height:15px;margin:-5px -5px 10px;}
 .new-feed-settings .dialog-title div,.flash_upload .dialog-title div,.selectTemplateLayer .dialog-title div{background:url(../img/1und1_header_bg_right.png) no-repeat right 0;padding:5px 4px 7px;margin-right:-5px;}
 .apsinth-dialog .error-hint{position:absolute;top:0;left:0;border-bottom:1px solid #622;background:#FCC url(../img/error16.png) no-repeat 3px 3px;padding:4px 5px 0 25px;height:18px;}
 .apsinth-dialog .error-label{background:url(../img/error16.png) no-repeat top right;padding-right:20px;}
