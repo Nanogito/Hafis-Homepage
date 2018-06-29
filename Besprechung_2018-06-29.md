@@ -43,7 +43,7 @@
   aber evtl. das für Backup nutzen? (github kann anscheinend irgendwie verknüpft werden)*
   > **vertagt**
 
-- nächste Schritte (Priorität?)
+- nächste Schritte, nach Priorität:
   1. Youtube Videos checken (www.projekt29.de/youtube-videos-datenschutzkonform-einbinden)
     > insbes.: was ist mit eigenem opt-out anbieten
   
