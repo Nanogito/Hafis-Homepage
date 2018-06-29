@@ -4,7 +4,7 @@ Ordner [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrac
 
 #### Achtung: ####
 WinHTTrack (und vmtl. auch git) hat Probleme mit Umlauten in Pfadnamen.
-Das betraft die Unterseite "Förderer", die nun (intern) unter [/foerderer/](WinHTTrack/Hafis/www.lernhilfe-hafis.de/foerderer/index.html) zu finden ist.
+Das betraf die Unterseite "Förderer", die nun (intern) unter [/foerderer/](WinHTTrack/Hafis/www.lernhilfe-hafis.de/foerderer/index.html) zu finden ist.
 
 Da aber der MyWebsite Baukasten es nicht erlaubt, Beschriftung und Ziel der Buttons unabhängig zu setzen, hätte man
 
