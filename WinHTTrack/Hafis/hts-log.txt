@@ -1,54 +1,13 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Jul 2018 00:51:56 at -N%20"%h%p/%n.%t" https://www.lernhilfe-hafis.de +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%P%q0%s%u0%I0p7H0%kf2A25000%f#f -N "%h%p/%n.%t" -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Jul 2018 15:51:47 at -N%20"%h%p/%n.%t" https://www.lernhilfe-hafis.de +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%P%q0%s%u0%I0p7H0%kf2A25000%f#f -N "%h%p/%n.%t" -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-00:51:56	Warning: 	HTML file (18409 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/
-00:51:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1530102462620
-00:51:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/app/cdn/min/group/mobilenavigation.css?1530102462620
-00:51:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1530102462620
-00:52:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/app/cdn/min/group/mobilenavigation.js?1530102462620
-00:52:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1530102462620
-00:52:01	Warning: 	HTML file (39837 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/presse/
-00:52:01	Warning: 	HTML file (38633 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/aktuell/
-00:52:01	Warning: 	HTML file (16447 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/spenden/
-00:52:01	Warning: 	HTML file (23815 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/foerderer/
-00:52:03	Warning: 	HTML file (18965 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/warum-systemische-lernhilfe/
-00:52:03	Warning: 	HTML file (27059 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/hafis-kampagne/
-00:52:03	Warning: 	HTML file (22450 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/mein-fabelhaftes-deutschheft/
-00:52:03	Warning: 	HTML file (19108 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/puppentheater/
-00:52:04	Warning: 	HTML file (17522 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/die-initiatoren/
-00:52:04	Warning: 	HTML file (19864 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/impressum/
-00:52:04	Warning: 	HTML file (38429 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/datenschutz/
-00:52:04	Warning: 	HTML file (14377 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/sitemap/
-00:52:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/mod/common/files/generated/modules-main-de_DE.js
-00:52:42	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 125): cdn.eu.mywebsite-editor.com/s/img/cc/warning.gif
-00:52:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.eu.mywebsite-editor.com/mod/common/files/generated/modules-main-de_DE.js
-00:52:55	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208105.jpg?t=1530383573, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_120810525b8.html' could not be found on disk
-00:52:55	Warning: 	HTML file (14377 bytes) retransferred due to lack of cache: https://www.lernhilfe-hafis.de/sitemap/
-00:52:56	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208108.png?t=1470476234, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208108cfbe.html' could not be found on disk
-00:52:57	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208109.png?t=1470476237, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_12081090511.html' could not be found on disk
-00:52:57	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208109.png?t=1470476237, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_12081090511.html' could not be found on disk
-00:52:57	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208111.jpg?t=1470476239, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_120811113e1.html' could not be found on disk
-00:52:58	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208113.jpg?t=1470476242, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_1208113f824.html' could not be found on disk
-00:52:58	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208114.png?t=1470476243, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208114321f.html' could not be found on disk
-00:52:59	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208114.png?t=1470476243, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_1208114321f.html' could not be found on disk
-00:52:59	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208115.png?t=1470476243, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208115321f.html' could not be found on disk
-00:53:01	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208116.png?t=1470476244, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208116684a.html' could not be found on disk
-00:53:01	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208117.png?t=1470476245, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_120811701da.html' could not be found on disk
-00:53:04	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208119.png?t=1470476246, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_12081190782.html' could not be found on disk
-00:53:04	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208120.png?t=1470476247, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_12081202808.html' could not be found on disk
-00:53:05	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208122.jpg?t=1470476250, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_12081222d34.html' could not be found on disk
-00:53:26	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208130.jpg?t=1470476255, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_120813050ad.html' could not be found on disk
-00:53:27	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208132.png?t=1470476256, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208132f76c.html' could not be found on disk
-00:53:38	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530287247, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo78db.html' could not be found on disk
-00:53:54	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530396393, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo383f.html' could not be found on disk
-00:54:17	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530287249, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo6153.html' could not be found on disk
-00:55:30	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530287251, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo4939.html' could not be found on disk
-00:55:31	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for cdn.eu.mywebsite-editor.com/mod/common/files/img/1und1_header_bg_middle.png, 'E:/proj/hafis4/WinHTTrack/Hafis/cdn.eu.mywebsite-editor.com/mod/common/files/img/1und1_header_bg_middle.html' could not be found on disk
+15:52:41	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 125): cdn.eu.mywebsite-editor.com/s/img/cc/warning.gif
+15:56:04	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_7730023.png?t=1507391973, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_773002345d9.html' could not be found on disk
 
-HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 36 seconds : 450 links scanned, 374 files written (11831411 bytes overall) [11184646 bytes received at 51780 bytes/sec], 1206209 bytes transferred using HTTP compression in 118 files, ratio 26%, 9.2 requests per connection
-(No errors, 43 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 1 seconds : 474 links scanned, 373 files written (11516780 bytes overall), 132 files updated [1308391 bytes received at 3107 bytes/sec], 389416 bytes transferred using HTTP compression in 16 files, ratio 21%, 2.4 requests per connection
+(No errors, 2 warnings, 0 messages)

@@ -2,13 +2,13 @@
 .apsinth-blocker-visible{background-color:#CCC;}.apsinth-dialog{background-color:#f5f7f7!important;position:absolute;color:#666;font-size:11px;border:2px solid gray;padding:5px 10px;text-align:left!important;font-family:Verdana,Arial;font-size:11px;letter-spacing:normal;line-height:15px;}
 .apsinth-dialog p{background-color:#f5f7f7!important;color:#666;}.apsinth-dialog-clean{padding:0!important;border:none!important;}
 .apsinth-dialog h1{color:#666;text-align:left!important;font-family:Verdana,Arial;font-size:18px;letter-spacing:normal;line-height:22px;font-weight:bold;}
-.flash_upload,.selectTemplateLayer{background:url(../img/1und1_header_bg_left.png) no-repeat 0 0 #f5f7f7;color:#666;font-size:11px;border:2px solid gray;border-bottom:none;padding:5px 10px;}
+.flash_upload,.selectTemplateLayer{background:url(../img/1und1_header_bg_left.html) no-repeat 0 0 #f5f7f7;color:#666;font-size:11px;border:2px solid gray;border-bottom:none;padding:5px 10px;}
 html .new-feed-settings *{font-family:Verdana,Arial;font-size:11px;letter-spacing:normal;line-height:15px;color:#666;}
-.flash_upload .dialog-title,.selectTemplateLayer .dialog-title{background:url(../img/1und1_header_bg_middle.html) repeat-x 6px 0;color:#434343;font-weight:bold;font-size:12px;font-family:Verdana,Arial;letter-spacing:normal;line-height:15px;margin:-5px -5px 10px;}
-.new-feed-settings .dialog-title div,.flash_upload .dialog-title div,.selectTemplateLayer .dialog-title div{background:url(../img/1und1_header_bg_right.png) no-repeat right 0;padding:5px 4px 7px;margin-right:-5px;}
+.flash_upload .dialog-title,.selectTemplateLayer .dialog-title{background:url(../img/1und1_header_bg_middle.png) repeat-x 6px 0;color:#434343;font-weight:bold;font-size:12px;font-family:Verdana,Arial;letter-spacing:normal;line-height:15px;margin:-5px -5px 10px;}
+.new-feed-settings .dialog-title div,.flash_upload .dialog-title div,.selectTemplateLayer .dialog-title div{background:url(../img/1und1_header_bg_right.html) no-repeat right 0;padding:5px 4px 7px;margin-right:-5px;}
 .apsinth-dialog .error-hint{position:absolute;top:0;left:0;border-bottom:1px solid #622;background:#FCC url(../img/error16.png) no-repeat 3px 3px;padding:4px 5px 0 25px;height:18px;}
 .apsinth-dialog .error-label{background:url(../img/error16.png) no-repeat top right;padding-right:20px;}
-.apsinth-dialog a.ccclose{display:block;float:right;height:16px;color:black!important;border-bottom:1px solid transparent!important;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:10px;font-weight:normal;padding:1px 18px 1px 4px;text-decoration:none;margin:2px;background:url(../img/close.gif) no-repeat 100% 4px!important;cursor:pointer;}
+.apsinth-dialog a.ccclose{display:block;float:right;height:16px;color:black!important;border-bottom:1px solid transparent!important;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:10px;font-weight:normal;padding:1px 18px 1px 4px;text-decoration:none;margin:2px;background:url(../img/close.html) no-repeat 100% 4px!important;cursor:pointer;}
 .apsinth-dialog a.ccclose:hover{color:#333!important;border-bottom:1px solid gray!important;background-color:white!important;background-position:100% -18px;}
 .apsinth-dialog a.ccclose:active{background-color:#C9E9FA;}.button .innerbutton a.ccclose{background:none!important;border:none!important;padding:0!important;font-size:11px!important;font-weight:bold!important;height:20px!important;line-height:20px!important;margin:0!important;}
 .apsinth-message-dialog .error-msg{background:url(../img/error16.png) no-repeat;padding-left:25px;padding-bottom:5px;}
@@ -19,15 +19,15 @@ ul.tabnav{padding-left:10px!important;height:22px!important;background:url(../im
 ul.tabnav li{display:inline!important;list-style-type:none!important;margin:0!important;padding:0!important;}
 ul.tabnav a,ul.tabnav a:visited{float:left;background-color:#FFF;font:bold 10px/20px Verdana,Geneva,Arial,Helvetica,sans-serif;margin-right:4px;border:1px solid #ccc;text-decoration:none;color:#666!important;padding:0 10px;}
 ul.tabnav a.tabimg,ul.tabnav a.tabimg:visited,ul.tabnav a.tabtext,ul.tabnav a.tabtext:visited{background-position:4px 50%;background-repeat:no-repeat;padding:0 10px 0 24px;}
-ul.tabnav a.tabimg{background-image:url(../img/tab_image.gif);}ul.tabnav a.tabtext{background-image:url(../img/tab_document.gif);}
+ul.tabnav a.tabimg{background-image:url(../img/tab_image.html);}ul.tabnav a.tabtext{background-image:url(../img/tab_document.gif);}
 ul.tabnav a:active{border-bottom:1px solid #fff;background-color:#0099E1!important;color:#FFF!important;text-decoration:none;outline:none;}
 ul.tabnav a:focus{-moz-outline-style:none;}ul.tabnav a:hover{background-color:#C9E9FA;}.apsinth-uploadbar{background:url(../img/timeline.gif) center center no-repeat;}
-.apsinth-error{color:red;border:1px solid red;}.apsinth-clear{clear:both;}#ui-datepicker16-div{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none;font-family:Verdana,Arial,sans-serif;background:#fff url(../lib/datepicker/css/smoothness/images/ffffff_40x100_textures_01_flat_75.png) 0 0 repeat-x;font-size:1.1em;border:4px solid #aaa;width:15.5em;padding:2.5em .5em .5em .5em;position:relative;}
+.apsinth-error{color:red;border:1px solid red;}.apsinth-clear{clear:both;}#ui-datepicker16-div{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none;font-family:Verdana,Arial,sans-serif;background:#fff url(../lib/datepicker/css/smoothness/images/ffffff_40x100_textures_01_flat_75.html) 0 0 repeat-x;font-size:1.1em;border:4px solid #aaa;width:15.5em;padding:2.5em .5em .5em .5em;position:relative;}
 #ui-datepicker16-div{z-index:100002;display:none;font-size:12.8px;}#ui-datepicker16-div .cancel-date{margin-top:3px;}
 #ui-datepicker16-div .ui-datepicker-inline{float:left;display:block;}#ui-datepicker16-div .ui-datepicker-control{display:none;}
-#ui-datepicker16-div .ui-datepicker-current{display:none;}#ui-datepicker16-div .ui-datepicker-next,#ui-datepicker16-div .ui-datepicker-prev{position:absolute;left:.5em;top:.5em;background:#e6e6e6 url(../lib/datepicker/css/smoothness/images/e6e6e6_40x100_textures_02_glass_75.png) 0 50% repeat-x;}
-#ui-datepicker16-div .ui-datepicker-next{left:14.6em;}#ui-datepicker16-div .ui-datepicker-next:hover,#ui-datepicker16-div .ui-datepicker-prev:hover{background:#dadada url(../lib/datepicker/css/smoothness/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;}
-#ui-datepicker16-div .ui-datepicker-next a,#ui-datepicker16-div .ui-datepicker-prev a{text-indent:-999999px;width:1.3em;height:1.4em;display:block;font-size:1em;background:url(../lib/datepicker/css/smoothness/images/888888_7x7_arrow_left.gif) 50% 50% no-repeat;border:1px solid #d3d3d3;cursor:pointer;}
+#ui-datepicker16-div .ui-datepicker-current{display:none;}#ui-datepicker16-div .ui-datepicker-next,#ui-datepicker16-div .ui-datepicker-prev{position:absolute;left:.5em;top:.5em;background:#e6e6e6 url(../lib/datepicker/css/smoothness/images/e6e6e6_40x100_textures_02_glass_75.html) 0 50% repeat-x;}
+#ui-datepicker16-div .ui-datepicker-next{left:14.6em;}#ui-datepicker16-div .ui-datepicker-next:hover,#ui-datepicker16-div .ui-datepicker-prev:hover{background:#dadada url(../lib/datepicker/css/smoothness/images/dadada_40x100_textures_02_glass_75.html) 0 50% repeat-x;}
+#ui-datepicker16-div .ui-datepicker-next a,#ui-datepicker16-div .ui-datepicker-prev a{text-indent:-999999px;width:1.3em;height:1.4em;display:block;font-size:1em;background:url(../lib/datepicker/css/smoothness/images/888888_7x7_arrow_left.html) 50% 50% no-repeat;border:1px solid #d3d3d3;cursor:pointer;}
 #ui-datepicker16-div .ui-datepicker-next a{background:url(../lib/datepicker/css/smoothness/images/888888_7x7_arrow_right.gif) 50% 50% no-repeat;}
 #ui-datepicker16-div .ui-datepicker-prev a:hover{background:url(../lib/datepicker/css/smoothness/images/454545_7x7_arrow_left.gif) 50% 50% no-repeat;}
 #ui-datepicker16-div .ui-datepicker-next a:hover{background:url(../lib/datepicker/css/smoothness/images/454545_7x7_arrow_right.gif) 50% 50% no-repeat;}
@@ -38,68 +38,68 @@ ul.tabnav a:focus{-moz-outline-style:none;}ul.tabnav a:hover{background-color:#C
 #ui-datepicker16-div .ui-datepicker-header select.ui-datepicker-new-month{width:7em;left:2.2em;}#ui-datepicker16-div .ui-datepicker-header select.ui-datepicker-new-year{width:5em;left:9.4em;}
 #ui-datepicker16-div table.ui-datepicker td.ui-datepicker-days-cell a{width:18px;}#ui-datepicker16-div table.ui-datepicker td.ui-datepicker-today a{border:1px dashed #aaa;}
 #ui-datepicker16-div table.ui-datepicker td.ui-datepicker-current-day a{border:1px solid #aaa;background:#dcdcdc;}
-#ui-datepicker16-div table.ui-datepicker{width:15.5em;text-align:right;}#ui-datepicker16-div table.ui-datepicker td a{font-size:12px;padding:2px 6px 2px 2px;display:block;color:#555;background:#e6e6e6 url(../lib/datepicker/css/smoothness/images/e6e6e6_40x100_textures_02_glass_75.png) 0 50% repeat-x;cursor:pointer;border:1px solid #fff;}
-#ui-datepicker16-div table.ui-datepicker td a:hover{border:1px solid #999;color:#212121;background:#dadada url(../lib/datepicker/css/smoothness/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;}
+#ui-datepicker16-div table.ui-datepicker{width:15.5em;text-align:right;}#ui-datepicker16-div table.ui-datepicker td a{font-size:12px;padding:2px 6px 2px 2px;display:block;color:#555;background:#e6e6e6 url(../lib/datepicker/css/smoothness/images/e6e6e6_40x100_textures_02_glass_75.html) 0 50% repeat-x;cursor:pointer;border:1px solid #fff;}
+#ui-datepicker16-div table.ui-datepicker td a:hover{border:1px solid #999;color:#212121;background:#dadada url(../lib/datepicker/css/smoothness/images/dadada_40x100_textures_02_glass_75.html) 0 50% repeat-x;}
 #ui-datepicker16-div table.ui-datepicker td a:active{border:1px solid #aaa;color:#212121;background:#fff url(../lib/datepicker/css/smoothness/images/ffffff_40x100_textures_02_glass_65.png) 0 50% repeat-x;}
 #ui-datepicker16-div table.ui-datepicker .ui-datepicker-title-row td{padding:.3em 0;text-align:center;font-size:.9em;color:#222;text-transform:uppercase;}
 #ui-datepicker16-div table.ui-datepicker .ui-datepicker-title-row td a{color:#222;}.ui-datepicker-cover{display:none;display:block;position:absolute;z-index:-1;filter:mask();top:-4px;left:-4px;width:193px;height:200px;}
 .ngh-counter{white-space:nowrap;}.ngh-counter,.ngh-counter .char{display:inline-block;font-size:0;}.ngh-counter-skin-00new_counter01a .char{background-image:url(../../../counter/files/skins/00new_counter01a.png);}
-.ngh-counter-skin-00new_counter01b .char{background-image:url(../../../counter/files/skins/00new_counter01b.png);}
-.ngh-counter-skin-00new_counter01c .char{background-image:url(../../../counter/files/skins/00new_counter01c.png);}
-.ngh-counter-skin-00new_counter01d .char{background-image:url(../../../counter/files/skins/00new_counter01d.png);}
-.ngh-counter-skin-00new_counter01e .char{background-image:url(../../../counter/files/skins/00new_counter01e.png);}
-.ngh-counter-skin-00new_counter02a .char{background-image:url(../../../counter/files/skins/00new_counter02a.png);}
-.ngh-counter-skin-00new_counter02b .char{background-image:url(../../../counter/files/skins/00new_counter02b.png);}
-.ngh-counter-skin-00new_counter02c .char{background-image:url(../../../counter/files/skins/00new_counter02c.png);}
-.ngh-counter-skin-00new_counter02d .char{background-image:url(../../../counter/files/skins/00new_counter02d.png);}
-.ngh-counter-skin-00new_counter02e .char{background-image:url(../../../counter/files/skins/00new_counter02e.png);}
-.ngh-counter-skin-00new_counter03a .char{background-image:url(../../../counter/files/skins/00new_counter03a.png);}
-.ngh-counter-skin-00new_counter03b .char{background-image:url(../../../counter/files/skins/00new_counter03b.png);}
-.ngh-counter-skin-00new_counter03c .char{background-image:url(../../../counter/files/skins/00new_counter03c.png);}
-.ngh-counter-skin-00new_counter03d .char{background-image:url(../../../counter/files/skins/00new_counter03d.png);}
-.ngh-counter-skin-00new_counter03e .char{background-image:url(../../../counter/files/skins/00new_counter03e.png);}
-.ngh-counter-skin-00new_counter04a .char{background-image:url(../../../counter/files/skins/00new_counter04a.png);}
-.ngh-counter-skin-00new_counter04b .char{background-image:url(../../../counter/files/skins/00new_counter04b.png);}
-.ngh-counter-skin-00new_counter04c .char{background-image:url(../../../counter/files/skins/00new_counter04c.png);}
-.ngh-counter-skin-00new_counter04d .char{background-image:url(../../../counter/files/skins/00new_counter04d.png);}
-.ngh-counter-skin-00new_counter04e .char{background-image:url(../../../counter/files/skins/00new_counter04e.png);}
-.ngh-counter-skin-00new_counter05a .char{background-image:url(../../../counter/files/skins/00new_counter05a.png);}
-.ngh-counter-skin-00new_counter05b .char{background-image:url(../../../counter/files/skins/00new_counter05b.png);}
-.ngh-counter-skin-00new_counter05c .char{background-image:url(../../../counter/files/skins/00new_counter05c.png);}
-.ngh-counter-skin-00new_counter05d .char{background-image:url(../../../counter/files/skins/00new_counter05d.png);}
-.ngh-counter-skin-00new_counter05e .char{background-image:url(../../../counter/files/skins/00new_counter05e.png);}
-.ngh-counter-skin-00new_counter06a .char{background-image:url(../../../counter/files/skins/00new_counter06a.png);}
-.ngh-counter-skin-00new_counter06b .char{background-image:url(../../../counter/files/skins/00new_counter06b.png);}
-.ngh-counter-skin-00new_counter06c .char{background-image:url(../../../counter/files/skins/00new_counter06c.png);}
-.ngh-counter-skin-00new_counter06d .char{background-image:url(../../../counter/files/skins/00new_counter06d.png);}
-.ngh-counter-skin-00new_counter06e .char{background-image:url(../../../counter/files/skins/00new_counter06e.png);}
-.ngh-counter-skin-03a .char{background-image:url(../../../counter/files/skins/03a.png);}.ngh-counter-skin-03b .char{background-image:url(../../../counter/files/skins/03b.png);}
-.ngh-counter-skin-03c .char{background-image:url(../../../counter/files/skins/03c.png);}.ngh-counter-skin-04a .char{background-image:url(../../../counter/files/skins/04a.png);}
-.ngh-counter-skin-04b .char{background-image:url(../../../counter/files/skins/04b.png);}.ngh-counter-skin-04c .char{background-image:url(../../../counter/files/skins/04c.png);}
-.ngh-counter-skin-05a .char{background-image:url(../../../counter/files/skins/05a.png);}.ngh-counter-skin-13a .char{background-image:url(../../../counter/files/skins/13a.png);}
-.ngh-counter-skin-13b .char{background-image:url(../../../counter/files/skins/13b.png);}.ngh-counter-skin-13c .char{background-image:url(../../../counter/files/skins/13c.png);}
-.ngh-counter-skin-13d .char{background-image:url(../../../counter/files/skins/13d.png);}.ngh-counter-skin-neutral_01a .char{background-image:url(../../../counter/files/skins/neutral_01a.png);}
-.ngh-counter-skin-neutral_01b .char{background-image:url(../../../counter/files/skins/neutral_01b.png);}
-.ngh-counter-skin-neutral_01c .char{background-image:url(../../../counter/files/skins/neutral_01c.png);}
-.ngh-counter-skin-neutral_01d .char{background-image:url(../../../counter/files/skins/neutral_01d.png);}
-.ngh-counter-skin-neutral_01e .char{background-image:url(../../../counter/files/skins/neutral_01e.png);}
-.ngh-counter-skin-neutral_01f .char{background-image:url(../../../counter/files/skins/neutral_01f.png);}
-.ngh-counter-skin-neutral_01g .char{background-image:url(../../../counter/files/skins/neutral_01g.png);}
-.ngh-counter-skin-neutral_01h .char{background-image:url(../../../counter/files/skins/neutral_01h.png);}
-.ngh-counter-skin-neutral_02a .char{background-image:url(../../../counter/files/skins/neutral_02a.png);}
-.ngh-counter-skin-neutral_02b .char{background-image:url(../../../counter/files/skins/neutral_02b.png);}
-.ngh-counter-skin-neutral_02c .char{background-image:url(../../../counter/files/skins/neutral_02c.png);}
-.ngh-counter-skin-neutral_02d .char{background-image:url(../../../counter/files/skins/neutral_02d.png);}
-.ngh-counter-skin-neutral_02e .char{background-image:url(../../../counter/files/skins/neutral_02e.png);}
-.ngh-counter-skin-neutral_02f .char{background-image:url(../../../counter/files/skins/neutral_02f.png);}
-.ngh-counter-skin-neutral_02g .char{background-image:url(../../../counter/files/skins/neutral_02g.png);}
-.ngh-counter-skin-neutral_02h .char{background-image:url(../../../counter/files/skins/neutral_02h.png);}
-.ngh-counter-skin-neutral_03a .char{background-image:url(../../../counter/files/skins/neutral_03a.png);}
-.ngh-counter-skin-neutral_03b .char{background-image:url(../../../counter/files/skins/neutral_03b.png);}
-.ngh-counter-skin-neutral_03c .char{background-image:url(../../../counter/files/skins/neutral_03c.png);}
-.ngh-counter-skin-neutral_03d .char{background-image:url(../../../counter/files/skins/neutral_03d.png);}
-.ngh-counter-skin-neutral_03e .char{background-image:url(../../../counter/files/skins/neutral_03e.png);}
-.ngh-counter-skin-neutral_03f .char{background-image:url(../../../counter/files/skins/neutral_03f.png);}
+.ngh-counter-skin-00new_counter01b .char{background-image:url(../../../counter/files/skins/00new_counter01b.html);}
+.ngh-counter-skin-00new_counter01c .char{background-image:url(../../../counter/files/skins/00new_counter01c.html);}
+.ngh-counter-skin-00new_counter01d .char{background-image:url(../../../counter/files/skins/00new_counter01d.html);}
+.ngh-counter-skin-00new_counter01e .char{background-image:url(../../../counter/files/skins/00new_counter01e.html);}
+.ngh-counter-skin-00new_counter02a .char{background-image:url(../../../counter/files/skins/00new_counter02a.html);}
+.ngh-counter-skin-00new_counter02b .char{background-image:url(../../../counter/files/skins/00new_counter02b.html);}
+.ngh-counter-skin-00new_counter02c .char{background-image:url(../../../counter/files/skins/00new_counter02c.html);}
+.ngh-counter-skin-00new_counter02d .char{background-image:url(../../../counter/files/skins/00new_counter02d.html);}
+.ngh-counter-skin-00new_counter02e .char{background-image:url(../../../counter/files/skins/00new_counter02e.html);}
+.ngh-counter-skin-00new_counter03a .char{background-image:url(../../../counter/files/skins/00new_counter03a.html);}
+.ngh-counter-skin-00new_counter03b .char{background-image:url(../../../counter/files/skins/00new_counter03b.html);}
+.ngh-counter-skin-00new_counter03c .char{background-image:url(../../../counter/files/skins/00new_counter03c.html);}
+.ngh-counter-skin-00new_counter03d .char{background-image:url(../../../counter/files/skins/00new_counter03d.html);}
+.ngh-counter-skin-00new_counter03e .char{background-image:url(../../../counter/files/skins/00new_counter03e.html);}
+.ngh-counter-skin-00new_counter04a .char{background-image:url(../../../counter/files/skins/00new_counter04a.html);}
+.ngh-counter-skin-00new_counter04b .char{background-image:url(../../../counter/files/skins/00new_counter04b.html);}
+.ngh-counter-skin-00new_counter04c .char{background-image:url(../../../counter/files/skins/00new_counter04c.html);}
+.ngh-counter-skin-00new_counter04d .char{background-image:url(../../../counter/files/skins/00new_counter04d.html);}
+.ngh-counter-skin-00new_counter04e .char{background-image:url(../../../counter/files/skins/00new_counter04e.html);}
+.ngh-counter-skin-00new_counter05a .char{background-image:url(../../../counter/files/skins/00new_counter05a.html);}
+.ngh-counter-skin-00new_counter05b .char{background-image:url(../../../counter/files/skins/00new_counter05b.html);}
+.ngh-counter-skin-00new_counter05c .char{background-image:url(../../../counter/files/skins/00new_counter05c.html);}
+.ngh-counter-skin-00new_counter05d .char{background-image:url(../../../counter/files/skins/00new_counter05d.html);}
+.ngh-counter-skin-00new_counter05e .char{background-image:url(../../../counter/files/skins/00new_counter05e.html);}
+.ngh-counter-skin-00new_counter06a .char{background-image:url(../../../counter/files/skins/00new_counter06a.html);}
+.ngh-counter-skin-00new_counter06b .char{background-image:url(../../../counter/files/skins/00new_counter06b.html);}
+.ngh-counter-skin-00new_counter06c .char{background-image:url(../../../counter/files/skins/00new_counter06c.html);}
+.ngh-counter-skin-00new_counter06d .char{background-image:url(../../../counter/files/skins/00new_counter06d.html);}
+.ngh-counter-skin-00new_counter06e .char{background-image:url(../../../counter/files/skins/00new_counter06e.html);}
+.ngh-counter-skin-03a .char{background-image:url(../../../counter/files/skins/03a.html);}.ngh-counter-skin-03b .char{background-image:url(../../../counter/files/skins/03b.html);}
+.ngh-counter-skin-03c .char{background-image:url(../../../counter/files/skins/03c.html);}.ngh-counter-skin-04a .char{background-image:url(../../../counter/files/skins/04a.html);}
+.ngh-counter-skin-04b .char{background-image:url(../../../counter/files/skins/04b.html);}.ngh-counter-skin-04c .char{background-image:url(../../../counter/files/skins/04c.html);}
+.ngh-counter-skin-05a .char{background-image:url(../../../counter/files/skins/05a.html);}.ngh-counter-skin-13a .char{background-image:url(../../../counter/files/skins/13a.html);}
+.ngh-counter-skin-13b .char{background-image:url(../../../counter/files/skins/13b.html);}.ngh-counter-skin-13c .char{background-image:url(../../../counter/files/skins/13c.html);}
+.ngh-counter-skin-13d .char{background-image:url(../../../counter/files/skins/13d.html);}.ngh-counter-skin-neutral_01a .char{background-image:url(../../../counter/files/skins/neutral_01a.html);}
+.ngh-counter-skin-neutral_01b .char{background-image:url(../../../counter/files/skins/neutral_01b.html);}
+.ngh-counter-skin-neutral_01c .char{background-image:url(../../../counter/files/skins/neutral_01c.html);}
+.ngh-counter-skin-neutral_01d .char{background-image:url(../../../counter/files/skins/neutral_01d.html);}
+.ngh-counter-skin-neutral_01e .char{background-image:url(../../../counter/files/skins/neutral_01e.html);}
+.ngh-counter-skin-neutral_01f .char{background-image:url(../../../counter/files/skins/neutral_01f.html);}
+.ngh-counter-skin-neutral_01g .char{background-image:url(../../../counter/files/skins/neutral_01g.html);}
+.ngh-counter-skin-neutral_01h .char{background-image:url(../../../counter/files/skins/neutral_01h.html);}
+.ngh-counter-skin-neutral_02a .char{background-image:url(../../../counter/files/skins/neutral_02a.html);}
+.ngh-counter-skin-neutral_02b .char{background-image:url(../../../counter/files/skins/neutral_02b.html);}
+.ngh-counter-skin-neutral_02c .char{background-image:url(../../../counter/files/skins/neutral_02c.html);}
+.ngh-counter-skin-neutral_02d .char{background-image:url(../../../counter/files/skins/neutral_02d.html);}
+.ngh-counter-skin-neutral_02e .char{background-image:url(../../../counter/files/skins/neutral_02e.html);}
+.ngh-counter-skin-neutral_02f .char{background-image:url(../../../counter/files/skins/neutral_02f.html);}
+.ngh-counter-skin-neutral_02g .char{background-image:url(../../../counter/files/skins/neutral_02g.html);}
+.ngh-counter-skin-neutral_02h .char{background-image:url(../../../counter/files/skins/neutral_02h.html);}
+.ngh-counter-skin-neutral_03a .char{background-image:url(../../../counter/files/skins/neutral_03a.html);}
+.ngh-counter-skin-neutral_03b .char{background-image:url(../../../counter/files/skins/neutral_03b.html);}
+.ngh-counter-skin-neutral_03c .char{background-image:url(../../../counter/files/skins/neutral_03c.html);}
+.ngh-counter-skin-neutral_03d .char{background-image:url(../../../counter/files/skins/neutral_03d.html);}
+.ngh-counter-skin-neutral_03e .char{background-image:url(../../../counter/files/skins/neutral_03e.html);}
+.ngh-counter-skin-neutral_03f .char{background-image:url(../../../counter/files/skins/neutral_03f.html);}
 .ngh-counter-skin-neutral_03g .char{background-image:url(../../../counter/files/skins/neutral_03g.png);}
 .ngh-counter-skin-neutral_03h .char{background-image:url(../../../counter/files/skins/neutral_03h.png);}
 .ngh-counter-skin-neutral_04a .char{background-image:url(../../../counter/files/skins/neutral_04a.png);}
@@ -204,7 +204,7 @@ ul.tabnav a:focus{-moz-outline-style:none;}ul.tabnav a:hover{background-color:#C
 .ngh-counter-skin-playful_04g .char{background-image:url(../../../counter/files/skins/playful_04g.png);}
 .ngh-counter-skin-playful_04h .char{background-image:url(../../../counter/files/skins/playful_04h.png);}
 .ngh-counter-skin-playful_05a .char{background-image:url(../../../counter/files/skins/playful_05a.png);}
-.ngh-counter-skin-playful_05b .char{background-image:url(../../../counter/files/skins/playful_05b.png);}
+.ngh-counter-skin-playful_05b .char{background-image:url(../../../counter/files/skins/playful_05b.html);}
 .ngh-counter-skin-playful_05c .char{background-image:url(../../../counter/files/skins/playful_05c.png);}
 .ngh-counter-skin-playful_05d .char{background-image:url(../../../counter/files/skins/playful_05d.png);}
 .ngh-counter-skin-playful_05e .char{background-image:url(../../../counter/files/skins/playful_05e.png);}
@@ -219,7 +219,7 @@ ul.tabnav a:focus{-moz-outline-style:none;}ul.tabnav a:hover{background-color:#C
 .ngh-counter-skin-playful_08f .char{background-image:url(../../../counter/files/skins/playful_08f.png);}
 .ngh-counter-skin-playful_08g .char{background-image:url(../../../counter/files/skins/playful_08g.png);}
 .ngh-counter-skin-playful_10a .char{background-image:url(../../../counter/files/skins/playful_10a.png);}
-.ngh-counter-skin-playful_10b .char{background-image:url(../../../counter/files/skins/playful_10b.png);}
+.ngh-counter-skin-playful_10b .char{background-image:url(../../../counter/files/skins/playful_10b.html);}
 .ngh-counter-skin-playful_10c .char{background-image:url(../../../counter/files/skins/playful_10c.png);}
 .ngh-counter-skin-playful_10d .char{background-image:url(../../../counter/files/skins/playful_10d.png);}
 .ngh-counter-skin-playful_10e .char{background-image:url(../../../counter/files/skins/playful_10e.png);}
