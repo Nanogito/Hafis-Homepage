@@ -85,7 +85,9 @@
   
   2. Tipps von 1&1 zu DSGVO und Generatoren checken
     -> z.B. was wenn wir gar kein Kontaktformular haben?
-    * ![todo](i/exclamation.png)@MK: checken, aber kann man auch einfach drinlassen
+    * ![check](i/check.png)@MK: checken, aber kann man auch einfach drinlassen
+    * Generator: https://datenschutz-generator.de
+    * Details in [DSGVO.md](DSGVO.md)
     >
     
   3. Google-Analytics vs 1&1-Analytics?
