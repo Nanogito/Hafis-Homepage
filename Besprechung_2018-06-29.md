@@ -15,7 +15,9 @@
 
 - Handynummer von CD auf "Datenschutz" ist ok, oder?
   * ![check](i/check.png)@MK: Nein. Auch aus meta-Tags raus!
-  * ![todo](i/exclamation.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
+  * ![check](i/check.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
+  * Nein: https://datenschutz-generator.de/
+  * auch dort: wann braucht's einen Datenschutzbeauftragter? - hafis braucht keinen.
   >
 
 - 1&1-Vertrag enthält auch die Domain [lernhilfe-hausaufgaben.de](http://www.lernhilfe-hausaufgaben.de) bei 1&1,
