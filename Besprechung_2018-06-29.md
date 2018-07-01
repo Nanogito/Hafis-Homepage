@@ -14,7 +14,7 @@
   >
 
 - Handynummer von CD auf "Datenschutz" ist ok, oder?
-  * ![todo](i/exclamation.png)@MK: Nein. Auch aus meta-Tags raus!
+  * ![check](i/check.png)(i/exclamation.png)@MK: Nein. Auch aus meta-Tags raus!
   * ![todo](i/exclamation.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
   >
 
@@ -47,7 +47,8 @@
 
 - Hat der Anwalt die Erklärung explizit auf eine Präsenz **bei 1&1** geschrieben?
   D.h. kennt er evtl. die Gegebenheiten auf 1&1?
-  * ![todo](i/exclamation.png)@MK: eher nicht - egal (checken wir selber, um evtl. Mehrkosten durch Anwalt zu vermeiden)
+  * ![check](i/check.png)@MK: eher nicht - egal (checken wir selber, um evtl. Mehrkosten durch Anwalt zu vermeiden)
+  * siehe [DSGVO.md](DSGVO.md)
   >
 
 - ![check](i/check.png) statt Stick o.ä. kann man sich die Arbeitskopie (das "repository", kurz "repo")
@@ -75,7 +76,9 @@
 
 - Nächste Schritte, nach Priorität:
   1. Youtube Videos checken (www.projekt29.de/youtube-videos-datenschutzkonform-einbinden)
-    * ![todo](i/exclamation.png)@MK: insbes.: was ist mit eigenem opt-out anbieten
+    * ![check](i/check.png)@MK: insbes.: was ist mit eigenem opt-out anbieten
+    * kein Youtube ohne das fragwürdige Google Doubleclick - mit Vimeo spart man sich das alles
+    * sh. [DSGVO.md](DSGVO.md)
     >
   
   2. Tipps von 1&1 zu DSGVO und Generatoren checken
@@ -84,7 +87,11 @@
     >
     
   3. Google-Analytics vs 1&1-Analytics?
-    * ![todo](i/exclamation.png)@MK: verifizieren
+    * ![check](i/check.png)@MK: checken
+    * ist **nicht** dasselbe, wir haben nur 1&1 WebAnalytics, das **keine** Cookies verwendet
+    * aber ein Cookie durch MyWebsite
+    * und derzeit: jede Menge mehr durch das Video - selbst wenn man's nicht anschaut!
+    * sh. [DSGVO.md](DSGVO.md)
     >
   
   4. Cookie-Hinweis implementieren wie z.B. auf [http://www.httrack.com/](http://www.httrack.com/)
@@ -93,7 +100,8 @@
     >
 
   5. haben wir überhaupt Google-Doubleclick?
-    * ![todo](i/exclamation.png)@MK: sollte uns eigtl. nicht betreffen, da keine Werbung. Erstmal in Erklärung drin lassen, später checken.
+    * ![check](i/check.png)@MK: sollte uns eigtl. nicht betreffen, da keine Werbung. Erstmal in Erklärung drin lassen, später checken.
+    * Leider doch, siehe oben bei "Youtube Videos"; Einzelheiten wieder in  [DSGVO.md](DSGVO.md)
     >
 
 ___
