@@ -14,7 +14,7 @@
   >
 
 - Handynummer von CD auf "Datenschutz" ist ok, oder?
-  * ![check](i/check.png)(i/exclamation.png)@MK: Nein. Auch aus meta-Tags raus!
+  * ![check](i/check.png)@MK: Nein. Auch aus meta-Tags raus!
   * ![todo](i/exclamation.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
   >
 
