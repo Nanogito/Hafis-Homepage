@@ -90,8 +90,8 @@
     * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
     * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
-    * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann Google Doubleclick raus kann"
-    * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out implementieren, richt?"
+    * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann der Abschn. Google Doubleclick raus kann"
+    * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out zu implementieren, richtig?"
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
 
