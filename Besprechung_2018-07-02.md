@@ -62,7 +62,7 @@
 #### Nächste Schritte, nach Priorität: ####
 
 - 1 Puppentheater
-  * ![todo](i/exclamation.png)@MK: "Youtube" statt "You-Tube" im Text
+  * ![todo](i/exclamation.png)@MK: "YouTube" statt "You-Tube" im Text
   * ![todo](i/exclamation.png)@MK: Youtube Video mit Umlauftext
   * Da das so nicht einfach in MyWebsite geht (weder erw. Modus noch das "Umlauf-Layout")
     - ![todo](i/exclamation.png)@MK: javascript-Code verallgemeinern, s.d. man nur ein Bild einfügen muss, das auf ein Youtube Video verweist
