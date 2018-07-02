@@ -15,7 +15,7 @@
   * ~führte zu einem neuen (dritten) Vertrag~
   * ~...der eingebaute Backups hat~ (egal)
   * kam vmtl. durch SSL-Missverständnis heute morgen zustande
-  * ![check](i/check.png) ist schon wieder gekündigt.
+  * ![check](i/check.png) ist schon wieder gekündigt, wirksam mit heute.
   * ![?](i/question.png) komisch: nun, da die Kündigung wirksam wurde ist die SubDomain und auch die Website weg...
   >
 
