@@ -29,35 +29,56 @@
 
 - Datenschutzerklärung
   * ![?](i/question.png) Abschnitt 4 im Impressum ist: "4. Datenschutz" - Braucht's das noch?
+    - ![todo](i/exclamation.png)@CD: Anwalt fragen
   * ![?](i/question.png) Abschnitt Google Doubleclick raus?
+    - ![todo](i/exclamation.png)@CD: Anwalt fragen ("wir haben jetzt YT im erw. Modus - also...")
+    - ja (sh. unten)
   * ![?](i/question.png) Abschnitt Snowplow Analytics rein?
+    - ![todo](i/exclamation.png)@CD: 
+    - ja, sh. unten
   * ![?](i/question.png)@CD: Einleitungstext von Dir?
+    - später: MK macht Vorschlag
   * ![?](i/question.png)@CD: Schrift dort ist anders als im Rest. Besser?
+    - vllt.
   * ![?](i/question.png) mehr: siehe [DSGVO.md](DSGVO.md)
   >
 
 - Gedichte
   * wann und (vmtl.) wie es dazu kam
-  * ![?](i/question.png) besser machen mit 5-Spalten-Layout? 
+  * sh. Tag `Gedicht_kaputt` im repo
+  * Layout besser machen: sh unten
   >
   
 - ![?](i/question.png) Notfallplan machen: wie kriegt man die 
     statische Kopie schnell wieder online?
-  >
+  > erstmal nicht
 
 
 ---
 
 - Nächste Schritte, nach Priorität:
-- 1 xyz
-    * ![todo](i/exclamation.png)@XY:
+- 1 Puppentheater
+    * ![todo](i/exclamation.png)@MK: yt Video mit umlauftext
   >
 
-- 2 xyz
-    * ![todo](i/exclamation.png)@XY:
+- 2 Datenschutz: Abschnitt Snowplow Analytics rein
+    * ![todo](i/exclamation.png)@MK: Neue, versteckte Seite datenschutz2. Dort dann:
+    * ![todo](i/exclamation.png)@MK: Abschnitt von 1&1 über Snowplow Analytics rein
+    * ![todo](i/exclamation.png)@MK: Abschnitt über Google Doubleclick rein
+    * ![todo](i/exclamation.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
   >
+
+- 3 Anwalt fragen
+    * ![todo](i/exclamation.png)@CD: ihm den Link schicken (/datenschutz2)
+    * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
+    * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann Google Doubleclick raus kann"
+    * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
+    * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
+
+- 3 Gedicht
+    * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
 
 ___
   
-### nächste Besprechung: ?? ###
+### nächste Besprechung: Do, 19:30 ###
   
