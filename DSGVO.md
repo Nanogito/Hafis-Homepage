@@ -62,7 +62,3 @@
   * Beispiel-Code um den [Vimeo-Player einzubetten](https://github.com/vimeo/vimeo-oembed-examples/tree/master/oembed)
 
   * oder per `<iframe>`: klicke auf "Teilen" bei irgendeinem Video bei Vimeo
-
-  * Youtube-Video im erw. Modus eingebettet: (mit besserem Design wie ich finde): /ytb
-  
-  * Vimeo-Video eingebettet: /vmo
