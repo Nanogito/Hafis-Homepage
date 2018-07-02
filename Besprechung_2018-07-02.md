@@ -46,10 +46,10 @@
     - ![todo](i/exclamation.png)@CD: 
     - ja, sh. unten
   * ![?](i/question.png)@CD: Einleitungstext von Dir?
-    - später: MK macht Vorschlag
+    - ![later](i/fastforward.png)@MK: Textvorschlag
   * ![?](i/question.png)@CD: Schrift dort ist anders als im Rest. Besser?
-    - vllt.
-  * ![?](i/question.png) mehr: siehe [DSGVO.md](DSGVO.md)
+    - ![later](i/fastforward.png) vllt.
+  * mehr: siehe [DSGVO.md](DSGVO.md)
   >
 
 - Gedichte
@@ -60,7 +60,8 @@
   
 - ![?](i/question.png) Notfallplan machen: wie kriegt man die 
     statische Kopie schnell wieder online?
-  > erstmal nicht
+    * ![later](i/fastforward.png) erstmal nicht
+  >
 
 
 ---
