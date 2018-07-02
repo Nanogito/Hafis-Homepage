@@ -14,8 +14,10 @@
   >
 
 - Handynummer von CD auf "Datenschutz" ist ok, oder?
-  * ![check](i/check.png)(i/exclamation.png)@MK: Nein. Auch aus meta-Tags raus!
-  * ![todo](i/exclamation.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
+  * ![check](i/check.png)@MK: Nein. Auch aus meta-Tags raus!
+  * ![check](i/check.png)@MK: Klären, ob in Datenschutzerkl. Tel.-Nr. überhaupt notwendig
+  * Nein: https://datenschutz-generator.de/
+  * auch dort: wann braucht's einen Datenschutzbeauftragter? - hafis braucht keinen.
   >
 
 - 1&1-Vertrag enthält auch die Domain [lernhilfe-hausaufgaben.de](http://www.lernhilfe-hausaufgaben.de) bei 1&1,
@@ -83,7 +85,9 @@
   
   2. Tipps von 1&1 zu DSGVO und Generatoren checken
     -> z.B. was wenn wir gar kein Kontaktformular haben?
-    * ![todo](i/exclamation.png)@MK: checken, aber kann man auch einfach drinlassen
+    * ![check](i/check.png)@MK: checken, aber kann man auch einfach drinlassen
+    * Generator: https://datenschutz-generator.de
+    * Details in [DSGVO.md](DSGVO.md)
     >
     
   3. Google-Analytics vs 1&1-Analytics?
