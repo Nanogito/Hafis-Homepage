@@ -1,6 +1,7 @@
 ## [www.lernhilfe-hafis.de](https://www.lernhilfe-hafis.de) ##
 
-Ordner [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup.
+* Was hier wann von wem gemacht wurde: https://github.com/meisl/hafis/commits/master
+* Ordner [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup.
 
 #### Achtung: ####
 WinHTTrack (und vmtl. auch git) hat Probleme mit Umlauten in Pfadnamen.
