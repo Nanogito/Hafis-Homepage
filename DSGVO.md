@@ -33,11 +33,15 @@
   * **Eingebettete Youtube-Videos führen zu einer Kontaktaufnahme mit Google Doubleclick** (siehe unten)
 
   * 1&1 WebAnalytics (haben wir) **ist nicht dasselbe** wie Google Analytics (haben wir *nicht*)
-  * [1&1 WebAnalytics benutzt *keine Cookies*](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2103)
+  * [laut 1&1 WebAnalytics benutzt *keine Cookies*](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2103) - aber: es basiert offensichtlich auf Snowplow Analytics...?
 
   * [MyWebsite verwendet Cookies (Snowplow)](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-mywebsite-aktuelles-produktangebot/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2423). Tatsächlich scheint es nur ein einziges zu sein: ![MyWebsite-cookie](MyWebsite-cookie.png)
 
+  * [Abschnitt zu Snowplow einfügen?](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-mywebsite-aktuelles-produktangebot/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2423)
+
   * In der Eklärung, Abschnitt **Cookies**: *"Lediglich die Internet Protokoll Adresse wird hierbei gespeichert – keine personenbezogenen Daten."* Das mit der IP-Adresse ist Blödsinn. Es kann zwar nicht viel in einem Cookie gespeichert werden, abgesehen davon aber beliebige Daten, was immer der Server will. Gut erklärt auf der erwähnten [Cookie-Infoseite von 1&1](https://hosting.1und1.de/cookies)
+
+  * In der Erklärung, Abschnitt **Cookies**: *"Wenn Sie die Verwendung von Cookies ablehnen, kann es jedoch zu Einschränkungen in der Nutzung mancher Bereiche unserer Internetseiten kommen."* - **Ist nicht der Fall.**
 
 ### Logs ###
   * in der Eklärung heißt es *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* **Stimmt das?**
@@ -53,10 +57,12 @@
 
   * YT / erw. Modus: [support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy](https://support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy)
 
-  * Ich könnte versuchen das Video mit MyWebsite im "erw. Datenschutzmodus" einzubetten und den Datenverkehr dann zu analysieren. Das aber wirklich nur auf einer Test-Domain à la vorschau.lernhilfe-hafis.de
-
   * es gibt **Alternativen** zu Youtube, z.B.: **[Vimeo](https://vimeo.com/de/upgrade)**. Das ist werbefrei (keine Werbeeinblendungen vor/hinter/im Video) und für Deine Zwecke auch kostenlos. [Vimeos Cookierichtlinie](https://vimeo.com/cookie_policy?vcid=32179)
 
   * Beispiel-Code um den [Vimeo-Player einzubetten](https://github.com/vimeo/vimeo-oembed-examples/tree/master/oembed)
 
   * oder per `<iframe>`: klicke auf "Teilen" bei irgendeinem Video bei Vimeo
+
+  * Youtube-Video im erw. Modus eingebettet: (mit besserem Design wie ich finde): /ytb
+  
+  * Vimeo-Video eingebettet: /vmo
