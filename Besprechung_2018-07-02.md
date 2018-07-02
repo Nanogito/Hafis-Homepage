@@ -9,8 +9,8 @@
 
 ---
 
-- Test-Bereich auf Sub-Domain [vorschau.lernhife-hafis.de](http://vorschau.lernhilfe-hafis.de);
-  * ist ein anderer Editor (vmtl. wg. Professional-Paket), daher nicht wirklich zum testen geeignet
+- Test-Bereich auf Sub-Domain [vorschau.lernhife-hafis.de](http://vorschau.lernhilfe-hafis.de)
+  * ist ein anderer Editor (vmtl. wg. Professional-Paket), daher nicht wirklich zum Testen geeignet
   * man kann einfach bessere Layouts machen
   * ~führte zu einem neuen (dritten) Vertrag~
   * ~...der eingebaute Backups hat~ (egal)
