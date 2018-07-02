@@ -80,7 +80,6 @@
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
-    * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
 
 - 3 Gedicht
     * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
