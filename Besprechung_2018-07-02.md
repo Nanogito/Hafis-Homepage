@@ -16,12 +16,13 @@
   * ~...der eingebaute Backups hat~ (egal)
   * kam vmtl. durch SSL-Missverständnis heute morgen zustande
   * ![check](i/check.png) ist schon wieder gekündigt.
+  * ![?](i/question.png) komisch: nun, da die Kündigung wirksam wurde ist die SubDomain und auch die Website weg...
   >
 
 - Was ist mit dem zweiten Vertrag ("Dual-Basic", deutlich teurer)
-  * ![?](i/question.png) wie sind welche Domains zu welchem Vertrag zugeordnet?
-  * ![?](i/question.png) der hat wieder andere Vorteile: Webspace, ftp
-  * ![?](i/question.png) aber keinen Editor wie MyWebsite?
+  * wie sind welche Domains zu welchem Vertrag zugeordnet?
+  * der hat wieder andere Vorteile: Webspace, ftp
+  * aber keinen Editor wie MyWebsite?
   * ![check](i/check.png) alles egal - gekündigt zum 12.12.2018
   >
 
