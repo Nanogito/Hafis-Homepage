@@ -12,19 +12,22 @@
 - Test-Bereich auf Sub-Domain [vorschau.lernhife-hafis.de](http://vorschau.lernhilfe-hafis.de);
   * ist ein anderer Editor (vmtl. wg. Professional-Paket), daher nicht wirklich zum testen geeignet
   * man kann einfach bessere Layouts machen
-  * führte zu einem neuen (dritten) Vertrag
-  * ...der eingebaute Backups hat
-  * ![?](i/question.png) schon wieder gekündigt?
+  * ~führte zu einem neuen (dritten) Vertrag~
+  * ~...der eingebaute Backups hat~ (egal)
+  * kam vmtl. durch SSL-Missverständnis heute morgen zustande
+  * ![check](i/check.png) ist schon wieder gekündigt.
   >
 
 - Was ist mit dem zweiten Vertrag ("Dual-Basic", deutlich teurer)
   * ![?](i/question.png) wie sind welche Domains zu welchem Vertrag zugeordnet?
   * ![?](i/question.png) der hat wieder andere Vorteile: Webspace, ftp
   * ![?](i/question.png) aber keinen Editor wie MyWebsite?
+  * ![check](i/check.png) alles egal - gekündigt zum Ende des Jahres
   >
 
 - eingebettete Videos
   * siehe [DSGVO.md](DSGVO.md)
+  * und "Nächste Schritte" unten
   >
 
 - Datenschutzerklärung
@@ -56,9 +59,10 @@
 
 ---
 
-- Nächste Schritte, nach Priorität:
+#### Nächste Schritte, nach Priorität: ####
 - 1 Puppentheater
-    * ![todo](i/exclamation.png)@MK: yt Video mit umlauftext
+    * ![todo](i/exclamation.png)@MK: Youtube Video mit Umlauftext
+    * ![todo](i/exclamation.png)@MK: "Youtube" statt "You-Tube" im Text
   >
 
 - 2 Datenschutz: Abschnitt Snowplow Analytics rein
