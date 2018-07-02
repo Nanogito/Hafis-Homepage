@@ -26,8 +26,14 @@
   >
 
 - eingebettete Videos
-  * siehe [DSGVO.md](DSGVO.md)
-  * und "Nächste Schritte" unten
+  * Youtube-Video im erw. Datenschutzmodus eingebettet: (mit besserem Design): /ytb
+    - ~altes Layout, nur mit erw. Datenschutzmodus~
+    - ![check](/i/check.png) Bildergallerie
+    - ~zwei gleich große Spalten, eingeb. Video links, Text rechts~
+    - ![check](/i/check.png) Video links mit fester Größe, Text umlaufend rechts
+  * dasselbe für Vimeo-Video: /vmo
+    - ![check](/i/check.png) bleiben bei Youtube
+  * siehe "Nächste Schritte" unten, und für Details [DSGVO.md](DSGVO.md)
   >
 
 - Datenschutzerklärung
