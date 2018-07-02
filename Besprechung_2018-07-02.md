@@ -22,7 +22,7 @@
   * ![?](i/question.png) wie sind welche Domains zu welchem Vertrag zugeordnet?
   * ![?](i/question.png) der hat wieder andere Vorteile: Webspace, ftp
   * ![?](i/question.png) aber keinen Editor wie MyWebsite?
-  * ![check](i/check.png) alles egal - gekündigt zum Ende des Jahres
+  * ![check](i/check.png) alles egal - gekündigt zum 12.12.2018
   >
 
 - eingebettete Videos
