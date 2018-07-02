@@ -62,8 +62,8 @@
 #### Nächste Schritte, nach Priorität: ####
 
 - 1 Puppentheater
-  * ![todo](i/exclamation.png)@MK: "YouTube" statt "You-Tube" im Text
-  * ![todo](i/exclamation.png)@MK: Youtube Video mit Umlauftext
+  * ![check](i/check.png)@MK: "YouTube" statt "You-Tube" im Text
+  * ![check](i/check.png)@MK: Youtube Video mit Umlauftext (versteckt: puppentheater_alt)
   * Da das so nicht einfach in MyWebsite geht (weder erw. Modus noch das "Umlauf-Layout")
     - ![todo](i/exclamation.png)@MK: javascript-Code verallgemeinern, s.d. man nur ein Bild einfügen muss, das auf ein Youtube Video verweist (wird dann ersetzt durch das Video)
     - ![todo](i/exclamation.png)@MK: Das eingebette Video soll so groß sein wie das Platzhalter-Bild
@@ -72,10 +72,10 @@
   >
 
 - 2 Datenschutz: Abschnitt Snowplow Analytics rein
-    * ![todo](i/exclamation.png)@MK: Neue, versteckte Seite datenschutz2. Dort dann:
+    * ![check](i/check.png)@MK: Neue, versteckte Seite datenschutz2. Dort dann:
     * ![todo](i/exclamation.png)@MK: Abschnitt von 1&1 über Snowplow Analytics rein
     * ![todo](i/exclamation.png)@MK: Abschnitt über Google Doubleclick rein
-    * ![todo](i/exclamation.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
+    * ![check](i/check.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
   >
 
 - 3 Anwalt fragen
