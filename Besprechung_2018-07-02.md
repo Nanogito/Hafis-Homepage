@@ -74,7 +74,7 @@
 - 2 Datenschutz: Abschnitt Snowplow Analytics rein
     * ![check](i/check.png)@MK: Neue, versteckte Seite datenschutz2. Dort dann:
     * ![todo](i/exclamation.png)@MK: Abschnitt von 1&1 über Snowplow Analytics rein
-    * ![todo](i/exclamation.png)@MK: Abschnitt über Google Doubleclick rein
+    * ![todo](i/exclamation.png)@MK: Abschnitt über Google Doubleclick raus
     * ![check](i/check.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
   >
 
