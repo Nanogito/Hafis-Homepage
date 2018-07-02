@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Jul 2018 15:51:47 at -N%20"%h%p/%n.%t" https://www.lernhilfe-hafis.de +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 02 Jul 2018 17:57:42 at -N%20"%h%p/%n.%t" https://www.lernhilfe-hafis.de +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%P%q0%s%u0%I0p7H0%kf2A25000%f#f -N "%h%p/%n.%t" -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,8 +6,15 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-15:52:41	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 125): cdn.eu.mywebsite-editor.com/s/img/cc/warning.gif
-15:56:04	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_7730023.png?t=1507391973, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_773002345d9.html' could not be found on disk
+17:59:26	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530544056, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logobcc4.html' could not be found on disk
+17:59:56	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530546336, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logoe3bd.html' could not be found on disk
+17:59:58	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208108.png?t=1470476234, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208108cfbe.html' could not be found on disk
+18:00:11	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530546337, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logob6b7.html' could not be found on disk
+18:01:42	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530546352, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo843c.html' could not be found on disk
+18:01:47	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530546353, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo85cd.html' could not be found on disk
+18:02:31	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530545539, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo1b34.html' could not be found on disk
+18:02:47	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530546354, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo739d.html' could not be found on disk
+18:02:49	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530544789, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/misc/logo1ed2.html' could not be found on disk
 
-HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 1 seconds : 474 links scanned, 373 files written (11516780 bytes overall), 132 files updated [1308391 bytes received at 3107 bytes/sec], 389416 bytes transferred using HTTP compression in 16 files, ratio 21%, 2.4 requests per connection
-(No errors, 2 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 45 seconds : 384 links scanned, 375 files written (11592445 bytes overall), 29 files updated [1384139 bytes received at 4011 bytes/sec], 333484 bytes transferred using HTTP compression in 14 files, ratio 22%, 1.1 requests per connection
+(No errors, 9 warnings, 0 messages)
