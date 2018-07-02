@@ -24,6 +24,10 @@
 ### Cookies ###
   * eine vorbildliche Cookie-Informationsseite mit opt-out ist [die entsprechende Seite von 1&1 selber](https://hosting.1und1.de/cookies)
 
+  * [github.com/creativeaura/eu-cookie-opt-in](https://github.com/creativeaura/eu-cookie-opt-in)
+
+  *  [www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren](https://www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren)
+  *  
   * **[Google DoubleClick](https://www.doubleclickbygoogle.com/de/)** braucht man um Werbeanzeigen zu schalten. Es ist recht umstritten: *"DoubleClick has also been criticized for misleading users by offering an opt-out option that is effectively useless"* [[Wikipedia](https://en.wikipedia.org/wiki/DoubleClick)]. Wahrscheinlich deshalb taucht das im Zusammenhang mit DSGVO immer auf.
 
   * **Eingebettete Youtube-Videos führen zu einer Kontaktaufnahme mit Google Doubleclick** (siehe unten)
@@ -43,7 +47,11 @@
 ### Videos einbetten ###
   * (Original) heise-Artikel: [YouTube-Videos datenschutzkonform einbetten](https://www.heise.de/ct/ausgabe/2016-1-YouTube-Videos-datenschutzkonform-einbetten-3046316.html). Der Anwalt hat den i.W. abgeschrieben, gibt aber die Quelle an. Ich selbst komme zu etwas anderen Schlüssen als der Anwalt.
 
+  * https://www.450heartbeats.com/tutorials/wordpress/datenschutzkonformes-einbetten-von-youtube-videos
+
   * **auch im sog. erweiterten Datenschutzmodus wird Doubleclick kontaktiert**, selbst wenn das Video gar nicht angesehen wird. Derzeit (wohl ohne "erw. Datenschutzmodus") sieht das dann so aus: ![Youtube-cookies](Youtube-cookies.png). Die roten Zeilen sind Anfragen an doubleclick.net (die mein Adblocker unterbunden hat).
+
+  * YT / erw. Modus: [support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy](https://support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy)
 
   * Ich könnte versuchen das Video mit MyWebsite im "erw. Datenschutzmodus" einzubetten und den Datenverkehr dann zu analysieren. Das aber wirklich nur auf einer Test-Domain à la vorschau.lernhilfe-hafis.de
 
