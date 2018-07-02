@@ -86,19 +86,21 @@
   >
 
 - 3 Anwalt fragen
-    * ![todo](i/exclamation.png)@CD: ihm den Link schicken (/datenschutz2)
+    * ![todo](i/exclamation.png)@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)
+    * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
+    * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
     * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
     * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann Google Doubleclick raus kann"
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out implementieren, richt?"
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
-    * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
-    * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
 
 - 4 Gedicht
     * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
 
 ___
   
-### nächste Besprechung: Do, 19:30 ###
-  
+### nächste Besprechung: Do, 05.07.2018 19:30 ###
+#### diese Besprechung: Mo, 02.07.2018, 20:30 ####
+##### [vorherige Besprechung: Do, 29.06.2018, 19:30](Besprechung_2018-06-29.md) #####
+

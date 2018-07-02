@@ -1,4 +1,4 @@
-### Besprechung Fr, 29.06.2018: CD, MK ###
+### Besprechung Fr, 29.06.2018, 20:30: CD, MK ###
 ---
 #### Legende: ####
 
@@ -110,5 +110,8 @@
 
 ___
   
-### nächste Besprechung: Mo, 02.06.2018, 19:30 ###
+### [nächste Besprechung: Mo, 02.07.2018 19:30](Besprechung_2018-07-02.md) ###
+#### diese Besprechung: Fr, 29.06.2018, 20:30  ####
+##### vorherige Besprechung: Do, 28.06.2018, 20:00 #####
+
   
