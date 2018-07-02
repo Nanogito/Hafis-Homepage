@@ -36,6 +36,11 @@
   * ![?](i/question.png) mehr: siehe [DSGVO.md](DSGVO.md)
   >
 
+- Gedichte
+  * wann und (vmtl.) wie es dazu kam
+  * ![?](i/question.png) besser machen mit 5-Spalten-Layout? 
+  >
+  
 - ![?](i/question.png) Notfallplan machen: wie kriegt man die 
     statische Kopie schnell wieder online?
   >
