@@ -60,9 +60,13 @@
 ---
 
 #### Nächste Schritte, nach Priorität: ####
+
 - 1 Puppentheater
-    * ![todo](i/exclamation.png)@MK: Youtube Video mit Umlauftext
-    * ![todo](i/exclamation.png)@MK: "Youtube" statt "You-Tube" im Text
+  * ![todo](i/exclamation.png)@MK: "Youtube" statt "You-Tube" im Text
+  * ![todo](i/exclamation.png)@MK: Youtube Video mit Umlauftext
+  * Da das so nicht einfach in MyWebsite geht (weder erw. Modus noch das "Umlauf-Layout")
+    - ![todo](i/exclamation.png)@MK: javascript-Code verallgemeinern, s.d. man nur ein Bild einfügen muss, das auf ein Youtube Video verweist
+    - ![todo](i/exclamation.png)@MK: Anleitung dafür schreiben
   >
 
 - 2 Datenschutz: Abschnitt Snowplow Analytics rein
@@ -81,7 +85,7 @@
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
 
-- 3 Gedicht
+- 4 Gedicht
     * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
 
 ___
