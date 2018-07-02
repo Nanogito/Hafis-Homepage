@@ -85,6 +85,7 @@
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out implementieren, richt?"
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
+    * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
 
 - 4 Gedicht
