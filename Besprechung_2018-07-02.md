@@ -82,12 +82,14 @@
 - 2 Datenschutz: Abschnitt Snowplow Analytics rein
     * ![check](i/check.png)@MK: Neue, versteckte Seite datenschutz2. Dort dann:
     * ![todo](i/exclamation.png)@MK: Abschnitt von 1&1 über Snowplow Analytics rein
-    * ![todo](i/exclamation.png)@MK: Abschnitt über Google Doubleclick raus
+      - ![?](i/question.png) bei 1&! hieß es: "in ihrer Vorlage zur Datenschutzseite finden Sie einen entspr. Abschnitt" -finde die "Vorlage zur Datenschutzseite" nicht... [TODO: Link]
+    * ![check](i/check.png)@MK: Abschnitt über Google Doubleclick raus
     * ![check](i/check.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
   >
 
 - 3 Anwalt fragen
     * ![todo](i/exclamation.png)@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)
+    * ![todo](i/exclamation.png)@CD: "Abschnitt 4 im Impressum ist: "4. Datenschutz" - Braucht's das noch?"
     * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
     * ![todo](i/exclamation.png)@CD: Du hast mit 1&1 einen sog. ["Vertrag zur Auftragsverarbeitung"](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/auftragsverarbeitung/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=1849). 1&1 empfiehlt diesen auch zu erwähnen.
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
