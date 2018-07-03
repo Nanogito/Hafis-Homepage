@@ -1,4 +1,5 @@
 ### DSGVO allgemein ###
+  * Das Gesetz selbst: [dsgvo-gesetz.de](https://dsgvo-gesetz.de)
 
   * ["Was sind personenbezogene Daten?"](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/datenschutz-grundverordnung-dsgvo-im-ueberblick/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=1795)[1&1]. Deckt sich nicht ganz mit der Formulierung *"Personenbezogene Daten sind Daten über Ihre Person. Diese beinhalten Ihren Namen, Ihre Adresse und Ihre Email Adresse"*. 
 

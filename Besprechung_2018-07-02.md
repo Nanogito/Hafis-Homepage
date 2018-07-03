@@ -88,12 +88,16 @@
 - 3 Anwalt fragen
     * ![todo](i/exclamation.png)@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)
     * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
+    * ![todo](i/exclamation.png)@CD: Du hast mit 1&1 einen sog. ["Vertrag zur Auftragsverarbeitung"](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/auftragsverarbeitung/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=1849). 1&1 empfiehlt diesen auch zu erwähnen.
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
+      - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webhosting/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2176)
     * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
     * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann Google Doubleclick raus kann"
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out implementieren, richt?"
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
+      - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=2176&utm_content=direct&utm_medium=default&utm_source=helpcenter&utm_term=2103)
+      - -> zu Google-Analytics - **das wir aber nicht benutzen** - sagt 1&1 [dies](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/checkliste/?utm_term=1845&utm_campaign=1795&utm_medium=knowledge#c10013)
 
 - 4 Gedicht
     * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
