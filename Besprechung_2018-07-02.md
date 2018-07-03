@@ -15,14 +15,15 @@
   * ~führte zu einem neuen (dritten) Vertrag~
   * ~...der eingebaute Backups hat~ (egal)
   * kam vmtl. durch SSL-Missverständnis heute morgen zustande
-  * ![check](i/check.png) ist schon wieder gekündigt.
+  * ![check](i/check.png) ist schon wieder gekündigt, wirksam mit heute.
+  * ![?](i/question.png) komisch: nun, da die Kündigung wirksam wurde ist die SubDomain und auch die Website weg...
   >
 
 - Was ist mit dem zweiten Vertrag ("Dual-Basic", deutlich teurer)
-  * ![?](i/question.png) wie sind welche Domains zu welchem Vertrag zugeordnet?
-  * ![?](i/question.png) der hat wieder andere Vorteile: Webspace, ftp
-  * ![?](i/question.png) aber keinen Editor wie MyWebsite?
-  * ![check](i/check.png) alles egal - gekündigt zum Ende des Jahres
+  * wie sind welche Domains zu welchem Vertrag zugeordnet?
+  * der hat wieder andere Vorteile: Webspace, ftp
+  * aber keinen Editor wie MyWebsite?
+  * ![check](i/check.png) alles egal - gekündigt zum 12.12.2018
   >
 
 - eingebettete Videos
@@ -92,8 +93,8 @@
     * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
       - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webhosting/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2176)
     * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
-    * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann Google Doubleclick raus kann"
-    * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out implementieren, richt?"
+    * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann der Abschn. Google Doubleclick raus kann"
+    * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out zu implementieren, richtig?"
     * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
     * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
       - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=2176&utm_content=direct&utm_medium=default&utm_source=helpcenter&utm_term=2103)
