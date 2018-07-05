@@ -3,6 +3,12 @@
 
 ---
 #### Layout kaputt ####
+  - content-Bereich jetzt zu schmal, da Navi links statt oben
+    >
+  - ![todo](/i/exclamation.png)@MK: mobile-Navi wieder her
+    >
+  - das alte mit Buttons als Teil des Kopfes war besser
+    >
   - so wie's jetzt (2018-07-05, 19:30) ist kann's schon ne Woche oder so bleiben
     >
   - Schrift ingesamt zu klein, jetzt schlechter lesbar
@@ -13,11 +19,16 @@
     * kann man jetzt nimmer lesen
     * ist aber erstmal ok, da man die Bilder groß kriegt, wenn man drauf klickt
     >
+  - vorherigen Webmaster Kuno fragen
+    * sinnlos
+    * es gibt keinerlei Doku oder Arbeitsdateien ausser dem, was auf 1&1 zu finden ist
+    >
   - MK telefoniert im Namen von CD mit 1&1 Support
     * BITTE irgendwie altes Layout wieder her
     >
-  - ![check](i/check.png) neues 1&1 Passwort
-    * Eselsbrücke: die Zahlen sind rückwärts (!)
+
+#### ![check](i/check.png) neues 1&1 Passwort ####
+  * Eselsbrücke: die Zahlen sind rückwärts (!)
 
 #### Youtube Videos einbinden (sh. [Youtube-einbinden.md](Youtube-einbinden.md)) ####
   - kein Kontakt zu Youtube/Google solange der Besucher nicht drauf klickt
@@ -26,14 +37,33 @@
     >
 
 #### Anwalt fragen (geplant Mi, 11.07.2018) ####
-  - Details siehe [Besprechung_2018-07-02](Besprechung_2018-07-02.md), Abschn. "3 Anwalt fragen" (commit #2adec8a0a587b05a9b771fdbccf5472e28d78183)
+  - Details siehe [Besprechung_2018-07-02](Besprechung_2018-07-02.md), Abschn. "3 Anwalt fragen" (commit [#2adec8](https://github.com/meisl/hafis/commit/2adec8a0a587b05a9b771fdbccf5472e28d78183))
+
+#### Logo, insbes. die Eule ####
+  * ist nice, sollten wir mehr draus machen
+  * Petra könnte eine neue malen: auf Papier, DIN-A6 oder grösser
+  * auch die Animation -> ![todo](/i/exclamation.png)@MK: Einzelbilder von vorhandener Animation als Vorlage
+  * ![todo](/i/exclamation.png)@MK: einscannen, gif etc. basteln
+  >
+
+#### Baustellenseite/Web-Visitenkarte ####
+  * vorgeführt, Zweck erklärt & für ok befunden
+  >
 
 
 ---
 
 #### Nächste Schritte, nach Priorität: ####
-- 1 TODO
-  * ![todo](i/exclamation.png)@MK: foobar
+---
+
+#### Nächste Schritte, nach Priorität: ####
+- 1 ![todo](i/exclamation.png)@MK: Einbindung von YT Videos wie bespr.
+  >
+
+- 2 Altes Layout wiederhestellen
+  * ![todo](i/exclamation.png)@MK: 1&1 Support anrufen
+  * ![todo](i/exclamation.png)@MK: ...?
+  >
 
 ___
   
