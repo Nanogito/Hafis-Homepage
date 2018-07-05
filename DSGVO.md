@@ -27,8 +27,8 @@
 
   * [github.com/creativeaura/eu-cookie-opt-in](https://github.com/creativeaura/eu-cookie-opt-in)
 
-  *  [www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren](https://www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren)
-  *  
+  * [www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren](https://www.450heartbeats.com/tutorials/opt-out-cookie-google-analytics-daten-erfassung-deaktivieren)
+
   * **[Google DoubleClick](https://www.doubleclickbygoogle.com/de/)** braucht man um Werbeanzeigen zu schalten. Es ist recht umstritten: *"DoubleClick has also been criticized for misleading users by offering an opt-out option that is effectively useless"* [[Wikipedia](https://en.wikipedia.org/wiki/DoubleClick)]. Wahrscheinlich deshalb taucht das im Zusammenhang mit DSGVO immer auf.
 
   * **Eingebettete Youtube-Videos führen zu einer Kontaktaufnahme mit Google Doubleclick** (siehe unten)
@@ -36,7 +36,7 @@
   * 1&1 WebAnalytics (haben wir) **ist nicht dasselbe** wie Google Analytics (haben wir *nicht*)
   * [laut 1&1 WebAnalytics benutzt *keine Cookies*](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2103) - aber: es basiert offensichtlich auf Snowplow Analytics...?
 
-  * [MyWebsite verwendet Cookies (Snowplow)](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-mywebsite-aktuelles-produktangebot/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2423). Tatsächlich scheint es nur ein einziges zu sein: ![MyWebsite-cookie](MyWebsite-cookie.png)
+  * [MyWebsite verwendet Cookies (Snowplow)](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-mywebsite-aktuelles-produktangebot/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2423). Tatsächlich scheint es nur ein einziges zu sein: ![DSGVO_MyWebsite-cookie](DSGVO_MyWebsite-cookie.png)
 
   * [Abschnitt zu Snowplow einfügen?](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-mywebsite-aktuelles-produktangebot/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2423)
 
@@ -54,7 +54,7 @@
 
   * https://www.450heartbeats.com/tutorials/wordpress/datenschutzkonformes-einbetten-von-youtube-videos
 
-  * **auch im sog. erweiterten Datenschutzmodus wird Doubleclick kontaktiert**, selbst wenn das Video gar nicht angesehen wird. Derzeit (wohl ohne "erw. Datenschutzmodus") sieht das dann so aus: ![Youtube-cookies](Youtube-cookies.png). Die roten Zeilen sind Anfragen an doubleclick.net (die mein Adblocker unterbunden hat).
+  * **auch im sog. erweiterten Datenschutzmodus wird Doubleclick kontaktiert**, selbst wenn das Video gar nicht angesehen wird. Derzeit (wohl ohne "erw. Datenschutzmodus") sieht das dann so aus: ![Youtube-cookies](DSGVO_YT-cookies.png). Die roten Zeilen sind Anfragen an doubleclick.net (die mein Adblocker unterbunden hat).
 
   * YT / erw. Modus: [support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy](https://support.google.com/youtube/answer/171780?expand=PrivacyEnhancedMode#privacy)
 
