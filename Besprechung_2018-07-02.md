@@ -87,20 +87,25 @@
     * ![check](i/check.png)@MK: Formulierung über log-Löschung nach 21 Tagen rein
   >
 
-- 3 Anwalt fragen
-    * ![todo](i/exclamation.png)@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)
+- 3 Anwalt fragen (geplant: Mittwoch, 11.07.2018)
+    * <strike>@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)</strike>
+    * ![todo](i/exclamation.png)@CD: MK vorher per email Bescheid geben
+      - -> ![todo](i/exclamation.png)@MK macht dann "Datenschutz2" i.d. Navigation sichtbar
     * ![todo](i/exclamation.png)@CD: "Abschnitt 4 im Impressum ist: "4. Datenschutz" - Braucht's das noch?"
-    * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."* - **@CD: Ist das so? - @Anwalt: ...?**
-    * ![todo](i/exclamation.png)@CD: Du hast mit 1&1 einen sog. ["Vertrag zur Auftragsverarbeitung"](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/auftragsverarbeitung/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=1849). 1&1 empfiehlt diesen auch zu erwähnen.
-    * ![todo](i/exclamation.png)@CD: "Formulierung über log-Löschung nach 21 Tagen schadet ja wohl nicht..."
+    * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."*
+      - <strike>@CD: Ist das so? - @Anwalt: ...?</strike>
+      - **"Das tun wir nicht, also *behaupten* wir es auch nicht. Ok?"**
+    * <strike>@CD: Du hast mit 1&1 einen sog. ["Vertrag zur Auftragsverarbeitung"](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/auftragsverarbeitung/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=1849) nach [Art. 28 DSGVO](https://dsgvo-gesetz.de/art-28-dsgvo/). 1&1 empfiehlt diesen auch zu erwähnen.</strike>
+      - Muss man nicht erwähnen, also lieber die kostbare Zeit mit Anwalt sparen.
+    * ![todo](i/exclamation.png)@CD: "Formulierung über Log-Löschung nach 21 Tagen schadet ja wohl nicht..."
       - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webhosting/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2176)
-    * ![todo](i/exclamation.png)@CD: "wir haben jetzt YT im erw. Modus"
+    * ![todo](i/exclamation.png)@CD: "wir haben jetzt **Youtube im erweiterten Datenschutzmodus**"
     * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann der Abschn. Google Doubleclick raus kann"
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out zu implementieren, richtig?"
-    * ![todo](i/exclamation.png)@CD: "Falls doch: bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
-    * ![todo](i/exclamation.png)@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"
-      - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=2176&utm_content=direct&utm_medium=default&utm_source=helpcenter&utm_term=2103)
-      - -> zu Google-Analytics - **das wir aber nicht benutzen** - sagt 1&1 [dies](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/checkliste/?utm_term=1845&utm_campaign=1795&utm_medium=knowledge#c10013)
+    * ![todo](i/exclamation.png)@CD: "Falls doch (?!): bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
+    * ![todo](i/exclamation.png)<strike>@CD: "1&1 WebAnalytics (=Snowplow Analytics) erwähnen?"</strike>
+      - -> <strike>[1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webanalytics/?utm_campaign=2176&utm_content=direct&utm_medium=default&utm_source=helpcenter&utm_term=2103)</strike>
+      - -> <strike>zu Google-Analytics - **das wir aber nicht benutzen** - sagt 1&1 [dies](https://hosting.1und1.de/hilfe/datenschutz/allgemeineinformationen/checkliste/?utm_term=1845&utm_campaign=1795&utm_medium=knowledge#c10013)</strike>
 
 - 4 Gedicht
     * ![todo](i/exclamation.png)@MK: in 5-Spalten-Layout
