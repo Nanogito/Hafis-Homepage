@@ -1,0 +1,139 @@
+/*  System
+----------------------------------------------- */
+
+div.normal { padding: 5px; }
+.caption { font-size: 80%; }
+
+
+/*  Clearing
+----------------------------------------------- */
+
+.c, .clear { clear:both; }
+
+.clearover {overflow:hidden;} /* Firefox and all */
+* html .clearover { height:1%; overflow:visible;} /* IE */
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+}
+
+
+.hidden { display: none !important; }
+
+
+/* Page Structure
+----------------------------------------------- */
+body {
+  margin:1cm 1cm;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  line-height:140%
+}
+
+#printcontainer {
+	width:16cm;
+}
+
+.printtitle {
+	font-size:12pt;
+	padding:10pt 0 4pt 0;
+	font-weight:bold;
+}
+
+.noline {
+	text-decoration:none;
+	border:none;
+}
+
+/* Headings
+----------------------------------------------- */
+h1, h2, h3 {
+  margin:1em 0 .5em;
+  font-weight:normal;
+  clear:both;
+  }
+h1 {
+  margin-top:.5em;
+  font-size:180%;
+  line-height:120%
+  }
+
+/*  Printbox
+----------------------------------------------- */
+.printbox { 
+	border: 1px solid #CCC;
+	padding:10px;
+}
+
+
+
+/* Links
+----------------------------------------------- */
+a {
+  color:#999;
+  text-decoration:underline;
+  }
+a img {
+  border-width:0;
+  }
+  
+/*  Text with Image
+----------------------------------------------- */
+
+.imgleft {
+  float:left;
+  margin:4px 20px 4px 0;
+}
+
+.imgright {
+  float:right;
+  margin:4px 0 4px 15px;
+}
+
+/*  Imagegalery
+----------------------------------------------- */
+div.ccgalerie.slideshow .imageContainer {
+    display: none;
+}
+
+
+/* Misc
+----------------------------------------------- */
+p {
+  margin:0 ;
+  line-height:1.3em;
+  padding: 0;
+  }
+table p, dl ul, dl p, dl dl {
+  font-size:100%;
+  }
+ul, dl {
+  margin-top:0;
+  margin-bottom:.75em;
+  }
+hr {
+  background:gray;
+  display:block;
+  border-width:0;
+  height:.25pt;
+  }
+blockquote {
+	padding: 0;
+	margin: 0 0 0 20px;
+}
