@@ -106,7 +106,7 @@
 
 ___
   
-### nächste Besprechung: Do, 05.07.2018 19:30 ###
+### [nächste Besprechung: Do, 05.07.2018 19:30](Besprechung_2018-07-05.md) ###
 #### diese Besprechung: Mo, 02.07.2018, 20:30 ####
 ##### [vorherige Besprechung: Do, 29.06.2018, 19:30](Besprechung_2018-06-29.md) #####
 
