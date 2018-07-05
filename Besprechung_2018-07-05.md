@@ -52,10 +52,6 @@
 
 
 ---
-
-#### Nächste Schritte, nach Priorität: ####
----
-
 #### Nächste Schritte, nach Priorität: ####
 - 1 ![todo](i/exclamation.png)@MK: Einbindung von YT Videos wie bespr.
   >
