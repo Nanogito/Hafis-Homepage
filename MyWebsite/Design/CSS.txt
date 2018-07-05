@@ -53,7 +53,7 @@ div#content {
 	background: #fff;
 }
 div#content div.gutter {
-	padding: 0 100px 60px 100px;
+	padding: 0 100px 60px 20px;
 }
 
 
@@ -75,14 +75,14 @@ div#jimdobox {
 div#navigation {
 	margin: 0 0 20px;
 	padding: 0 0 30px;
-	background: url(1001-navigation_bg.gif) repeat-x 0 100%;
+	//background: url(1001-navigation_bg.gif) repeat-x 0 100%;
 }
 
 ul.mainNav1 {
 	margin: 0;
 	padding: 1px 0 0;
 	list-style: none;
-	background: url(1001-dots.gif) repeat-x;
+	//background: url(1001-dots.gif) repeat-x;
 }
 ul.mainNav1 li {
 	width: 239px;
@@ -92,7 +92,7 @@ ul.mainNav1 li a {
 	display: block;
 	width: 219px;
 	padding: 5px 10px;
-	background: url(1001-dots.gif) repeat-x 0 100%;
+	//background: url(1001-dots.gif) repeat-x 0 100%;
 	background-color: #fff !important;
 	text-align: right;
 	text-decoration: none;
