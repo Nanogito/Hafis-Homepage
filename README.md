@@ -4,6 +4,10 @@
 * Ordner [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup.
 
 ---
+#### Eigenes Javascript in MyWebsite ####
+Besser unter `Design|HTML/CSS|Dateien` hochladen (wird dann automatisch in `<head>` verlinkt): [/js/src/](/js/src/)
+
+---
 
 #### Achtung: ####
 WinHTTrack (und vmtl. auch git) hat Probleme mit Umlauten in Pfadnamen.
