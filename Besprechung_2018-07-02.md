@@ -1,11 +1,5 @@
 ### Besprechung Mo, 02.07.2018: CD, MK ###
----
-#### Legende: ####
-
-  * ![check](i/check.png) erledigt
-  * ![todo](i/exclamation.png)@XY: TODO für XY
-  * ![?](i/question.png)@XY: Frage an XY: einverstanden bzw. wie genau?
-  * ![later](i/fastforward.png) vertagt
+*(Legende: siehe [Besprechung_2018-06-29](Besprechung_2018-06-29.md))*
 
 ---
 
