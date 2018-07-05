@@ -1,6 +1,6 @@
 if (window.jQuery) { window.jQuery_1and1 = window.jQuery; }
 jQuery(document).ready(() => {
-	let alignContainer = jQuery("div.diywebMain div#content_area div.module-type-textWithImage")
+	let alignContainer = jQuery("div#content_area div.module-type-textWithImage")
 	   .find(".imagewrapper[href*=youtube][href*=YEmkxX56l-Y]")
 	   .parent();
 	let imgWrapper =alignContainer.find(".imagewrapper");
