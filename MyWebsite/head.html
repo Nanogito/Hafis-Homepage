@@ -1,0 +1,104 @@
+<script type="text/javascript">
+//<![CDATA[
+(function ($) {
+  
+	function searchParams(url) {
+		try { // don't crash on old IE, but rather return empty object
+			return (url.search || "?")
+				.substring(1)
+				.split("&")
+				.reduce(function (acc, s) {
+					var pieces = s.split("=");
+					var k = pieces[0];
+					var v = pieces[1];
+					var i = parseInt(v);
+					if (isFinite(i)) {
+						v = i;
+					}
+					acc[k] = v;
+					return acc;
+				}, {});
+		} catch (e) {
+			return {};
+		}
+	}
+	
+	var params = searchParams(window.location);
+	var isDebug = Object.prototype.hasOwnProperty.call(params, "debug")
+		&& ((params.debug === void(0)) || !!params.debug);
+	
+	var log = function () {
+		isDebug && console.log.apply(console, $.makeArray(arguments));
+	};
+	
+	function germanUmlaut() { /* Umlaute-Hack */
+		var btns = $('body #mainNav1 span');
+		log("germanUmlaut", btns.map(function (i, e) {
+			return $(e).html();
+		}));
+		btns.each(function (i, e) {
+			e = $(e);
+			var oldH = e.html();
+			var newH = oldH;
+			if (oldH == "Foerderer") {
+				newH = "F&ouml;rderer";
+			}
+			if (oldH != newH) {
+				e.html(newH);
+				log("germanUmlaut:", oldH, "->", newH);
+			}
+		});
+	}
+	
+	function embedVideos() {
+		var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
+		log("embedVideos:", xs);
+		xs.on("click", function (evt) {
+			var elem = evt.currentTarget;
+			var vID = (elem.host == "youtu.be")
+				? elem.pathname.substring(1)
+				: searchParams(elem).v;
+			console.log("click", evt);
+			var img = $(elem).find("img")[0];
+			var w = img.width;
+			var h = img.height;
+			var iframe = $("<iframe>", {
+				src: "https://www.youtube-nocookie.com/embed/" + vID + "?rel=0",
+				frameborder: 0,
+				allow: "autoplay; encrypted-media",
+				allowfullscreen: "",
+				width: w,
+				height: h
+			});
+			log("embedVideos:", iframe);
+			$(elem).replaceWith(iframe);
+			return false;
+		});
+		return xs;
+	}
+	
+	function reportUnsafeVideos() {
+		var xs = $("body iframe[src*=youtube\\.com]");
+		var n = xs.length;
+		if (n) {
+			var msg = "ACHTUNG: " + n + " Video" + (n > 1 ? "s" : "")
+				+ " wurde" + (n > 1 ? "n" : "")
+				+ " NICHT datenschutzkonform eingebunden!\n\n"
+				+ "Bitte jeweils durch ein verlinktes Platzhalterbild ersetzen.\n"
+			;
+			xs.each(function (i, e) {
+				msg += "\n" + $(e).attr("src");
+			});
+			alert(msg);
+		}
+	}
+	
+	$(document).ready(log);
+
+	$(document).ready(germanUmlaut);
+	$(document).ready(reportUnsafeVideos);
+	$(document).ready(embedVideos);
+	
+}(jQuery));
+//]]>
+</script>
