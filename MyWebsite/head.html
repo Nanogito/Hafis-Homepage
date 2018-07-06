@@ -1,5 +1,9 @@
 <script type="text/javascript">
 //<![CDATA[
+/* Inhalt dieser Datei gehört in MyWebsite unter
+     Einstellungen | Erw. Einstellungen bearbeiten | Head bearbeiten
+   Speichern nicht vergessen ;)
+*/
 (function ($) {
   
 	function searchParams(url) {
@@ -58,7 +62,7 @@
 			var vID = (elem.host == "youtu.be")
 				? elem.pathname.substring(1)
 				: searchParams(elem).v;
-			console.log("click", evt);
+			log("click", evt);
 			var img = $(elem).find("img")[0];
 			var w = img.width;
 			var h = img.height;
@@ -92,8 +96,6 @@
 			alert(msg);
 		}
 	}
-	
-	$(document).ready(log);
 
 	$(document).ready(germanUmlaut);
 	$(document).ready(reportUnsafeVideos);
