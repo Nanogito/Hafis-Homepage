@@ -18,6 +18,7 @@
 			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü in page names
 			reportProblematicNames: true,
 			// don't replace in these words:
+			// (Note: will be used in regular expression - normal letters only!)
 			except: ["Aktuell"],
 		},
 		videos: {
@@ -66,23 +67,25 @@
 	
 	function germanUmlaut() { /* Umlaute-Hack */
 		var btns = $('body #mainNav1 span');
-		log("germanUmlaut", btns.map(function (i, e) {
+		log("germanUmlaut/page names found:", btns.map(function (i, e) {
 			return $(e).html();
 		}));
+		var ex = new RegExp(options.umlaut.except.join("|"), "im");
 		btns.each(function (i, e) {
 			e = $(e);
 			var oldH = e.html();
-			var newH = oldH;
-			if (oldH == "Foerderer") {
-				newH = "F&ouml;rderer";
-			}
-			if (oldH != newH) {
-				e.html(newH);
-				log("germanUmlaut:", oldH, "->", newH);
+			if (ex.exec(oldH)) {
+				log("germanUmlaut/omitted:", oldH);
+			} else {
+				var newH = oldH.replace(/([aouAOU])e/g, "&$1uml;");
+				if (oldH != newH) {
+					e.html(newH);
+					log("germanUmlaut/replaced:", oldH, "->", newH);
+				}
 			}
 		});
 	}
-	
+	// germanUmlaut(); // <<<<<<<<<<<<<<<<<<<<<<< debug
 	function embedVideos() {
 		var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
 		if (options.videoPlaceholderTitle) {
