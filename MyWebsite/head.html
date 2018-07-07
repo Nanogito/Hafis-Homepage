@@ -8,6 +8,30 @@
 	var options = {
 		videoPlaceholderTitle: "Youtube-Video laden\n(zum Abspielen nochmal klicken)",
 		reportUnsafeVideos: true,
+		
+		// In navi buttons: replace any (A|a)e, (O|o)e, (U|u)e by &Auml; etc...
+		// Because: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü) for page 
+		// names in MyWebsite, since they result in garbled pathnames.
+		// So we use ae, oe, ue instead. But we do want to show properly rendered
+		// umlauts to the user. That's what this this little hack is about.
+		umlaut: {
+			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü in page names
+			reportProblematicNames: true,
+			// don't replace in these words:
+			except: ["Aktuell"],
+		},
+		videos: {
+			// pop-up about videos embedded in non-"privacy enhanced mode"
+			// (as does the MyWebsite widget "Video einfügen")
+			reportUnsafeVideos: true,
+			// *when* to replace a placeholder with the actual <iframe>:
+			// - true: only when user clicks on it (and then only this placeholder)
+			// - false: replace all placeholders right before page is shown
+			embedOnlyWhenClicked: true,
+			// appears as tooltip when user hovers over a placeholder image
+			placeholderTitle: "Youtube-Video laden"
+				+"\n(zum Abspielen nochmal klicken)",
+		}
 	};
 	
 	function searchParams(url) {
@@ -38,6 +62,7 @@
 	var log = function () {
 		isDebug && console.log.apply(console, $.makeArray(arguments));
 	};
+	log("options", options);
 	
 	function germanUmlaut() { /* Umlaute-Hack */
 		var btns = $('body #mainNav1 span');
