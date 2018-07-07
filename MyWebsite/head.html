@@ -1,4 +1,4 @@
-<script type="text/javascript">
+//<script type="text/javascript">
 //<![CDATA[
 /* Inhalt dieser Datei gehört in MyWebsite unter
      Einstellungen | Erw. Einstellungen bearbeiten | Head bearbeiten
@@ -13,9 +13,11 @@
 		// Because: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü) for page 
 		// names in MyWebsite, since they result in garbled pathnames.
 		// So we use ae, oe, ue instead. But we do want to show properly rendered
-		// umlauts to the user. That's what this this little hack is about.
+		// umlauts to the user.
+		// ATTENTION: we do NOT replace ß bei &szlig; since double-s is too common
+		//            we do however warn about ß if reportProblematicNames is true
 		umlaut: {
-			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü in page names
+			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü and ß in page names
 			reportProblematicNames: true,
 			// don't replace in these words:
 			// (Note: will be used in regular expression - normal letters only!)
@@ -65,18 +67,19 @@
 	};
 	log("options", options);
 	
+	var naviButtons = $('body #mainNav1 span');
+	
 	function germanUmlaut() { /* Umlaute-Hack */
-		var btns = $('body #mainNav1 span');
-		log("germanUmlaut/page names found:", btns.map(function (i, e) {
-			return $(e).html();
-		}));
+		log("germanUmlaut/page names found:",
+			naviButtons.map(function (i, e) { return $(e).html(); })
+		);
 		var ex = new RegExp(options.umlaut.except.join("|"), "im");
-		btns.each(function (i, e) {
+		naviButtons.each(function (i, e) {
 			e = $(e);
 			var oldH = e.html();
 			if (ex.exec(oldH)) {
 				log("germanUmlaut/omitted:", oldH);
-			} else {
+			} else { // we do NOT replace ss, since it's too common
 				var newH = oldH.replace(/([aouAOU])e/g, "&$1uml;");
 				if (oldH != newH) {
 					e.html(newH);
@@ -85,7 +88,36 @@
 			}
 		});
 	}
-	// germanUmlaut(); // <<<<<<<<<<<<<<<<<<<<<<< debug
+	
+	function reportProblematicPageNames() {
+		var rx = /[äöüß]/ig; // warn about ß as well!
+		var bad = naviButtons.parent().filter(function (i, e) {
+			rx.lastIndex = 0; // reset!
+			return rx.test(
+				decodeURI(e.pathname) // yes, even %C3%B6 and the like
+			);                        // pose problems!
+		});
+		log(bad);
+		var n = bad.length;
+		if (n) {
+			var msg = "ACHTUNG: " + n + " Seitenname" + (n > 1 ? "n" : "")
+				+ " ent" + (n > 1 ? "halten" : "hält")
+				+ " problematische Zeichen!\n\n"
+				+ "Bitte durch Ae, ae, Oe, oe, Ue, ue oder ss ersetzen.\n"
+			;
+			bad.each(function (i, e) {
+				var name = $(e).find("span").html();
+				var path = decodeURI(e.pathname);
+				var culprits = path.match(rx);
+				msg += '\n"' + name + '": ' + culprits.join(", ")
+					+ ' in ' + path
+				;
+			});
+			alert(msg);
+		}
+	}
+	
+	
 	function embedVideos() {
 		var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
 		if (options.videoPlaceholderTitle) {
@@ -120,25 +152,33 @@
 	}
 	
 	function reportUnsafeVideos() {
-		var xs = $("body iframe[src*=youtube\\.com]");
-		var n = xs.length;
+		var bad = $("body iframe[src*=youtube\\.com]");
+		var n = bad.length;
 		if (n) {
 			var msg = "ACHTUNG: " + n + " Video" + (n > 1 ? "s" : "")
 				+ " wurde" + (n > 1 ? "n" : "")
 				+ " NICHT datenschutzkonform eingebunden!\n\n"
 				+ "Bitte jeweils durch ein verlinktes Platzhalterbild ersetzen.\n"
 			;
-			xs.each(function (i, e) {
+			bad.each(function (i, e) {
 				msg += "\n" + $(e).attr("src");
 			});
 			alert(msg);
 		}
 	}
 
+	if (options.umlaut.reportProblematicNames)
+		$(document).ready(reportProblematicPageNames);
+	if (options.videos.reportUnsafeVideos)
+		$(document).ready(reportUnsafeVideos);
+
 	$(document).ready(germanUmlaut);
-	$(document).ready(reportUnsafeVideos);
 	$(document).ready(embedVideos);
 	
+	// vvvvvvvvvvvv DEBUG! vvvvvvvvvvvvv
+	__ = {
+		germanUmlaut, reportProblematicPageNames
+	};
 }(jQuery));
 //]]>
-</script>
+//</script>
