@@ -99,7 +99,7 @@
 				.replace(rx, function (s) { return text2entity[s]; });
 			;
 			if (oldH != newH) {
-				//e.html(newH);
+				e.html(newH);
 				log("germanUmlaut/replaced:", oldH, "->", newH);
 			}
 		});
@@ -185,10 +185,10 @@
 		if (n) {
 			var msg = ""
 				+ "WARNUNG (nur hier in der Vorschau von MyWebsite):"
-				+ "\n\n" + n + " Video" + (n > 1 ? "s" : "")
-				+ " wurde" + (n > 1 ? "n" : "")
+				+ "\n\nAuf dieser Seite wurde" + (n > 1 ? "n" : "")
+				+ " " + n + " Video" + (n > 1 ? "s" : "")
 				+ " NICHT datenschutzkonform eingebunden!"
-				+ "\n\nBitte durch Platzhalterbild mit Link ersetzen:\n"
+				+ "\nBitte jeweils durch Platzhalterbild mit Link ersetzen:\n"
 			;
 			bad.each(function (i, e) {
 				msg += "\n" + $(e).attr("src");
