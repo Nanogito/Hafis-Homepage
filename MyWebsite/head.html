@@ -1,4 +1,4 @@
-//<script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
 /* Inhalt dieser Datei gehört in MyWebsite unter
      Einstellungen | Erw. Einstellungen bearbeiten | Head bearbeiten
@@ -6,9 +6,6 @@
 */
 (function ($) {
 	var options = {
-		videoPlaceholderTitle: "Youtube-Video laden\n(zum Abspielen nochmal klicken)",
-		reportUnsafeVideos: true,
-		
 		// In navi buttons: replace any (A|a)e, (O|o)e, (U|u)e by &Auml; etc...
 		// Because: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü) for page 
 		// names in MyWebsite, since they result in garbled pathnames.
@@ -18,6 +15,7 @@
 		//            we do however warn about ß if reportProblematicNames is true
 		umlaut: {
 			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü and ß in page names
+			// Note: this is overridden by loading the page with ?debug
 			reportProblematicNames: true,
 			// don't replace in these words:
 			// (Note: will be used in regular expression - normal letters only!)
@@ -26,7 +24,8 @@
 		videos: {
 			// pop-up about videos embedded in non-"privacy enhanced mode"
 			// (as does the MyWebsite widget "Video einfügen")
-			reportUnsafeVideos: true,
+			// Note: this is overridden by loading the page with ?debug
+			reportUnsafeVideos: true, // 
 			// *when* to replace a placeholder with the actual <iframe>:
 			// - true: only when user clicks on it (and then only this placeholder)
 			// - false: replace all placeholders right before page is shown
@@ -67,6 +66,12 @@
 	};
 	log("options", options);
 	
+	var isEditorMode;
+	
+	function checkIfInEditorMode() {
+		return (isEditorMode = !!$("#diyToolbar").length);
+	}
+	
 	var naviButtons = $('body #mainNav1 span');
 	
 	function germanUmlaut() { /* Umlaute-Hack */
@@ -90,6 +95,9 @@
 	}
 	
 	function reportProblematicPageNames() {
+		if (!(isDebug || (isEditorMode && options.umlaut.reportProblematicNames)))
+			return;
+
 		var rx = /[äöüß]/ig; // warn about ß as well!
 		var bad = naviButtons.parent().filter(function (i, e) {
 			rx.lastIndex = 0; // reset!
@@ -120,11 +128,9 @@
 	
 	function embedVideos() {
 		var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
-		if (options.videoPlaceholderTitle) {
-			xs.each(function (idx, elem) {
-				$(elem).attr("title", options.videoPlaceholderTitle);
-			});
-		}
+		var t = options.videos.placeholderTitle;
+		if (t)
+			xs.each(function (i, e) { $(e).attr("title", t); });
 		log("embedVideos:", xs);
 		xs.on("click", function (evt) {
 			var elem = evt.currentTarget;
@@ -152,6 +158,9 @@
 	}
 	
 	function reportUnsafeVideos() {
+		if (!(isDebug || (isEditorMode && options.videos.reportUnsafeVideos)))
+			return;
+
 		var bad = $("body iframe[src*=youtube\\.com]");
 		var n = bad.length;
 		if (n) {
@@ -166,11 +175,15 @@
 			alert(msg);
 		}
 	}
+	
+	
+	$(document).ready(checkIfInEditorMode);
 
-	if (options.umlaut.reportProblematicNames)
-		$(document).ready(reportProblematicPageNames);
-	if (options.videos.reportUnsafeVideos)
-		$(document).ready(reportUnsafeVideos);
+	// options will be checked within the functions, because
+	// we need to know wether we're in editor mode or not (and
+	// for that we the document ready)
+	$(document).ready(reportProblematicPageNames);
+	$(document).ready(reportUnsafeVideos);
 
 	$(document).ready(germanUmlaut);
 	$(document).ready(embedVideos);
@@ -181,4 +194,4 @@
 	};
 }(jQuery));
 //]]>
-//</script>
+</script>
