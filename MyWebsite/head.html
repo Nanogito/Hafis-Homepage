@@ -5,7 +5,11 @@
    Speichern nicht vergessen ;)
 */
 (function ($) {
-  
+	var options = {
+		videoPlaceholderTitle: "Youtube-Video laden\n(zum Abspielen nochmal klicken)",
+		reportUnsafeVideos: true,
+	};
+	
 	function searchParams(url) {
 		try { // don't crash on old IE, but rather return empty object
 			return (url.search || "?")
@@ -56,6 +60,11 @@
 	
 	function embedVideos() {
 		var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
+		if (options.videoPlaceholderTitle) {
+			xs.each(function (idx, elem) {
+				$(elem).attr("title", options.videoPlaceholderTitle);
+			});
+		}
 		log("embedVideos:", xs);
 		xs.on("click", function (evt) {
 			var elem = evt.currentTarget;
@@ -63,7 +72,8 @@
 				? elem.pathname.substring(1)
 				: searchParams(elem).v;
 			log("click", evt);
-			var img = $(elem).find("img")[0];
+			elem = $(elem);
+			var img = elem.find("img")[0];
 			var w = img.width;
 			var h = img.height;
 			var iframe = $("<iframe>", {
@@ -75,7 +85,7 @@
 				height: h
 			});
 			log("embedVideos:", iframe);
-			$(elem).replaceWith(iframe);
+			elem.replaceWith(iframe);
 			return false;
 		});
 		return xs;
