@@ -66,20 +66,21 @@
 	};
 	log("options", options);
 	
-	var isEditorMode;
-	
-	function checkIfInEditorMode() {
-		return (isEditorMode = !!$("#diyToolbar").length);
+	function isEditorMode() {
+		return !!$("#diyToolbar").length;
 	}
 	
-	var naviButtons = $('body #mainNav1 span');
+	function naviButtons() {
+		return $('body #mainNav1 span');
+	}
 	
 	function germanUmlaut() { /* Umlaute-Hack */
+		var btns = naviButtons();
 		log("germanUmlaut/page names found:",
-			naviButtons.map(function (i, e) { return $(e).html(); })
+			btns.map(function (i, e) { return $(e).html(); })
 		);
 		var ex = new RegExp(options.umlaut.except.join("|"), "im");
-		naviButtons.each(function (i, e) {
+		btns.each(function (i, e) {
 			e = $(e);
 			var oldH = e.html();
 			if (ex.exec(oldH)) {
@@ -95,11 +96,11 @@
 	}
 	
 	function reportProblematicPageNames() {
-		if (!(isDebug || (isEditorMode && options.umlaut.reportProblematicNames)))
+		if (!(isDebug || (isEditorMode() && options.umlaut.reportProblematicNames)))
 			return;
 
 		var rx = /[äöüß]/ig; // warn about ß as well!
-		var bad = naviButtons.parent().filter(function (i, e) {
+		var bad = naviButtons().parent().filter(function (i, e) {
 			rx.lastIndex = 0; // reset!
 			return rx.test(
 				decodeURI(e.pathname) // yes, even %C3%B6 and the like
@@ -158,7 +159,7 @@
 	}
 	
 	function reportUnsafeVideos() {
-		if (!(isDebug || (isEditorMode && options.videos.reportUnsafeVideos)))
+		if (!(isDebug || (isEditorMode() && options.videos.reportUnsafeVideos)))
 			return;
 
 		var bad = $("body iframe[src*=youtube\\.com]");
@@ -176,21 +177,35 @@
 		}
 	}
 	
-	
-	$(document).ready(checkIfInEditorMode);
-
-	// options will be checked within the functions, because
-	// we need to know wether we're in editor mode or not (and
-	// for that we the document ready)
-	$(document).ready(reportProblematicPageNames);
-	$(document).ready(reportUnsafeVideos);
-
+	// the fix-ups
 	$(document).ready(germanUmlaut);
 	$(document).ready(embedVideos);
 	
+	// the warnings:
+	// options will be checked within the functions, because
+	// we need to know wether we're in editor mode or not.
+	// in order to know (for sure) whether we're in editor mode,
+	// we have to wait a little bit
+	$(document).ready(function ($) {
+		setTimeout(reportProblematicPageNames, 1000);
+		setTimeout(reportUnsafeVideos, 1500);
+	});
+	
+	
 	// vvvvvvvvvvvv DEBUG! vvvvvvvvvvvvv
 	__ = {
-		germanUmlaut, reportProblematicPageNames
+		options: options,
+		isDebug: function () {
+			if (arguments.length)
+				isDebug = arguments[0];
+			return isDebug;
+		},
+		isEditorMode: isEditorMode,
+
+		germanUmlaut: germanUmlaut, 
+		reportProblematicPageNames: reportProblematicPageNames,
+		reportUnsafeVideos: reportUnsafeVideos,
+		embedVideos: embedVideos
 	};
 }(jQuery));
 //]]>
