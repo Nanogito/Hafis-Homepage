@@ -43,9 +43,9 @@ Locally:
 Chrome is more strict about which files can be loaded via Ajax than Firefox.
 Firefox allows `file://` access from local files to other local files *as long as they're in the same directory or below*.
 Chrome does not. 
-##### "Web Server for Chrome" #####
-One (of many) way to set up a simple HTTP server is e.g. python's SimpleHttpServer.
-Another one, even more easily set up is:
+
+There are many ways to set up a simple HTTP server is e.g. python's SimpleHttpServer.
+The easiest one providing all we need is probably:
 
 ###### The Chrome extension "Web Server for Chrome" ######
 * Get it [from the Chrome Web Store](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb).
@@ -53,6 +53,6 @@ Another one, even more easily set up is:
 * double-click the shortcut to bring up the server's control panel
 * Set the folder to where [this folder (MyWebsite/)](../MyWebsite) is on your disk.
 * Set the port to 80 (standard HTTP)
-* For the server's logs: go to [chrome://inspect/#extensions](chrome://inspect/#extensions), then "Web Server for Chrome"'s `inspect` link. This opens a Developer Tools window, logging simply goes to the console.
+* For the server's logs: go to [chrome://inspect/#extensions](chrome://inspect/#extensions), then "Web Server for Chrome"'s `inspect` link. This opens a Developer Tools window; logging simply goes to the console.
 
 ![Chrome extension "Web Server for Chrome"](../i/Web-Server-For-Chrome.jpg)
