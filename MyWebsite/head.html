@@ -7,6 +7,7 @@
 (function ($) {
 	var options = {
 		// Navi buttons: replace any /!([AOUaou]e|ss)/ by proper html entities
+		// in the buttons' captions (inner text, NOT the <a>'s href).
 		// Reason: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü, ß) for page 
 		// names in MyWebsite, since they result in garbled pathnames.
 		// So we put !Ae, !ae, !Oe, ..., !ss instead (MyWebsite does properly omit
@@ -24,7 +25,7 @@
 			reportUnsafeVideos: true, // 
 			// *when* to replace a placeholder with the actual <iframe>:
 			// - true: only when user clicks on it (and then only this placeholder)
-			// - false: replace all placeholders right before page is shown
+			// - false: replace all placeholders at once on document.ready
 			embedOnlyWhenClicked: true,
 			// appears as tooltip when user hovers over a placeholder image
 			placeholderTitle: "Youtube-Video laden"
