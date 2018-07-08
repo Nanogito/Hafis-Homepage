@@ -83,8 +83,8 @@
 
 - 3 Anwalt fragen (geplant: Mittwoch, 11.07.2018)
     * <strike>@CD: ihm den Link schicken: [www.lernhilfe-hafis.de/datenschutz2](www.lernhilfe-hafis.de/datenschutz2)</strike>
-    * ![todo](i/exclamation.png)@CD: MK vorher per email Bescheid geben
-      - -> ![todo](i/exclamation.png)@MK macht dann "Datenschutz2" i.d. Navigation sichtbar
+    * <strike>@CD: MK vorher per email Bescheid geben</strike>
+    * ![todo](i/exclamation.png)@MK: am Di, 10.07.2018 abends: "Datenschutz2" i.d. Navigation sichtbar machen
     * ![todo](i/exclamation.png)@CD: "Abschnitt 4 im Impressum ist: "4. Datenschutz" - Braucht's das noch?"
     * ![todo](i/exclamation.png)@CD: Abschnitt "Automatisch gespeicherte Daten"/"Server-Log-Dateien": *"Lediglich im Rahmen unserer Serverstatistik, die wir alle zwei Jahre in unserem Tätigkeitsbericht veröffentlichen, findet eine Darstellung der Anzahl der Seitenaufrufe statt."*
       - <strike>@CD: Ist das so? - @Anwalt: ...?</strike>
