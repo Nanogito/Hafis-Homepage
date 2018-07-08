@@ -55,4 +55,4 @@ Another one, even more easily set up is:
 * Set the port to 80 (standard HTTP)
 * For the server's logs: go to [chrome://inspect/#extensions](chrome://inspect/#extensions), then "Web Server for Chrome"'s `inspect` link. This opens a Developer Tools window, logging simply goes to the console.
 
-![Chrome extension "Web Server for Chrome"](./i/Web-Server-For-Chrome.jpg)
+![Chrome extension "Web Server for Chrome"](../i/Web-Server-For-Chrome.jpg)

@@ -53,7 +53,8 @@
 
 ---
 #### Nächste Schritte, nach Priorität: ####
-- 1 ![todo](i/exclamation.png)@MK: Einbindung von YT Videos wie bespr.
+- 1 ![check](i/check.png)@MK: Einbindung von YT Videos wie besprochen.
+  * siehe [Youtube-einbinden.md](Youtube-einbinden.md)
   >
 
 - 2 Altes Layout wiederhestellen
@@ -66,4 +67,3 @@ ___
 ### nächste Besprechung: spätestens nach Gespräch mit Anwalt ###
 #### diese Besprechung: Do, 05.07.2018 ####
 ##### [vorherige Besprechung: Mo, 02.07.2018](Besprechung_2018-07-02.md) #####
-

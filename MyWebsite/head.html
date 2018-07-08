@@ -1,6 +1,6 @@
 <script type="text/javascript">
 //<![CDATA[
-/* Inhalt dieser Datei gehört in MyWebsite unter
+/* Inhalt dieser Datei gehÃ¶rt in MyWebsite unter
      Einstellungen | Erw. Einstellungen bearbeiten | Head bearbeiten
    Speichern nicht vergessen ;)
 */
@@ -8,19 +8,19 @@
 	var options = {
 		// Navi buttons: replace any /!([AOUaou]e|ss)/ by proper html entities
 		// in the buttons' captions (inner text, NOT the <a>'s href).
-		// Reason: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü, ß) for page 
+		// Reason: we must not use actual umlauts (Ã„, Ã¤, Ã–, Ã¶, Ãœ, Ã¼, ÃŸ) for page 
 		// names in MyWebsite, since they result in garbled pathnames.
 		// So we put !Ae, !ae, !Oe, ..., !ss instead (MyWebsite does properly omit
 		// the bang "!"). These are then replaced since we do of course want to
 		// present the user with properly rendered umlauts.
 		umlaut: {
-			// pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü and ß in page names
+			// pop-up about any left over actual Ã„, Ã¤, Ã–, Ã¶, Ãœ, Ã¼ and ÃŸ in page names
 			// Note: this is overridden by loading the page with ?debug
 			reportProblematicNames: true,
 		},
 		videos: {
 			// pop-up about videos embedded in non-"privacy enhanced mode"
-			// (as does the MyWebsite widget "Video einfügen")
+			// (as does the MyWebsite widget "Video einfÃ¼gen")
 			// Note: this is overridden by loading the page with ?debug
 			reportUnsafeVideos: true, // 
 			// *when* to replace a placeholder with the actual <iframe>:
@@ -73,13 +73,13 @@
 	
 	// KISS: just list 'em all rather than use RegExps excessively
 	var umlautMap = {
-		"Ä": { text: "!Ae", entity: "&Auml;" },
-		"ä": { text: "!ae", entity: "&auml;" },
-		"Ö": { text: "!Oe", entity: "&Ouml;" },
-		"ö": { text: "!oe", entity: "&ouml;" },
-		"Ü": { text: "!Ue", entity: "&Uuml;" },
-		"ü": { text: "!ue", entity: "&uuml;" },
-		"ß": { text: "!ss", entity: "&szlig;" },
+		"Ã„": { text: "!Ae", entity: "&Auml;" },
+		"Ã¤": { text: "!ae", entity: "&auml;" },
+		"Ã–": { text: "!Oe", entity: "&Ouml;" },
+		"Ã¶": { text: "!oe", entity: "&ouml;" },
+		"Ãœ": { text: "!Ue", entity: "&Uuml;" },
+		"Ã¼": { text: "!ue", entity: "&uuml;" },
+		"ÃŸ": { text: "!ss", entity: "&szlig;" },
 	};
 	
 	function germanUmlaut() { /* Umlaute-Hack */
@@ -127,7 +127,7 @@
 			var msg = ""
 				+ "WARNUNG (nur hier in der Vorschau von MyWebsite):"
 				+ "\n\n" + n + " Seitenname" + (n > 1 ? "n" : "")
-				+ " ent" + (n > 1 ? "halten" : "hält")
+				+ " ent" + (n > 1 ? "halten" : "hÃ¤lt")
 				+ " problematische Zeichen!"
 			;
 			bad.each(function (i, e) {
@@ -223,6 +223,7 @@
 				return isDebug;
 			},
 			isEditorMode: isEditorMode,
+			searchParams: searchParams,
 
 			germanUmlaut: germanUmlaut, 
 			reportProblematicPageNames: reportProblematicPageNames,

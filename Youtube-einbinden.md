@@ -1,9 +1,16 @@
 ## Youtube Videos richtig einbinden ##
 
-#### Problem ####
+1. Problem
+2. Lösungsansätze
+3. Aufwandsabschätung
+4. Implementierte Lösung
+
+---
+
+#### 1. Problem ####
 Mit der bislang verw. Funktion "Video einfügen" in MyWebsite hat man keine Möglichkeit, das Video im erw. Datenschutzmodus einzubinden, denn man hat keinerlei Einfluss auf den Code, der das Video von Youtube holt.
 
-#### Lösungsansätze ####
+#### 2. Lösungsansätze ####
 Man kann den spez. Code für den erw. Modus innerhalb von MyWebsite auf verschiedene Arten einbringen:
 
   * a) händisch (mit "Element einfügen" | "Widget/HTML")
@@ -39,5 +46,10 @@ Etwa ein Tag Programmieraufwand **elimiert Defizite 1. und 2., ist Voraussetzung
   - wenn der Besucher das doch tut, könnten wir sogar noch einen Dialog mit Hinweis und Abbruchmöglichkeit davorschalten. **Das wird "beispielhaft" genannt** in dem Artikel vom Anwalt: ["DIE AUFSICHTSBEHÖRDE MACHT’S VOR"](https://www.projekt29.de/youtube-videos-datenschutzkonform-einbinden/) (der "Aber"-Hinweis auf Typo3 ist für uns nicht relevant - wir können das).
   - von allen Videos, die der Besucher *nicht* ansieht, bekommt Youtube/Google garantiert nicht einmal mit, dass sie dem Besucher auf Deiner Site überhaupt angeboten wurden.
 
-#### Aufwandsabschätzung ####
+#### 3. Aufwandsabschätzung ####
 TODO
+
+#### 4. Implementierte Lösung ####
+TODO
+![Video-Warnung](i/Video-Warnung.jpg)
+![Video-Platzhalter mit Tooltip](i/Youtube-einbinden01.jpg)
