@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hafis js tests</title>
+
+	<link rel="stylesheet" href="./lib/qunit-2.6.1.css">
+	<script src="./lib/qunit-2.6.1.js"></script>
+
+	<!-- Used by 1&1 (from https://cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js) -->
+	<!-- TODO: it requires some "jimdoData" thingy... -->
+	<script 
+		xxxsrc="./lib/jquery-1.11.0.min+sizzle1.10.16.js"
+		src="./lib/jquery-1.11.0.min.js"
+	></script>
+
+</head>
+<body>
+<div id="qunit"></div>
+
+<script>
+	'use strict';
+	const $ = jQuery;
+	const { test } = QUnit;
+	
+	QUnit.module("head.html", () => {
+		
+		test("structure", assert => {
+			assert.timeout(500);
+			let done = assert.async(1);
+			let div = $("<div>");
+			div.load("./head.html?debug", (response, status, jqXHR) => {
+				jqXHR.fail(jqXHR => {
+					const headers = jqXHR.getAllResponseHeaders();
+					assert.ok(false, "could not load head.html: "
+						+ QUnit.dump.parse({ response, status, headers }));
+					done();
+				}).done(jqXHR => {
+					const tag = div.find("> *");
+					assert.equal(tag.length, 1, "should contain one tag");
+					assert.equal(tag[0].nodeName, "SCRIPT", "should be <script> tag");
+					assert.equal(tag.attr("type"), "text/javascript", "<script type=?>");
+					
+					let js = $.trim(tag.text());
+					let xBegin = "//<![CDATA[";
+					let xEnd   = "//]]>";
+					assert.equal(js.substr(0, xBegin.length), xBegin, 'should start with "' 
+						+ xBegin + '": "' + js.substr(0, 20) + '..."');
+					assert.equal(js.substr(-xEnd.length), xEnd, 'should end with "' 
+						+ xEnd + '": "...' + js.substr(-20) + '"');
+					
+					/*
+					let code = js.substring(xBegin.length, js.length - xEnd.length);
+					let f = new Function("'use strict'; =qumbl");
+					//let x = f(); // actually evaluates it
+					*/
+					
+					/*
+					//$("body").append(div); // actually evaluates it
+					console.log({x: tag[0]});
+					assert.equal(typeof JSON.stringify, "function");
+					*/
+					done();
+				})
+			})
+		});
+		
+		
+		test("second test", assert => {
+			assert.ok(1);
+		});
+	});
+	
+	QUnit.module("next module	", () => {
+		test("first test", assert => {
+			assert.ok(1);
+		});
+	});
+</script>
+
+</body>
+</html>
