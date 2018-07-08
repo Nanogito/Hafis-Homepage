@@ -1,18 +1,13 @@
-HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Jul 2018 23:49:08 at -N%20"%h%p/%n.%t" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qiC2%P%q0%s%u0%I0p7H0%kf2A25000%f#f -N "%h%p/%n.%t" -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 08 Jul 2018 12:06:49 at https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%P%q0s1u1%s%u0N0%I0p7H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-23:49:15	Warning: 	Link https://www.lernhilfe-hafis.de/puppentheater-alt/ not scanned (follow robots meta tag)
-23:49:31	Warning: 	Link https://www.lernhilfe-hafis.de/datenschutz2/ not scanned (follow robots meta tag)
-23:50:25	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/img/logo-2016-j.html' could not be found on disk
-23:50:26	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208105.jpg?t=1530383573, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_120810525b8.html' could not be found on disk
-23:52:00	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_7730023.png?t=1507391973, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_773002345d9.html' could not be found on disk
-23:52:46	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_2810279.jpg?t=1474200445, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_28102796486.html' could not be found on disk
-23:52:46	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_2810279.jpg?t=1474200445, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_28102796486.html' could not be found on disk
+12:06:51	Warning: 	Link https://www.lernhilfe-hafis.de/puppentheater-alt/ not scanned (follow robots meta tag)
+12:06:51	Warning: 	Link https://www.lernhilfe-hafis.de/datenschutz2/ not scanned (follow robots meta tag)
 
-HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 30 seconds : 392 links scanned, 395 files written (11232947 bytes overall), 52 files updated [2296114 bytes received at 8504 bytes/sec], 555690 bytes transferred using HTTP compression in 41 files, ratio 25%, 1.2 requests per connection
-(No errors, 7 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 19 seconds : 386 links scanned, 440 files written (16845988 bytes overall), 119 files updated [9695966 bytes received at 30394 bytes/sec], 789939 bytes transferred using HTTP compression in 43 files, ratio 25%, 5.6 requests per connection
+(No errors, 2 warnings, 0 messages)

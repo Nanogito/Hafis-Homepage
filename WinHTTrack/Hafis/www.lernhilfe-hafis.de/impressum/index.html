@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="de"  >
-<!-- Mirrored from www.lernhilfe-hafis.de/impressum/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jul 2018 21:49:51 GMT -->
+<!-- Mirrored from www.lernhilfe-hafis.de/impressum/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jul 2018 10:07:27 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -18,19 +18,19 @@
         <meta name="keywords" content="Lernhilfe,Hausaufgaben,München,Hausaufgabenbetreuung,Nachhilfe,Hausaufgabenbetreuung,Lernhilfe,Migranten,Migrationshintergrund,Ganztagesklasse,Notenverbesserung,Lernmentor,Mittagsbetreuung,LRS,ADHS,Grundschule,Integration,Inklusion,Lernen,Noten,Schule,Lehrer,Klasse,Unterricht,Intensivierung,Deutsch,Mathematik,Schüler,international"/>
             <meta name="description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
             <meta name="robots" content="index,follow"/>
-        <link href="../s/style/layout1d69.css" rel="stylesheet" type="text/css"/>
-    <link href="../s/style/main1d69.css" rel="stylesheet" type="text/css"/>
-    <link href="../s/style/font1d69.css" rel="stylesheet" type="text/css"/>
+        <link href="../s/style/layoutbe09.css" rel="stylesheet" type="text/css"/>
+    <link href="../s/style/mainbe09.css" rel="stylesheet" type="text/css"/>
+    <link href="../s/style/fontbe09.css" rel="stylesheet" type="text/css"/>
     <link href="../../cdn.eu.mywebsite-editor.com/app/cdn/min/group/web3a63.css" rel="stylesheet" type="text/css"/>
 <link href="http://cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1530102462620" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1530827389" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1531044430" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1530827389"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1531044430"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -65,8 +65,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="../../cdn.eu.mywebsite-editor.com/app/cdn/min/group/web3a63.js" crossorigin="anonymous"></script><script type="text/javascript" src="../../cdn.eu.mywebsite-editor.com/s/build/web.bundle3a63.js" crossorigin="anonymous"></script>    <script type="text/javascript" src="../s/js/german-umlaut.js"></script>
-<script src="http://cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1530102462620"></script>
+<script type="text/javascript" src="../../cdn.eu.mywebsite-editor.com/app/cdn/min/group/web3a63.js" crossorigin="anonymous"></script><script type="text/javascript" src="../../cdn.eu.mywebsite-editor.com/s/build/web.bundle3a63.js" crossorigin="anonymous"></script><script src="http://cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1530102462620"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -78,13 +77,237 @@ var stagingMode = '';
 
 <script type="text/javascript">
 //<![CDATA[
-if (window.jQuery_1and1) {
-    window.jQuery = window.jQuery_1and1;
-}
-/* Umlaute-Hack */
-jQuery(document).ready(_ => {
-    jQuery('body .webnavigation #mainNav1 [href$="foerderer/"] span').html("F&ouml;rderer");
-});
+/* Inhalt dieser Datei gehört in MyWebsite unter
+     Einstellungen | Erw. Einstellungen bearbeiten | Head bearbeiten
+   Speichern nicht vergessen ;)
+*/
+(function ($) {
+        var options = {
+                // Navi buttons: replace any /!([AOUaou]e|ss)/ by proper html entities
+                // Reason: we must not use actual umlauts (Ä, ä, Ö, ö, Ü, ü, ß) for page 
+                // names in MyWebsite, since they result in garbled pathnames.
+                // So we put !Ae, !ae, !Oe, ..., !ss instead (MyWebsite does properly omit
+                // the bang "!"). These are then replaced since we do of course want to
+                // present the user with properly rendered umlauts.
+                umlaut: {
+                        // pop-up about any left over actual Ä, ä, Ö, ö, Ü, ü and ß in page names
+                        // Note: this is overridden by loading the page with ?debug
+                        reportProblematicNames: true,
+                },
+                videos: {
+                        // pop-up about videos embedded in non-"privacy enhanced mode"
+                        // (as does the MyWebsite widget "Video einfügen")
+                        // Note: this is overridden by loading the page with ?debug
+                        reportUnsafeVideos: true, // 
+                        // *when* to replace a placeholder with the actual <iframe>:
+                        // - true: only when user clicks on it (and then only this placeholder)
+                        // - false: replace all placeholders right before page is shown
+                        embedOnlyWhenClicked: true,
+                        // appears as tooltip when user hovers over a placeholder image
+                        placeholderTitle: "Youtube-Video laden"
+                                +"\n(zum Abspielen nochmal klicken)",
+                }
+        };
+        
+        function searchParams(url) {
+                try { // don't crash on old IE, but rather return empty object
+                        return (url.search || "?")
+                                .substring(1)
+                                .split("&")
+                                .reduce(function (acc, s) {
+                                        var pieces = s.split("=");
+                                        var k = pieces[0];
+                                        var v = pieces[1];
+                                        var i = parseInt(v);
+                                        if (isFinite(i)) {
+                                                v = i;
+                                        }
+                                        acc[k] = v;
+                                        return acc;
+                                }, {});
+                } catch (e) {
+                        return {};
+                }
+        }
+        
+        var params = searchParams(window.location);
+        var isDebug = Object.prototype.hasOwnProperty.call(params, "debug")
+                && ((params.debug === void(0)) || !!params.debug);
+        
+        var log = function () {
+                isDebug && console.log.apply(console, $.makeArray(arguments));
+        };
+        log("options:", $.toJSON(options));
+        
+        function isEditorMode() {
+                return !!$("#diyToolbar").length;
+        }
+        
+        function naviButtons() {
+                return $('body #mainNav1 span');
+        }
+        
+        // KISS: just list 'em all rather than use RegExps excessively
+        var umlautMap = {
+                "Ä": { text: "!Ae", entity: "&Auml;" },
+                "ä": { text: "!ae", entity: "&auml;" },
+                "Ö": { text: "!Oe", entity: "&Ouml;" },
+                "ö": { text: "!oe", entity: "&ouml;" },
+                "Ü": { text: "!Ue", entity: "&Uuml;" },
+                "ü": { text: "!ue", entity: "&uuml;" },
+                "ß": { text: "!ss", entity: "&szlig;" },
+        };
+        
+        function germanUmlaut() { /* Umlaute-Hack */
+                var btns = naviButtons();
+                log("germanUmlaut/page names found:",
+                        btns.map(function (i, e) { return $(e).html(); })
+                );
+                var text2entity = {};
+                var rxParts = $.map(umlautMap, function (v, k) {
+                        text2entity[v.text] = v.entity;
+                        return v.text;
+                });
+                var rx = new RegExp(rxParts.join("|"), "g");
+                btns.each(function (i, e) {
+                        e = $(e);
+                        var oldH = e.html();
+                        var newH = oldH
+                                .replace(rx, function (s) { return text2entity[s]; });
+                        ;
+                        if (oldH != newH) {
+                                e.html(newH);
+                                log("germanUmlaut/replaced:", oldH, "->", newH);
+                        }
+                });
+        }
+        
+        function reportProblematicPageNames() {
+                if (!(isDebug || (isEditorMode() && options.umlaut.reportProblematicNames)))
+                        return;
+                var bad2text = {};
+                var rxParts = $.map(umlautMap, function (v, k) {
+                        bad2text[k] = v.text;
+                        return k;
+                });
+                var rx = new RegExp(rxParts.join("|"), "g");
+                var bad = naviButtons().parent().filter(function (i, e) {
+                        rx.lastIndex = 0; // reset!
+                        return rx.test(
+                                decodeURI(e.pathname) // yes, even %C3%B6 and the like
+                        );                        // pose problems!
+                });
+                log(bad);
+                var n = bad.length;
+                if (n) {
+                        var msg = ""
+                                + "WARNUNG (nur hier in der Vorschau von MyWebsite):"
+                                + "\n\n" + n + " Seitenname" + (n > 1 ? "n" : "")
+                                + " ent" + (n > 1 ? "halten" : "hält")
+                                + " problematische Zeichen!"
+                        ;
+                        bad.each(function (i, e) {
+                                var name = $(e).find("span").html();
+                                var path = decodeURI(e.pathname);
+                                var culprits = path.match(rx);
+                                msg += '\n\n"' + name + '": '
+                                        + '\n' + culprits.join(", ") + ' im Pfad "' + path + '"'
+                                ;
+                                msg += culprits.map(function (e, i) {
+                                        return '\n  -> ersetze "' + e + '" durch "' + bad2text[e] + '"'
+                                }).join("");
+                        });
+                        alert(msg);
+                }
+        }
+        
+        
+        function embedVideos() {
+                var xs = $("body a[href*=youtube],[href*=youtu\\.be]").has("> img");
+                var t = options.videos.placeholderTitle;
+                if (t)
+                        xs.each(function (i, e) { $(e).attr("title", t); });
+                log("embedVideos:", xs);
+                xs.on("click", function (evt) {
+                        var elem = evt.currentTarget;
+                        var vID = (elem.host == "youtu.be")
+                                ? elem.pathname.substring(1)
+                                : searchParams(elem).v;
+                        log("click", evt);
+                        elem = $(elem);
+                        var img = elem.find("img")[0];
+                        var w = img.width;
+                        var h = img.height;
+                        var iframe = $("<iframe>", {
+                                src: "https://www.youtube-nocookie.com/embed/" + vID + "?rel=0",
+                                frameborder: 0,
+                                allow: "autoplay; encrypted-media",
+                                allowfullscreen: "",
+                                width: w,
+                                height: h
+                        });
+                        log("embedVideos:", iframe);
+                        elem.replaceWith(iframe);
+                        return false;
+                });
+                return xs;
+        }
+        
+        function reportUnsafeVideos() {
+                if (!(isDebug || (isEditorMode() && options.videos.reportUnsafeVideos)))
+                        return;
+
+                var bad = $("body iframe[src*=youtube\\.com]");
+                var n = bad.length;
+                if (n) {
+                        var msg = ""
+                                + "WARNUNG (nur hier in der Vorschau von MyWebsite):"
+                                + "\n\nAuf dieser Seite wurde" + (n > 1 ? "n" : "")
+                                + " " + n + " Video" + (n > 1 ? "s" : "")
+                                + " NICHT datenschutzkonform eingebunden!"
+                                + "\nBitte jeweils durch Platzhalterbild mit Link ersetzen:\n"
+                        ;
+                        bad.each(function (i, e) {
+                                msg += "\n" + $(e).attr("src");
+                        });
+                        alert(msg);
+                }
+        }
+        
+        // the fix-ups
+        $(document).ready(germanUmlaut);
+        $(document).ready(embedVideos);
+        
+        // the warnings:
+        // options will be checked within the functions, because
+        // we need to know wether we're in editor mode or not.
+        // in order to know (for sure) whether we're in editor mode,
+        // we have to wait a little bit
+        $(document).ready(function ($) {
+                setTimeout(reportProblematicPageNames, 1000);
+                setTimeout(reportUnsafeVideos, 1500);
+        });
+        
+        
+        // vvvvvvvvvvvv DEBUG! vvvvvvvvvvvvv
+        if (isDebug) {
+                __ = {
+                        options: options,
+                        isDebug: function () {
+                                if (arguments.length)
+                                        isDebug = arguments[0];
+                                return isDebug;
+                        },
+                        isEditorMode: isEditorMode,
+
+                        germanUmlaut: germanUmlaut, 
+                        reportProblematicPageNames: reportProblematicPageNames,
+                        reportUnsafeVideos: reportUnsafeVideos,
+                        embedVideos: embedVideos
+                };
+                log("debug-mode - exposed global var __:", __);
+        }
+}(jQuery));
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
@@ -92,7 +315,7 @@ jQuery(document).ready(_ => {
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/impressum/"/>
     <meta property="og:title" content="Impressum"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530826327"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1530996057"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -111,7 +334,7 @@ jQuery(document).ready(_ => {
         <div id="container">
 <div id="wrapper">
 <div id="header">
-<div id="header_wrapper"><a href="../index.html"><img src="../s/img/logo-2016-j.html" alt=""/></a></div>
+<div id="header_wrapper"><a href="../index.html"><img src="../s/img/logo-2016-j.jpg" alt=""/></a></div>
 </div>
 <div class="c"></div>
 <div id="content">
@@ -135,7 +358,7 @@ bei Verstössen gegen dieses Verbot sind ausdrücklich vorbehalten.</p> </div><d
         </div></div>
 </div>
 <div id="sidebar">
-<div id="navigation"><div class="webnavigation"><ul id="mainNav1" class="mainNav1"><li class="navTopItemGroup_1"><a data-page-id="103687" href="../index.html" class="level_1"><span>Home</span></a></li><li class="navTopItemGroup_2"><a data-page-id="108660" href="../presse/index.html" class="level_1"><span>Presse</span></a></li><li class="navTopItemGroup_3"><a data-page-id="108661" href="../aktuell/index.html" class="level_1"><span>Aktuell</span></a></li><li class="navTopItemGroup_4"><a data-page-id="108662" href="../spenden/index.html" class="level_1"><span>Spenden</span></a></li><li class="navTopItemGroup_5"><a data-page-id="108663" href="../foerderer/index.html" class="level_1"><span>Foerderer</span></a></li><li class="navTopItemGroup_6"><a data-page-id="108666" href="../warum-systemische-lernhilfe/index.html" class="level_1"><span>Warum systemische Lernhilfe?</span></a></li><li class="navTopItemGroup_7"><a data-page-id="108668" href="../hafis-kampagne/index.html" class="level_1"><span>Hafis - Kampagne</span></a></li><li class="navTopItemGroup_8"><a data-page-id="157116" href="../mein-fabelhaftes-deutschheft/index.html" class="level_1"><span>Mein fabelhaftes Deutschheft</span></a></li><li class="navTopItemGroup_9"><a data-page-id="318350" href="../puppentheater/index.html" class="level_1"><span>Puppentheater</span></a></li><li class="navTopItemGroup_10"><a data-page-id="108667" href="../die-initiatoren/index.html" class="level_1"><span>Die Initiatoren</span></a></li><li class="navTopItemGroup_11"><a data-page-id="108664" href="index.html" class="current level_1"><span>Impressum</span></a></li><li class="navTopItemGroup_12"><a data-page-id="318251" href="../datenschutz/index.html" class="level_1"><span>Datenschutz</span></a></li></ul></div></div>
+<div id="navigation"><div class="webnavigation"><ul id="mainNav1" class="mainNav1"><li class="navTopItemGroup_1"><a data-page-id="103687" href="../index.html" class="level_1"><span>Home</span></a></li><li class="navTopItemGroup_2"><a data-page-id="108660" href="../presse/index.html" class="level_1"><span>Presse</span></a></li><li class="navTopItemGroup_3"><a data-page-id="108661" href="../aktuell/index.html" class="level_1"><span>Aktuell</span></a></li><li class="navTopItemGroup_4"><a data-page-id="108662" href="../spenden/index.html" class="level_1"><span>Spenden</span></a></li><li class="navTopItemGroup_5"><a data-page-id="108663" href="../f-oerderer/index.html" class="level_1"><span>F!oerderer</span></a></li><li class="navTopItemGroup_6"><a data-page-id="108666" href="../warum-systemische-lernhilfe/index.html" class="level_1"><span>Warum systemische Lernhilfe?</span></a></li><li class="navTopItemGroup_7"><a data-page-id="108668" href="../hafis-kampagne/index.html" class="level_1"><span>Hafis - Kampagne</span></a></li><li class="navTopItemGroup_8"><a data-page-id="157116" href="../mein-fabelhaftes-deutschheft/index.html" class="level_1"><span>Mein fabelhaftes Deutschheft</span></a></li><li class="navTopItemGroup_9"><a data-page-id="318350" href="../puppentheater/index.html" class="level_1"><span>Puppentheater</span></a></li><li class="navTopItemGroup_10"><a data-page-id="108667" href="../die-initiatoren/index.html" class="level_1"><span>Die Initiatoren</span></a></li><li class="navTopItemGroup_11"><a data-page-id="108664" href="index.html" class="current level_1"><span>Impressum</span></a></li><li class="navTopItemGroup_12"><a data-page-id="318251" href="../datenschutz/index.html" class="level_1"><span>Datenschutz</span></a></li></ul></div></div>
 <div id="sidebar_content"><div id="matrix_257566" class="sortable-matrix" data-matrixId="257566"></div></div>
 </div>
 </div>
@@ -175,7 +398,7 @@ bei Verstössen gegen dieses Verbot sind ausdrücklich vorbehalten.</p> </div><d
     </body>
 
 
-<!-- rendered at Thu, 05 Jul 2018 23:32:07 +0200 -->
+<!-- rendered at Sat, 07 Jul 2018 22:40:57 +0200 -->
 
-<!-- Mirrored from www.lernhilfe-hafis.de/impressum/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jul 2018 21:49:51 GMT -->
+<!-- Mirrored from www.lernhilfe-hafis.de/impressum/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jul 2018 10:07:27 GMT -->
 </html>
