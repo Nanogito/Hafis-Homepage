@@ -25,53 +25,20 @@
 	</script>
 	<link rel="stylesheet" href="./lib/qunit-2.6.1.css">
 
+	<script>
+		require(["qunit"], QUnit => {
+			QUnit.config.autostart = false;
+			require([
+				"../test/urlParams-test",
+				"../test/detect-mode-test",
+			], () => { QUnit.start(); });
+		});
+	</script>
+
 </head>
 <body>
 <div id="qunit"></div>
 
-	
-	<script>require(
-		["jquery", "qunit", "urlParams", "detect-mode"], 
-		($, QUnit, urlParams, mode) => 
-	{
-		'use strict';
-		const { test } = QUnit;
-		
-		QUnit.module("urlParams", () => {
-			
-			test("with no arg", assert => {
-				const act = urlParams();
-				const exp = urlParams(window.location);
-				assert.propEqual(act, exp,
-					"gives urlParams of window.location");
-			});
-			test("no query string in URL yields empty object", assert => {
-				const wl = window.location;
-				const exp = {};
-				let url;
-				
-				url = new URL(wl.origin + wl.pathname);
-				assert.propEqual(urlParams(url), exp, 
-					"without hash #: " + url);
-				url = new URL(wl.origin + wl.pathname + "#foo");
-				assert.propEqual(urlParams(url), exp, 
-					"with a hash #: " + url);
-			});
-		});
-		
-		QUnit.module("detect-mode", () => {
-		});
-		
-		QUnit.module("head.html", () => {
-		
-			test("structure", assert => {
-				assert.ok(1);
-			});
-		}); // end module head.html
-		QUnit.start();
-	});</script>
-	
-	
 <script>
 /*
 	'use strict';
