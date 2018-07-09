@@ -7,6 +7,7 @@ define(["jquery"], function ($) {
 			return (url.search || "?")
 				.substring(1)
 				.split("&")
+				.filter(function (s) { return s != "" })
 				.reduce(function (acc, s) {
 					var pieces = s.split("=");
 					var k = pieces[0];
