@@ -50,7 +50,12 @@ Latest v2.3.5: [lib/require-2.3.5.min.js](lib/require-2.3.5.min.js)
 from [requirejs.org](https://requirejs.org/docs/download.html)
 
 For building we use r.js: Optimizer and Node/Rhino/Nashorn/xpcshell adapter
-from [requirejs.org](https://requirejs.org/docs/release/2.3.5/r.js)
+from [requirejs.org](https://requirejs.org/docs/release/2.3.5/r.js).
+  
+  * All the config options for r.js: https://github.com/requirejs/r.js/blob/master/build/example.build.js
+  * config options for UglifyJS2: https://github.com/mishoo/UglifyJS2#compress-options
+  * r in the browser: https://github.com/requirejs/r.js/blob/master/tests/browser/r.html
+
 
 
 ---
