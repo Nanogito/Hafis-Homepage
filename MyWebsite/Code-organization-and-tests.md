@@ -37,6 +37,17 @@ Locally:
   * jQuery core 1.11.0, **currently used in tests (see above)**: [jquery-1.11.0.min.js](lib/jquery-1.11.0.min.js) from [code.jquery.com](https://code.jquery.com/jquery-1.11.0.min.js) 
   * 1&1 jQuery package: [lib/jquery-1.11.0.min+sizzle1.10.16.js]() from https://cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js
 
+##### [RequireJS](https://requirejs.org) 1.0.7 #####
+
+1&1's MyWebsite also uses RequireJS v1.0.7. They've packaged it up in one big file together with a whole lot of other stuff, e.g. a "jQuery JSON Plugin version: 2.3 (2011-09-17)" by Brantley Harris, or a "Simple javascript inheritance class" etc.
+
+This large file is served from [https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/](https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/). It's here: [lib/require-1.0.7+more.js](lib/require-1.0.7+more.js)
+
+Original v1.0.7: [lib/require-1.0.7.js](lib/require-1.0.7.js)
+from [github](https://github.com/requirejs/requirejs/blob/1.0.7/require.js)
+
+Latest v2.3.5: [lib/require-2.3.5.min.js](lib/require-2.3.5.min.js)
+from [requirejs.org](https://requirejs.org/docs/download.html)
 
 ---
 #### Local HTTP server for Chrome ####

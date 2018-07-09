@@ -4,21 +4,48 @@
 	<meta charset="utf-8">
 	<title>Hafis js tests</title>
 
-	<link rel="stylesheet" href="./lib/qunit-2.6.1.css">
-	<script src="./lib/qunit-2.6.1.js"></script>
-
-	<!-- Used by 1&1 (from https://cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js) -->
-	<!-- TODO: it requires some "jimdoData" thingy... -->
-	<script 
-		xxxsrc="./lib/jquery-1.11.0.min+sizzle1.10.16.js"
-		src="./lib/jquery-1.11.0.min.js"
+	<script
+		src="lib/require-1.0.7.js"
+		XXsrc="lib/require-2.3.5.min.js"
 	></script>
+	<script>
+	require.config({
+		baseUrl: "./app",
+		paths: {
+			"jquery":
+				/* local std jquery */ "../lib/jquery-1.11.0.min", 
+				
+				/* 1&1 version of jquery | TODO: it requires some "jimdoData" thingy... */
+				// /* local */ "../lib/jquery-1.11.0.min+sizzle-1.10.16",
+				// /* from CDN */ "//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web",
+			"qunit": "../lib/qunit-2.6.1",
+		},
+		waitSeconds: 1 // secs until we give up loading a module
+	});
+	</script>
+	<link rel="stylesheet" href="./lib/qunit-2.6.1.css">
 
 </head>
 <body>
 <div id="qunit"></div>
 
+	
+	<script>require(["jquery", "qunit", "mode-detect"], ($, QUnit, mode) => {
+		'use strict';
+		console.log(mode);
+		const { test } = QUnit;
+		QUnit.module("head.html", () => {
+		
+			test("structure", assert => {
+				assert.ok(1);
+			});
+		}); // end module head.html
+		QUnit.start();
+	});</script>
+	
+	
 <script>
+/*
 	'use strict';
 	const $ = jQuery;
 	const { test } = QUnit;
@@ -49,17 +76,17 @@
 					assert.equal(js.substr(-xEnd.length), xEnd, 'should end with "' 
 						+ xEnd + '": "...' + js.substr(-20) + '"');
 					
-					/*
-					let code = js.substring(xBegin.length, js.length - xEnd.length);
-					let f = new Function("'use strict'; =qumbl");
-					//let x = f(); // actually evaluates it
-					*/
 					
-					/*
-					//$("body").append(div); // actually evaluates it
-					console.log({x: tag[0]});
-					assert.equal(typeof JSON.stringify, "function");
-					*/
+					//let code = js.substring(xBegin.length, js.length - xEnd.length);
+					//let f = new Function("'use strict'; =qumbl");
+					////let x = f(); // actually evaluates it
+					
+					
+					
+					////$("body").append(div); // actually evaluates it
+					//console.log({x: tag[0]});
+					//assert.equal(typeof JSON.stringify, "function");
+					
 					done();
 				})
 			})
@@ -76,6 +103,7 @@
 			assert.ok(1);
 		});
 	});
+*/
 </script>
 
 </body>
