@@ -22,17 +22,6 @@ define(["jquery"], function ($) {
 			return {};
 		}
 	}
-	
-	var params = urlParams();
 
-	return {
-		isDebug: function () {
-			return Object.prototype.hasOwnProperty.call(params, "debug")
-				&& ((params.debug === void(0)) || !!params.debug);
-		},
-		isEditor: function isEditorMode() {
-			return !!$("#diyToolbar").length;
-		},
-		urlParams: params
-	};
+	return urlParams;
 });
