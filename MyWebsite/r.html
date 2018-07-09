@@ -10,20 +10,57 @@
     <script src="lib/r-2.3.5.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', function (evt) {
-        document.getElementById('build').addEventListener('click', function (evt) {
-            requirejs.optimize({
-                baseUrl: '.',
+		const chk_optimize = document.getElementById('optimize');
+		const chk_mangleTop = document.getElementById('mangle_top');
+		const btn_build = document.getElementById('build');
+		const txt_message = document.getElementById('buildMessages');
+		const txt_output = document.getElementById('output');
+		const span_size =  document.getElementById('size');
+		
+		function build(evt) {
+			txt_output.value = "";
+			txt_message.value = "";
+			requirejs.optimize({
+                baseUrl: './app',
                 paths: {
-                    'd': 'sub/d'
+                    'd': 'sub/d',
+                    jquery: "empty:",
+                    require: "empty:",
                 },
-                include: ['app/urlParams'],
+                include: [
+					//'urlParams',
+					'detect-mode',
+				],
+				optimize: chk_optimize.checked ? "uglify" : "none",
+				uglify2: {
+					compress: {
+						global_defs: {
+							//"@console.log": "alert"
+						},
+						passes: 2
+					},
+					mangle: {
+						toplevel: chk_mangleTop.checked,
+					},
+					output: {
+						beautify: false,
+						preamble: null, // "/* uglified */",
+					}
+				},
                 out: function (text) {
-                    document.getElementById('output').value = text;
+                    txt_output.value = text;
+					span_size.innerHTML = txt_output.value.length;
+                    txt_output.select();
+                    txt_output.focus();
                 }
             }, function (buildText) {
-                document.getElementById('buildMessages').value = buildText;
+                txt_message.value = buildText;
             });
-        }, false);
+        }
+        build();
+        btn_build.addEventListener('click', build, false);
+        chk_optimize.addEventListener('click', build, false);
+        chk_mangleTop.addEventListener('click', build, false);
     }, false);
     </script>
 </head>
@@ -33,6 +70,10 @@
 
     <p>A test of running r.js in the browser.</p>
 
+    <ul>
+		<li><input id="optimize" type="checkbox" checked>optimize</input>
+		<li><input id="mangle_top" type="checkbox" checked>mangle/toplevel</input>
+    </ul>
     <p>
         <button id="build">Build it</button>
     </p>
@@ -40,7 +81,7 @@
     <h2>Build Messages</h2>
     <textarea id="buildMessages"></textarea>
 
-    <h2>Output</h2>
+    <h2>Output <span id="size"></span></h2>
     <textarea id="output"></textarea>
 </body>
 </html>
