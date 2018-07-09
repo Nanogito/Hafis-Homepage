@@ -1,33 +1,72 @@
 ### Code organization & tests ###
 
 #### Run all tests:
-  * Firefox: [test.html](test.html) (just from the file system)
-  * Chrome: [http://localhost/test.html](http://localhost/test.html) (requires local HTTP server, see below)
+  * Firefox: [run-tests.html](run-tests.html) (just works from the file system)
+  * Chrome: [http://localhost/run-tests.html](http://localhost/run-tests.html) (requires local HTTP server, see below)
 
 ---
 #### Code organization ####
 Ultimately, we need a single piece of HTML that can be pasted into `MyWebsite` | `Einstellungen` | `Head bearbeiten`.
-However, keeping it all in a single .html file - makes it essentially non-testable!
+However, keeping it all in a single .html file as <strike>previously</strike> for now done with [head.html](head.html)  - makes it essentially non-testable!
 
 Hence we must organize things a bit more modular, and then some kind of rudimentary build process to put the pieces together.
 
-The "build process" simply consists of [head.html](head.html) which pieces together all the javascript, and presents it in text box for copy&paste.
-The required structure of MyWebsite's head insert so simple that it has just been hard-coded into [head.html](head.html).
-The javascript sources reside under [src/js](src/js).
+The "build process" consists of [build.html](build.html) running r.js (requirejs' optimizer/builder/minifier) in the browser.
+It pieces together all the **javascript source code in [app/](app/)**, puts a `<script>` around presents it in text box for copy&paste.
+
+**Tests** and fixtures **are in [test/](test/)**; in order to run the tests, load [run-test.html](run-test.html) in the browser (see below if can't use Firefox).
+
+The required **third party code** (jQuery, require, r, QUnit) **is in [lib/](lib/)**.
 
 ---
 
 #### Third party ####
 
-##### Framework: [QUnit](https://qunitjs.com) v2.6.1 #####
+##### Test framework: [QUnit](https://qunitjs.com) v2.6.1 #####
   * [lib/qunit-2.6.1.js](lib/qunit-2.6.1.js) from [code.jquery.com](https://code.jquery.com/qunit/qunit-2.6.1.js)
   * [lib/qunit-2.6.1.css](lib/qunit-2.6.1.css) from [code.jquery.com](https://code.jquery.com/qunit/qunit-2.6.1.css)
 
 ##### jQuery #####
 1&1's MyWebsite basically uses [jQuery](https://jquery.com) v1.11.0, but not the pure jQuery core, it's rather a custom package with some plugins.
-**TODO:** As yet, the exact dependencies which haven't all been resolved yet ("jimdoData"?). 
 
-So: the code uses whatever is available under the global `jQuery` variable.
+**TODO:**
+
+  * As yet, the exact dependencies haven't all been resolved yet ("jimdoData"?).
+  * In the rendered page, there's a `<script>` in `<head>` containing:
+	
+		var systemurl = 'https://123.sb.mywebsite-editor.com/';
+		var webPath = '/';
+		var proxyName = '';
+		var webServerName = 'www.lernhilfe-hafis.de';
+		var sslServerUrl = 'https://www.lernhilfe-hafis.de';
+		var nonSslServerUrl = 'http://www.lernhilfe-hafis.de';
+		var webserverProtocol = 'http://';
+		var nghScriptsUrlPrefix = '//123.mod.mywebsite-editor.com';
+		var sessionNamespace = 'DIY_SB';
+		var jimdoData = {
+			cdnUrl:  '//cdn.eu.mywebsite-editor.com/',
+			messages: {
+				lightBox: {
+					image : 'Bild',
+					of: 'von'
+				}
+			},
+		    isTrial: 0,
+		    pageId: 103687
+		};
+		var script_basisID = "690615453";
+		
+		diy = window.diy || {};
+		diy.web = diy.web || {};
+		
+		diy.web.jsBaseUrl = "//cdn.eu.mywebsite-editor.com/s/build/";
+		
+		diy.context = diy.context || {};
+		diy.context.type = diy.context.type || 'web';
+
+  * So there it is, the illusive `jimdoData`...
+
+Anyways: the code uses whatever is available under the global `jQuery` variable.
 In the tests, we simply use the jQuery core.
 Therefore - for now - the code must not use anything beyond the pure jQuery core.
 
