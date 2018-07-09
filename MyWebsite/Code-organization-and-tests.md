@@ -49,6 +49,10 @@ from [github](https://github.com/requirejs/requirejs/blob/1.0.7/require.js)
 Latest v2.3.5: [lib/require-2.3.5.min.js](lib/require-2.3.5.min.js)
 from [requirejs.org](https://requirejs.org/docs/download.html)
 
+For building we use r.js: Optimizer and Node/Rhino/Nashorn/xpcshell adapter
+from [requirejs.org](https://requirejs.org/docs/release/2.3.5/r.js)
+
+
 ---
 #### Local HTTP server for Chrome ####
 Chrome is more strict about which files can be loaded via Ajax than Firefox.
