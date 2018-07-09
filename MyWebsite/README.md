@@ -23,22 +23,34 @@ ___
       - **...oder sag' einfach dem Entwickler, was Du in MyWebsite gemacht hast :)**
     - hier gespeicherte Bilder dienen als Grundlage für die evtl. skalierten und/oder verzierten Versionen, die in die Website eingefügt wurden
     - letztere werden über `http://<domain>/s/cc_images/cache_12345abcdef.jpg` o.ä. (dynamisch?) ausgeliefert
-    - asdf
     - weitere Bilder können auch noch unter `Design/Dateien/` abgelegt sein (siehe unten)
   >
 
-  * [`head.html`](head.html) (für MyWebsite-Benutzer: wie man die Funktionen benutzt)
-    - entspricht in MyWebsite: `Einstellungen` | `(Erweiterte Einstellungen anpassen)` | `Head bearbeiten`
-    - ![Benutzer](../i/MyWebsiteBenutzer.png) enthält unseren eigenen javascript Code, der
+  * [`build.html`](build.html) (für MyWebsite-Benutzer)
+    - ![Benutzer](../i/MyWebsiteBenutzer.png) erzeugt den Code, der
+      - das Umlaut-Problem löst, bzw. bei "falsch" benannten Seiten warnt
       - bei falsch (= nicht datenschutzkonform) eingebundenen Videos warnt & hilft
       - richtig referenzierte (= mit Platzhalterbild + Link) Videos datenschutzkonform einbindet
-      - umlaute
-    - ![Benutzer](../i/MyWebsiteBenutzer.png) die obigen Funktionen - **und wie man damit umgeht** - findest ausführlich erklärt & bebildert in [TODO](TODO.md)
+    - ![Benutzer](../i/MyWebsiteBenutzer.png) die obigen Funktionen - **und wie man damit umgeht** - findest Du ausführlich erklärt & bebildert in [TODO](TODO.md)
   >  
- 
-  * [`Design/`](Design/) (für Entwickler)
+
+  * [`Design/`](Design/), [`app/`](app/), [`lib/`](lib/), [`test/`](test/),  (<strike>für MyWebsite-Benutzer</strike>)
     - ![Benutzer](../i/MyWebsiteBenutzer.png) **Bitte nicht anfassen!**
-    - Achtung: hier kann man richtig was kaputtmachen - *und zwar GANZ LEICHT bzw. unabsichtlich*!
+  >
+
+---
+Ab hier nur für Entwickler:
+ 
+  * [`build.html`](build.html)
+    - der erzeugte Code gehört in MyWebsite: `Einstellungen` | `(Erweiterte Einstellungen anpassen)` | `Head bearbeiten`
+  >
+
+  * [`run-tests.html`](run-tests.html)
+    - na, was wohl :)
+  >
+
+  * [`Design/`](Design/)
+    - **Achtung**: hier kann man richtig was kaputtmachen - *und zwar GANZ LEICHT bzw. unabsichtlich*!
     - [`HTML.txt`](Design/HTML.txt) - MyWebsite: Design | HTML/CSS | HTML
       - TODO
     - [`CSS.txt`](Design/CSS.txt) - MyWebsite: Design | HTML/CSS | CSS
@@ -49,17 +61,3 @@ ___
       - `xyz.js` wird automatisch im `<head>` via `<script src=".."></script>` geladen von `http://<domain>/s/js/xyz.js`. Neben dem Weg über `head.html` ist dies eine weitere Möglichkeit für eigenes javascript. Auf eine bestimmte Reihenfolge im `<head>` *sollte man sich NICHT* verlassen!
   >
 
-  * [`head-test/`](head-test/)
-    - enthält Tests für js in `head.html` (TODO)
-  >
-
- * [`i/`](i/) Icons/Bilder für .md hier
-  >
-
----
-#### Details zu `head.html` ####
-##### Für MyWebsite-Benutzer ####
-TODO
-
-##### Für Entwickler ####
-TODO

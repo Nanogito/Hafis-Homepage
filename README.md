@@ -1,35 +1,22 @@
 ## [www.lernhilfe-hafis.de](https://www.lernhilfe-hafis.de) ##
 
 * Was hier wann von wem gemacht wurde: https://github.com/meisl/hafis/commits/master
-* Ordner [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup.
+* [WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup.
+* [MyWebsite/](MyWebsite) enthält Resourcen für die Website, wie Bilder, eigenes Javascript etc. (mehr in: [MyWebsite/README.md](MyWebsite/README.md))
+* [scratch/](scratch) ("Schmierzettel") enthält Sachen die noch einzuordnen sind
+* [i/](i) enthält Icons (![check](i/check.png), ![question](i/question.png), ...) und screenshots, die in der Dokumentation - also den `.md`-Dateien verwedentet werden.
 
 ---
 #### Eigenes Javascript in MyWebsite ####
-Besser unter `Design|HTML/CSS|Dateien` hochladen (wird dann automatisch in `<head>` verlinkt): [/js/src/](/js/src/)
+Es wird eigenes Javascript verwendet: Details in [MyWebsite/README.md](MyWebsite/README.md) bzw. für Entwickler: [MyWebsite/Code-organization-and-tests.md](MyWebsite/Code-organization-and-tests.md). Ein Hinweis aber gleich hier:
 
----
-
-#### Achtung: ####
+#### Achtung: Probleme mit Umlauten (ä, ö, ü, ß, ...) ####
 WinHTTrack (und vmtl. auch git) hat Probleme mit Umlauten in Pfadnamen.
-Das betraf die Unterseite "Förderer", die nun (intern) unter [/foerderer/](WinHTTrack/Hafis/www.lernhilfe-hafis.de/foerderer/index.html) zu finden ist.
+Das betraf die Unterseite "Förderer", die nun (intern) unter [/f-oerderer/](WinHTTrack/Hafis/www.lernhilfe-hafis.de/f-oerderer/index.html) zu finden ist.
 
-Da aber der MyWebsite Baukasten es nicht erlaubt, Beschriftung und Ziel der Buttons unabhängig zu setzen, hätte man
+Da der MyWebsite Baukasten es nicht erlaubt, Beschriftung und Ziel der Buttons unabhängig zu setzen, hätte man
 
   - entweder den Ärger mit WinHTTrack
-  - oder die häßliche Beschriftung "Foerderer"
+  - oder eine hässliche Beschriftung wie "Foerderer"
 
-Daher wurde ein kleines script im `<head>` eingefügt, das die Beschriftung korrigiert noch bevor der Besucher sie angezeigt bekommt:
-
-	<script type="text/javascript">
-	//<![CDATA[
-		if (window.jQuery_1and1) {
-			window.jQuery = window.jQuery_1and1;
-		}
-		jQuery().ready(_ => {
-			jQuery('body .webnavigation #mainNav1 [href$="foerderer/"] span')
-					.html("F&ouml;rderer");
-		});
-	//]]>
-	</script>
-
-(in MyWebsite: `Einstellungen | Erweiterte Einstellungen anpassen | Head bearbeiten`)
+Dieses Problem zu beheben ist eine der Funktionen des eigenen Javascript-Codes (aber nicht die einzige!).
