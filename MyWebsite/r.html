@@ -7,7 +7,7 @@
             height: 20em;
         }
     </style>
-    <script src="../../r.js"></script>
+    <script src="lib/r-2.3.5.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', function (evt) {
         document.getElementById('build').addEventListener('click', function (evt) {
@@ -16,7 +16,7 @@
                 paths: {
                     'd': 'sub/d'
                 },
-                include: ['a'],
+                include: ['app/urlParams'],
                 out: function (text) {
                     document.getElementById('output').value = text;
                 }

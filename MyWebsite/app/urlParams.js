@@ -1,5 +1,5 @@
 // Note: "jquery" in all-lowercase!
-define(["jquery"], function ($) {
+define([], function ($) {
 	
 	function urlParams(url) {
 		url = url || window.location;
