@@ -94,7 +94,7 @@
     * ![todo](i/exclamation.png)@CD: "Formulierung über Log-Löschung nach 21 Tagen schadet ja wohl nicht..."
       - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webhosting/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2176)
     * ![todo](i/exclamation.png)@CD: "**Videos:** werden erst dann eingebunden wenn man darauf klickt, **vorher garantiert keinerlei Kontakt zu Youtube/Google** - ok das zu erwähnen?"
-    * ![todo](i/exclamation.png)@CD: "*wenn* geklickt, dann wird **Youtube-Video im erweiterten Datenschutzmodus** eingeb."
+    * ![todo](i/exclamation.png)@CD: "*wenn* geklickt, dann wird **Youtube-Video im erweiterten Datenschutzmodus** eingebunden"
     * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann der Abschn. Google Doubleclick raus kann"
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out zu implementieren, richtig?"
     * ![todo](i/exclamation.png)@CD: "Falls doch (?!): bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
