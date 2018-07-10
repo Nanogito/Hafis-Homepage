@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 08 Jul 2018 12:06:49 at https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 10 Jul 2018 22:51:41 at https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%P%q0s1u1%s%u0N0%I0p7H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz2 -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,8 +6,9 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-12:06:51	Warning: 	Link https://www.lernhilfe-hafis.de/puppentheater-alt/ not scanned (follow robots meta tag)
-12:06:51	Warning: 	Link https://www.lernhilfe-hafis.de/datenschutz2/ not scanned (follow robots meta tag)
+22:51:46	Warning: 	Link https://www.lernhilfe-hafis.de/puppentheater-alt/ not scanned (follow robots meta tag)
+22:51:46	Warning: 	Link https://www.lernhilfe-hafis.de/datenschutz2/ not scanned (follow robots meta tag)
+22:53:55	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/img/logo-2016-j.html' could not be found on disk
 
-HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 19 seconds : 386 links scanned, 440 files written (16845988 bytes overall), 119 files updated [9695966 bytes received at 30394 bytes/sec], 789939 bytes transferred using HTTP compression in 43 files, ratio 25%, 5.6 requests per connection
-(No errors, 2 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 15 seconds : 387 links scanned, 392 files written (11383707 bytes overall), 38 files updated [837203 bytes received at 1924 bytes/sec], 728400 bytes transferred using HTTP compression in 38 files, ratio 25%, 3.6 requests per connection
+(No errors, 3 warnings, 0 messages)
