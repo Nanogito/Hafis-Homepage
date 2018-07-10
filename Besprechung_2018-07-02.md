@@ -63,7 +63,7 @@
 
 #### Nächste Schritte, nach Priorität: ####
 
-- 1 Puppentheater
+- 1 Puppentheater (Youtube-Video)
   * ![check](i/check.png)@MK: "YouTube" statt "You-Tube" im Text
   * ![check](i/check.png)@MK: Youtube Video mit Umlauftext (versteckt: puppentheater_alt)
   * Da das so nicht einfach in MyWebsite geht (weder erw. Modus noch das "Umlauf-Layout")
