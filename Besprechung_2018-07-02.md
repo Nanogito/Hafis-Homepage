@@ -63,12 +63,12 @@
 
 #### Nächste Schritte, nach Priorität: ####
 
-- 1 Puppentheater
+- 1 Puppentheater (Youtube-Video)
   * ![check](i/check.png)@MK: "YouTube" statt "You-Tube" im Text
   * ![check](i/check.png)@MK: Youtube Video mit Umlauftext (versteckt: puppentheater_alt)
   * Da das so nicht einfach in MyWebsite geht (weder erw. Modus noch das "Umlauf-Layout")
-    - ![todo](i/exclamation.png)@MK: javascript-Code verallgemeinern, s.d. man nur ein Bild einfügen muss, das auf ein Youtube Video verweist (wird dann ersetzt durch das Video)
-    - ![todo](i/exclamation.png)@MK: Das eingebette Video soll so groß sein wie das Platzhalter-Bild
+    - ![check](i/check.png)@MK: javascript-Code verallgemeinern, s.d. man nur ein Bild einfügen muss, das auf ein Youtube Video verweist (wird dann ersetzt durch das Video)
+    - ![check](i/check.png)@MK: Das eingebette Video soll so groß sein wie das Platzhalter-Bild
     - ![todo](i/exclamation.png)@MK: soll genauso auch für Vimeo funktionieren
     - ![todo](i/exclamation.png)@MK: Anleitung dafür schreiben
   >
@@ -93,7 +93,8 @@
       - Muss man nicht erwähnen, also lieber die kostbare Zeit mit Anwalt sparen.
     * ![todo](i/exclamation.png)@CD: "Formulierung über Log-Löschung nach 21 Tagen schadet ja wohl nicht..."
       - -> [1&1 Doku dazu](https://hosting.1und1.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-produktes/11-webhosting/?utm_campaign=1788&utm_content=direct&utm_medium=landinghub&utm_source=helpcenter&utm_term=2176)
-    * ![todo](i/exclamation.png)@CD: "wir haben jetzt **Youtube im erweiterten Datenschutzmodus**"
+    * ![todo](i/exclamation.png)@CD: "**Videos:** werden erst dann eingebunden wenn man darauf klickt, **vorher garantiert keinerlei Kontakt zu Youtube/Google** - ok das zu erwähnen?"
+    * ![todo](i/exclamation.png)@CD: "*wenn* geklickt, dann wird **Youtube-Video im erweiterten Datenschutzmodus** eingebunden"
     * ![todo](i/exclamation.png)@CD: "Sie hatten geschrieben, dass dann der Abschn. Google Doubleclick raus kann"
     * ![todo](i/exclamation.png)@CD: "Demnach brauchen wir auch kein eigenes Opt-out zu implementieren, richtig?"
     * ![todo](i/exclamation.png)@CD: "Falls doch (?!): bitte Quelle(n) im Netz für den 'einfachen javascript-Code"
