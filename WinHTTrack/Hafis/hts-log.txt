@@ -1,24 +1,14 @@
-HTTrack3.49-2+htsswf+htsjava launched on Wed, 11 Jul 2018 23:36:58 at https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz-alt https://www.lernhilfe-hafis.de/impressum-alt https://www.lernhilfe-hafis.de/home-neu +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qiC2%P%q0s1u1%s%u0N0%I0p7H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/puppentheater-alt https://www.lernhilfe-hafis.de/datenschutz-alt https://www.lernhilfe-hafis.de/impressum-alt https://www.lernhilfe-hafis.de/home-neu -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 12 Jul 2018 00:38:17 at https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/home-alt +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%P%q0s1u1%s%u0N0%I0p7H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" https://www.lernhilfe-hafis.de https://www.lernhilfe-hafis.de/home-alt -O1 "E:\proj\hafis4\WinHTTrack\Hafis" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-23:37:00	Warning: 	Link https://www.lernhilfe-hafis.de/puppentheater-alt/ not scanned (follow robots meta tag)
-23:37:00	Warning: 	Link https://www.lernhilfe-hafis.de/datenschutz-alt/ not scanned (follow robots meta tag)
-23:37:00	Warning: 	Link https://www.lernhilfe-hafis.de/impressum-alt/ not scanned (follow robots meta tag)
-23:37:16	Warning: 	Link https://www.lernhilfe-hafis.de/home-neu/ not scanned (follow robots meta tag)
-23:38:59	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/img/logo-2016-j.html' could not be found on disk
-23:40:02	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208107.jpg?t=1531333679, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_1208107f082.html' could not be found on disk
-23:40:02	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208109.png?t=1531325055, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_1208109309d.html' could not be found on disk
-23:40:02	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_9570958.png?t=1531333596, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_957095855b7.html' could not be found on disk
-23:40:17	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_9570644.jpg?t=1531320802, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_9570644f265.html' could not be found on disk
-23:42:07	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_2803917.jpg?t=1531322366, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_28039175eb0.html' could not be found on disk
-23:42:22	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_2803917.jpg?t=1531322366, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_28039175eb0.html' could not be found on disk
-23:42:23	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_9571690.jpg, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_9571690.html' could not be found on disk
-23:43:22	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/img/1001-dots.gif, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/img/1001-dots.html' could not be found on disk
+00:38:19	Warning: 	Link https://www.lernhilfe-hafis.de/home-alt/ not scanned (follow robots meta tag)
+00:41:47	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_9570644.jpg?t=1531320802, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/teaserbox_9570644f265.html' could not be found on disk
+00:41:47	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for https://www.lernhilfe-hafis.de/s/cc_images/cache_1208113.jpg?t=1531318670, 'E:/proj/hafis4/WinHTTrack/Hafis/www.lernhilfe-hafis.de/s/cc_images/cache_1208113c2a0.html' could not be found on disk
 
-HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 48 seconds : 401 links scanned, 397 files written (10655056 bytes overall), 52 files updated [3333896 bytes received at 8171 bytes/sec], 744477 bytes transferred using HTTP compression in 40 files, ratio 27%, 3.6 requests per connection
-(No errors, 13 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 15 seconds : 391 links scanned, 395 files written (9687601 bytes overall), 48 files updated [1671851 bytes received at 3843 bytes/sec], 680746 bytes transferred using HTTP compression in 38 files, ratio 27%, 3.4 requests per connection
+(No errors, 3 warnings, 0 messages)
