@@ -4,21 +4,21 @@ body .diyw {}
 
 html body .diyw, html .diyw p, html .diyw table, html .diyw td
 {
-	font:normal 12px/140% Arial, Helvetica, sans-serif;
-	color:#666666;
+	font:normal 14px/130% Arial, Helvetica, sans-serif;
+	color:#000000;
 }
 
 html .diyw h1
 {
-	font:bold 16px/140% Helvetica, "Helvetica Neue", "Trebuchet MS", sans-serif;
-	color:#666666;
+	font:bold 20px/140% Arial, Helvetica, sans-serif;
+	color:#333333;
 	
 }
 
 html .diyw h2
 {
-	font:bold 14px/140% Helvetica, "Helvetica Neue", "Trebuchet MS", sans-serif;
-	color:#666666;
+	font:bold 16px/140% Arial, Helvetica, sans-serif;
+	color:#333333;
 	
 }
 
@@ -41,14 +41,14 @@ html .diyw h2
 .diyw a:visited
 {
 	text-decoration: underline; /* fix */
-	color:#404040; 
+	color:#0325bc; 
 }
 
 .diyw a:active, 
 .diyw a:hover
 {
 	text-decoration:none; /* fix */
-	color: #404040;
+	color: #0325bc;
 }
 
 html .diyw div.hr
