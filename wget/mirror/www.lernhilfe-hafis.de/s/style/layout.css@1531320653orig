@@ -18,7 +18,7 @@ body {
 div#container {
 	margin: 0 auto;
 	width: 940px;
-	background-image: url(http://www.lernhilfe-hafis.de/s/img/1001-container_bg.gif);
+	background-image: url(https://www.lernhilfe-hafis.de/s/img/1001-container_bg.gif);
 	background-repeat: repeat-y;
 	background-position: 239px 0;
 }
@@ -79,14 +79,14 @@ div#jimdobox {
 div#navigation {
 	margin: 0 0 20px;
 	padding: 0 0 30px;
-	//background: url(http://www.lernhilfe-hafis.de/s/img/1001-navigation_bg.gif) repeat-x 0 100%;
+	//background: url(https://www.lernhilfe-hafis.de/s/img/1001-navigation_bg.gif) repeat-x 0 100%;
 }
 
 ul.mainNav1 {
 	margin: 0;
 	padding: 1px 0 0;
 	list-style: none;
-	//background: url(http://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x;
+	//background: url(https://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x;
 }
 ul.mainNav1 li {
 	width: 239px;
@@ -96,7 +96,7 @@ ul.mainNav1 li a {
 	display: block;
 	width: 219px;
 	padding: 5px 10px;
-	//background: url(http://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x 0 100%;
+	//background: url(https://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x 0 100%;
 	background-color: #fff !important;
 	text-align: right;
 	text-decoration: none;
@@ -137,7 +137,7 @@ div#footer {
 	margin-left: 240px;
 }
 div#footer div.gutter {
-	background: url(http://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x;
+	background: url(https://www.lernhilfe-hafis.de/s/img/1001-dots.gif) repeat-x;
 	background-color: #fff;
 	float: left;
 	width: 660px;
