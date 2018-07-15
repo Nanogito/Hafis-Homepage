@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: http://www.lernhilfe-hafis.de/c/
+Disallow: http://www.lernhilfe-hafis.de/protected/
+Disallow: /home-alt/
+Disallow: /test/
+Sitemap: http://www.lernhilfe-hafis.de/sitemap.xml
