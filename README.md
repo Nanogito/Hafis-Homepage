@@ -1,8 +1,8 @@
 ## [www.lernhilfe-hafis.de](https://www.lernhilfe-hafis.de) ##
 
 * Was hier wann von wem gemacht wurde: https://github.com/meisl/hafis/commits/master
-* <strike>[WinHTTrack/](WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup</strike> (obsolet, jetzt: [wget/](wget))
-* [wget/](wget) enthält eine mit [wget](https://www.gnu.org/software/wget) erstellte Spiegelung der gesamten Site
+* <strike>[mirror-WinHTTrack/](mirror-WinHTTrack) enthält ein mit [WinHTTrack](http://www.httrack.com/) erstelltes Backup</strike> (obsolet, jetzt: [wget/](wget))
+* [mirror-wget/](mirror-wget) enthält eine mit [wget](https://www.gnu.org/software/wget) erstellte Spiegelung der gesamten Site
 * [MyWebsite/](MyWebsite) enthält Resourcen für die Website, wie Bilder, eigenes Javascript etc. (mehr in: [MyWebsite/README.md](MyWebsite/README.md))
 * [scratch/](scratch) ("Schmierzettel") enthält Sachen die noch einzuordnen sind
 * [i/](i) enthält Icons (![check](i/check.png), ![question](i/question.png), ...) und screenshots, die in der Dokumentation - also den `.md`-Dateien verwedentet werden.
