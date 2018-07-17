@@ -4,20 +4,20 @@ body .diyw {}
 
 html body .diyw, html .diyw p, html .diyw table, html .diyw td
 {
-	font:normal 14px/130% Arial, Helvetica, sans-serif;
+	font:normal 16px/120% Arial, Helvetica, sans-serif;
 	color:#000000;
 }
 
 html .diyw h1
 {
-	font:bold 20px/140% Arial, Helvetica, sans-serif;
+	font:bold 25px/140% Arial, Helvetica, sans-serif;
 	color:#333333;
 	
 }
 
 html .diyw h2
 {
-	font:bold 16px/140% Arial, Helvetica, sans-serif;
+	font:bold 17px/140% Arial, Helvetica, sans-serif;
 	color:#333333;
 	
 }
