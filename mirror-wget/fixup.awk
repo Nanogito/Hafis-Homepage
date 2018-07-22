@@ -21,7 +21,7 @@ function mkAttrRx(rx_attr, rx_value) {
 	if (length(rx_value) == 0) {
 		rx_value = "[^\"]*"
 	}
-	return "[[:space:]]*([[:space:]]" rx_attr ")[[:space:]]*=[[:space:]]*\"(" rx_value ")\""
+	return "[[:space:]]*([[:space:]](" rx_attr "))[[:space:]]*=[[:space:]]*\"(" rx_value ")\""
 }
 
 function sedCmdDeleteAttr(rx_attr, rx_value) {
@@ -31,14 +31,17 @@ function sedCmdDeleteAttr(rx_attr, rx_value) {
 function dirname(f) {
 	return gensub(/^(.*)\/([^\/]+)$/, "\\1", "g", f)
 }
-function relPath(fromFile, toDir,      out) {
-	"realpath --relative-to=" dirname(fromFile) " " toDir | getline out
+function relPath(fromFile, toDir,      cmd, out, dn) {
+	cmd = "realpath --relative-to=" dirname(fromFile) " " toDir
+	cmd | getline out
+	close(cmd)        # <<<<<<< DON'T forget this!
 	return out
 }
 function outputFrom(cmd,         origRS, out) {
 	origRS = RS
 	RS = "" # get all lines of output from cmd into variable 'out'
 	cmd | getline out
+	close(cmd)        # <<<<<<< DON'T forget this!
 	RS = origRS
 	return out
 }
@@ -47,20 +50,77 @@ function charCount(ch, text,     tmp) {
 	return length(tmp)
 }
 
+
 BEGIN {
 	bkpDir = "mirror"
-	rx_host = ""
-	print "---"
-}
-/^[[:space:]]*([^[:space:]#]+)[[:space:]]*$/ {
-	if (length(rx_host) == 0) {
-		rx_host = $1
-	} else {
-		rx_host = rx_host "|" $1
+	if (rx_host == "") {
+		rx_host = "[^/]+"
 	}
-	print rx_host
+	fileNr = 0
+	__lastFile = ""
+	__lastLines = 0
+	__lastLinesChanged = 0
+	print "BEGIN: rx_host=" rx_host
+	
+	rx_crossorigin = mkAttrRx("crossorigin");
+	rx_relativeLink = mkAttrRx("href|src", "(https?:)?//(" rx_host ")([^\"]*)")
+}
+__lastFile != FILENAME {
+	if (__lastFile != "") {
+		endFile(__lastFile, fileNr, __lastLinesChanged, __lastLines);
+		fileNr++
+	}
+	beginFile(FILENAME, fileNr);
+	__lastFile = FILENAME
+	__lastLines = 0
+	__lastLinesChanged = 0
+}
+1 { # must be first rule
+	__lastLines++
+	__origLine = $0
 }
 END {
+	if (__lastFile != "") {
+		endFile(__lastFile, fileNr, __lastLinesChanged, __lastLines);
+	}
+}
+
+function beginFile(fileName, fileNr) {
+	print "beginfile " fileNr ": " fileName
+
+}
+function endFile(fileName, fileNr, changedLineCount, lineCount) {
+	print "endfile " fileNr ": " fileName, "lines:" changedLineCount "/" lineCount
+	print ""
+}
+
+0 && ($0 ~ rx_crossorigin) {
+	print FNR ":\t" $0 
+	$0 = gensub(rx_crossorigin, "", "g")
+	print "\t" $0
+}
+$0 ~ (rx = rx_relativeLink) {
+	print FNR ":\t" $0
+	$0 = gensub(rx_relativeLink, "\\1=\"" relPath(FILENAME, bkpDir) "/\\5\\7\"", "g")
+	print "\t" $0
+	print "\t" rx
+}
+
+1 { # must be last rule
+	if (__origLine != $0) {
+		__lastLinesChanged++
+	}
+}
+
+xBEGINFILE {
+	print "BEGINFILE " fileNr ": " FILENAME
+}
+xENDFILE {
+	print "ENDFILE " fileNr ": FILENAME=" FILENAME, "FNR=" FNR
+	print ""
+	#FN++
+}
+0 {	#END {
 	parens = charCount("(", rx_host)
 	print parens, rx_host
 	rx_host = "(" rx_host ")"
@@ -86,8 +146,6 @@ END {
 	foo["x"] = "bar"
 	print foo["x"]
 }
-#BEGINFILE {
-#}
 #match($0, rx_123link, m) {
 #	print "\t" $0
 #	for (i in m) {
