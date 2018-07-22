@@ -11,6 +11,11 @@
 #sed -E 's/(href|src)="\.\.\/(123[^?"]*)\?([^"]+)"/\1="..\/\2@\3"/g' mirror/www.lernhilfe-hafis.de/index.html > mirror/www.lernhilfe-hafis.de/index.html~
 
 
+# keep only the a=.. urlParam:
+#echo "blah?c=1&b=2&a=3" | sed -E 's/([^?]*)\?((a=[0-9])(&[a-z]=[0-9])*|[a-z]=[0-9](&[a-z]=[0-9])*&(a=[0-9])(&[a-z]=[0-9])*)/\1@\3\6/g'
+#blah@a=3
+
+
 
 function mkAttrRx(rx_attr, rx_value) {
 	if (length(rx_value) == 0) {
@@ -61,15 +66,19 @@ END {
 	rx_host = "(" rx_host ")"
 	rx_attrPre = "(href|src)[[:space:]]*=[[:space:]]*"
 	print "---"
-	rx_link = rx_attrPre "\"(https?:)?/(/" rx_host "[^\"]*)\""
-	grepcmd = "egrep -r --files-with-matches '" rx_link "' " bkpDir "/ | egrep '.*\\.html?$'"
+	#rx_link = rx_attrPre "\"(https?:)?/(/" rx_host "[^\"]*)\""
+	rx_link = mkAttrRx("href|src", "((\\.{2}\\/)+|(https?:)?\\/{2})" rx_host "[^\"]*")
+	grepRx = rx_link "|" mkAttrRx("crossorigin")
+	grepcmd = "egrep -r --files-with-matches '" grepRx "' " bkpDir "/ | egrep '.*\\.html?$'"
+	print grepcmd
 	grepout = outputFrom(grepcmd)
 	split(grepout, files, "\n")
 	for (i in files) {
 		file = files[i]
 		print relPath(file, bkpDir), file
-		print outputFrom("egrep --initial-tab --line-number --color=always '" rx_link "' " file)
+		print outputFrom("egrep --initial-tab --line-number --color=always '" grepRx "' " file)
 		print "sed -E '" sedCmdDeleteAttr("crossorigin") "' " file " >" file "~"
+		print ""
 	}
 	print "---"
 	print mkAttrRx("href|src")
