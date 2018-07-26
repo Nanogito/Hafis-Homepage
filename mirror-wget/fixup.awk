@@ -45,9 +45,17 @@ function outputFrom(cmd,         origRS, out) {
 	RS = origRS
 	return out
 }
-function charCount(ch, text,     tmp) {
-	tmp = gensub("[^" ch "]", "", "g", text)
-	return length(tmp)
+function charCount(ch, text) {
+	return gsub(ch, "", text)
+}
+
+function beginFile(fileName, fileNr) {
+	print "beginfile " fileNr ": " fileName
+
+}
+function endFile(fileName, fileNr, changedLineCount, lineCount) {
+	print "endfile " fileNr ": " fileName, "lines:" changedLineCount "/" lineCount
+	print ""
 }
 
 
@@ -83,15 +91,6 @@ END {
 	if (__lastFile != "") {
 		endFile(__lastFile, fileNr, __lastLinesChanged, __lastLines);
 	}
-}
-
-function beginFile(fileName, fileNr) {
-	print "beginfile " fileNr ": " fileName
-
-}
-function endFile(fileName, fileNr, changedLineCount, lineCount) {
-	print "endfile " fileNr ": " fileName, "lines:" changedLineCount "/" lineCount
-	print ""
 }
 
 0 && ($0 ~ rx_crossorigin) {
