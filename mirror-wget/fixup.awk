@@ -37,13 +37,21 @@ function relPath(fromFile, toDir,      cmd, out, dn) {
 	close(cmd)        # <<<<<<< DON'T forget this!
 	return out
 }
-function outputFrom(cmd,         origRS, out) {
+function outputFrom(cmd,         target, origRS) {
 	origRS = RS
-	RS = "" # get all lines of output from cmd into variable 'out'
-	cmd | getline out
+	RS = "^$" # get all lines of output from cmd into variable 'out'
+	cmd | getline target
 	close(cmd)        # <<<<<<< DON'T forget this!
 	RS = origRS
-	return out
+	return target
+}
+function readfile(file,         target, origRS) {
+	origRS = RS
+	RS = "^$" # will never match, hence we'll read the whole file at once
+	getline target < file
+	close(file)        # <<<<<<< DON'T forget this!
+	RS = origRS
+	return target
 }
 function charCount(ch, text) {
 	return gsub(ch, "", text)
@@ -60,6 +68,9 @@ function endFile(fileName, fileNr, changedLineCount, lineCount) {
 
 
 BEGIN {
+	print outputFrom("cat test.html")
+	exit
+
 	bkpDir = "mirror"
 	if (rx_host == "") {
 		rx_host = "[^/]+"
