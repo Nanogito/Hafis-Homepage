@@ -25,10 +25,10 @@ echo "..."
 awk '{ p = $0; sub(/[^\/]*$/, "", p); "realpath --relative-to=" p " mirror" | getline rp; sub(/\//,"\\/", rp); print rp "\t" $0 }' ~fix-stupid.lst >~fix-stupid.dat
 
 # drop protocol, make relative paths
-awk '{ p = "(href|src)[:space:]*=[:space:]*\\\"(https?:)?\\/(\\/123\\.(sb|mod)\\.mywebsite-editor\\.com[^\\\"]*)\\\""; r = sprintf("\\1=\\\"%s\\3\\\"", $1); c = sprintf("sed -i -E \"s/%s/%s/g\" %s", p, r, $2); c | getline}' ~fix-stupid.dat
+awk '{ p = "(href|src)[:space:]*=[:space:]*\\\"(https?:)?\\/(\\/123\\.(sb|mod)\\.mywebsite-editor\\.com[^\\\"]*)\\\""; r = sprintf("\\1=\\\"%s\\3\\\"", $1); printf("sed -i -E \"s/%s/%s/g\" %s\n", p, r, $2)}' ~fix-stupid.dat | /bin/sh.exe
 
 # fix (js|css)\.php?site=...
-awk '{ p = "((href|src)=\\\"(\\.\\.\\/)*123\\.(sb|mod)[^\\\"]*-(js|css)\\.php)\\?(site=[0-9]+)([^\\\"]*)\\\""; r = "\\1@\\6\\.\\5\\\""; c = sprintf("sed -i -E \"s/%s/%s/g\" %s", p, r, $2); c | getline}' ~fix-stupid.dat
+awk '{ p = "((href|src)=\\\"(\\.\\.\\/)*123\\.([a-z]+)[^\\\"]*-(js|css)\\.php)\\?(site=[0-9]+)([^\\\"]*)\\\""; r = "\\1@\\6\\.\\5\\\""; printf("sed -i -E \"s/%s/%s/g\" %s\n", p, r, $2)}' ~fix-stupid.dat | /bin/sh.exe
 
 
 # remove "crossorigin" attributes from <script> so they work locally (file://)
@@ -36,7 +36,7 @@ echo "Removing \"crossorigin\" attributes from:"
 egrep -r --files-with-matches 'crossorigin="[^"]+"' mirror/ | egrep '.*\.html$' >~fix-crossorigin.lst
 cat ~fix-crossorigin.lst
 echo "..."
-awk '{print "sed -i -b -E", "\"s/ *crossorigin=\\\"[^\\\"]+\\\"//g\"", $0 | "/bin/sh"}' ~fix-crossorigin.lst
+awk '{print "sed -i -b -E", "\"s/ *crossorigin=\\\"[^\\\"]+\\\"//g\"", $0}' ~fix-crossorigin.lst | /bin/sh.exe
 
 #echo "git-adding files with timestamps in the name:"
 #git add mirror/123.sb.mywebsite-editor.com/app/*
