@@ -18,16 +18,16 @@
         <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1531860956" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1531860956" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1531860956" rel="stylesheet" type="text/css"/>
-    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1530102462620" rel="stylesheet" type="text/css"/>
-<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1530102462620" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1531861052" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1536078365361" rel="stylesheet" type="text/css"/>
+<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1536078365361" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1537119135" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1531861052"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1537119135"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -62,7 +62,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1530102462620" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1530102462620" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1530102462620"></script>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1536078365361" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1536078365361" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1536078365361"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -317,11 +317,11 @@ var stagingMode = '';
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1530102462620" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1536078365361" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/test/"/>
     <meta property="og:title" content="Hafis e.V., München - test"/>
             <meta property="og:description" content="Neue Seite"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1531861051"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1537109775"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -554,5 +554,5 @@ allerdings an den Regelkassen tätig - sowohl am Vor- als auch am Nachmittag.</p
     </body>
 
 
-<!-- rendered at Tue, 17 Jul 2018 22:57:32 +0200 -->
+<!-- rendered at Sun, 16 Sep 2018 16:56:16 +0200 -->
 </html>
