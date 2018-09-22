@@ -12,7 +12,11 @@ define(["qunit", "urlParams"], (QUnit, urlParams) => {
 			if (queryAndHash === void(0)) {
 				queryAndHash = "";
 			}
-			prefix = url.origin + url.pathname;
+			if ((typeof(url.origin) === "string") && (url.origin === "null")) { // Yes, happens e.g. in Firefox!
+				prefix = url.protocol + url.pathname;
+			} else {
+				prefix = url.origin + url.pathname;
+			}
 		}
 		return new URL(prefix + queryAndHash);
 	}
