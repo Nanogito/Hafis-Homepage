@@ -20,14 +20,14 @@
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1531860956" rel="stylesheet" type="text/css"/>
     <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1536078365361" rel="stylesheet" type="text/css"/>
 <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1536078365361" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1537126101" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1537627832" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1537126101"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1537627832"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -321,7 +321,7 @@ var stagingMode = '';
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/aktuell/"/>
     <meta property="og:title" content="Aktuell"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1537025360"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1537627520"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -422,7 +422,7 @@ jQuery(function($) {
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 16. November 2011 - Kinobesuch von “Tim und Struppi” </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4296920" style="height: 10px;">
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> 23. Dezember 2011 - Weihnachtsfeier </div><div class="n module-type-text diyfeLiveArea "> <p><b>Januar 2012</b> <b>- Hafis e.V. wird Leitprojekt für das Jahr 2012 der</b> <b>Castringius-Stiftung</b></p> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4296927" style="height: 10px;">
+ </div><div class="n module-type-text diyfeLiveArea "> <p>23. Dezember 2011 - Weihnachtsfeier</p> </div><div class="n module-type-text diyfeLiveArea "> <p><b>Januar 2012</b> <b>- Hafis e.V. wird Leitprojekt für das Jahr 2012 der</b> <a href="http://castringius-stiftung-muenchen.de/images/stories/downloads/castringius_newsletter_10.pdf" target="_blank"><b>Castringius-Stiftung</b></a></p> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4296927" style="height: 10px;">
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 03. Februar 2012 - Schlittenfahren im Hirschgarten </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4296935" style="height: 10px;">
 </div>
@@ -594,6 +594,37 @@ jQuery(function($) {
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> <b>04.05.2015 -</b><b> 100 Prozent</b> <b>unserer 4.Klässler erhalten eine Übertrittsempfehlung für Gymnasium, Real- und Gesamtschule</b> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297694" style="height: 10px;">
 </div>
+ </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-9422452">
+    <div class="align-container align-left" style="max-width: 196px">
+        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_9961703.jpg?t=1537627475" rel="lightbox[9422452]">
+            <img id="image_9961703" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_9961703.jpg?t=1537627475" alt="" style="max-width: 196px; height:auto"/>
+        </a>
+
+        
+    </div>
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+    var $target = $('#imageSubtitle-9422452');
+
+    if ($.fn.swipebox && Modernizr.touch) {
+        $target
+            .find('a[rel*="lightbox"]')
+            .addClass('swipebox')
+            .swipebox();
+    } else {
+        $target.tinyLightbox({
+            item: 'a[rel*="lightbox"]',
+            cycle: false,
+            hideNavigation: true
+        });
+    }
+});
+//]]>
+</script>
  </div><div class="n module-type-text diyfeLiveArea "> 23.07.2015 - Unsere U-10 gewinnt den Schyren-Cup 2015, im Finale besiegen wir Schülerfreiraum mit 7:2 ! Teilnehmende Mannschaften: Nachbarschaftstreff Westermühlbach, Rotznasen, Kubu, Konfetti, Isarkrabben, Schülerfreiraum und wir. </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297702" style="height: 10px;">
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 14.10.2015 - Unsere Ü1 und Ü3 besuchen den Abenteuerspielplatz "Maulwurfshausen" </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297708" style="height: 10px;">
@@ -700,5 +731,5 @@ Schülerfreiraum, 7. Isarkrabben)</p>
     </body>
 
 
-<!-- rendered at Sat, 15 Sep 2018 17:29:21 +0200 -->
+<!-- rendered at Sat, 22 Sep 2018 16:45:21 +0200 -->
 </html>
