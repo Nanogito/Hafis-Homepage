@@ -13,10 +13,7 @@ define([], function ($) {
 					var k = pieces[0];
 					var v = pieces[1];
 					var i = parseInt(v);
-					if (isFinite(i)) {
-						v = i;
-					}
-					acc[k] = v;
+					acc[k] = isFinite(i) ? i : v;
 					return acc;
 				}, {});
 		} catch (e) {

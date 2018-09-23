@@ -28,11 +28,8 @@ define(["qunit", "urlParams"], (QUnit, urlParams) => {
 			"gives urlParams of window.location");
 	});
 	test("no query string in URL yields empty object", assert => {
-		const wl = window.location;
 		const exp = {};
-		let url;
-		
-		url = makeURL(wl);
+		let url = makeURL(window.location); // strips off the query string
 		assert.propEqual(urlParams(url), exp, 
 			"without hash #: " + url);
 		
@@ -55,9 +52,17 @@ define(["qunit", "urlParams"], (QUnit, urlParams) => {
 		assert.propEqual(urlParams(url), { "undefined": void(0) }, 
 			"key 'undefined': " + url);
 		
-		url = makeURL("?debug&foo");
-		assert.propEqual(urlParams(url), { debug: void(0), foo: void(0) }, 
-			"two params: " + url);
+		url = makeURL("?some&foo");
+		assert.propEqual(urlParams(url), { some: void(0), foo: void(0) }, 
+			"two params, both without value: " + url);
+		
+		url = makeURL("?foo&some=thing");
+		assert.propEqual(urlParams(url), { some: "thing", foo: void(0) }, 
+			"two params, 1st without value: " + url);
+		
+		url = makeURL("?some=thing&foo");
+		assert.propEqual(urlParams(url), { some: "thing", foo: void(0) }, 
+			"two params, 2nd without value: " + url);
 	});
 	test("key 'undefined' with a value", assert => {
 		let url;
@@ -68,29 +73,38 @@ define(["qunit", "urlParams"], (QUnit, urlParams) => {
 		url = makeURL("?undefined=undefined");
 		assert.propEqual(urlParams(url), { "undefined": "undefined" }, url);
 	});
-	test("no key but a value", assert => {
+	test("no key but a value yields empty string as key", assert => {
 		let url;
 		
 		url = makeURL("?=foo");
-		assert.propEqual(urlParams(url), { "": "foo" }, url);
+		assert.propEqual(urlParams(url), { "": "foo" }, 
+		"as the only entry:" + url);
+		
+		url = makeURL("?=foo&some=thing");
+		assert.propEqual(urlParams(url), { "": "foo", some: "thing" },
+		"as the 1st entry:" + url);
+		
+		url = makeURL("?some=thing&=foo");
+		assert.propEqual(urlParams(url), { "": "foo", some: "thing" },
+		"as the 2nd entry:" + url);
 	});
 	test("key appearing more than once", assert => {
 		let url;
 		
 		url = makeURL("?=foo&=bar");
 		assert.propEqual(urlParams(url), { "": "bar" }, 
-			"yields the value from last appearance: " + url);
+			"yields the value from last appearance (empty key twice): " + url);
 		
 		url = makeURL("?x=foo&x=bar");
 		assert.propEqual(urlParams(url), { x: "bar" }, 
-			url);
+			"yields the value from last appearance (non-empty key twice): " + url);
 	});
 	test("number as value", assert => {
 		let url;
 		
 		url = makeURL("?blah=42");
 		assert.propEqual(urlParams(url), { blah: 42 }, 
-			"should yield number, not string" + url);
+			"should yield number, not string: " + url);
 	});
 
 });
