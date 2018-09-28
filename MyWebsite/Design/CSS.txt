@@ -68,7 +68,7 @@ div#content div.gutter {
 .diyw, .diyw p {
 	font: normal 16px/120% Arial, Helvetica, sans-serif;
 	color: #000000;
-	//text-align: justify;
+	text-align: justify;  // <<<<<<<<<<<<<<<<<<<<<<<
 }
 /* Überschrift 1 */
 .diyw h1 {
