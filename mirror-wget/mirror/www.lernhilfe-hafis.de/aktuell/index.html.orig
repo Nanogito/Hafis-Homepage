@@ -15,19 +15,19 @@
         <meta name="keywords" content="Lernhilfe,Hausaufgaben,München,Hausaufgabenbetreuung,Nachhilfe,Hausaufgabenbetreuung,Lernhilfe,Migranten,Migrationshintergrund,Ganztagesklasse,Notenverbesserung,Lernmentor,Mittagsbetreuung,LRS,ADHS,Grundschule,Integration,Inklusion,Lernen,Noten,Schule,Lehrer,Klasse,Unterricht,Intensivierung,Deutsch,Mathematik,Schüler,international"/>
             <meta name="description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
             <meta name="robots" content="index,follow"/>
-        <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1531860956" rel="stylesheet" type="text/css"/>
-    <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1531860956" rel="stylesheet" type="text/css"/>
-    <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1531860956" rel="stylesheet" type="text/css"/>
-    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1536078365361" rel="stylesheet" type="text/css"/>
-<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1536078365361" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1537808576" rel="stylesheet" type="text/css"/>
+        <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1538138897" rel="stylesheet" type="text/css"/>
+    <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1538138897" rel="stylesheet" type="text/css"/>
+    <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1538138897" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1537880851685" rel="stylesheet" type="text/css"/>
+<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1537880851685" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1538143549" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1537808576"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1538143549"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -62,7 +62,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1536078365361" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1536078365361" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1536078365361"></script>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1537880851685" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1537880851685" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1537880851685"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -317,11 +317,11 @@ var stagingMode = '';
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1536078365361" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1537880851685" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/aktuell/"/>
     <meta property="og:title" content="Aktuell"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1537808281"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1538139114"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -740,5 +740,5 @@ Schülerfreiraum, 7. Isarkrabben)</p>
     </body>
 
 
-<!-- rendered at Mon, 24 Sep 2018 18:58:02 +0200 -->
+<!-- rendered at Fri, 28 Sep 2018 14:51:55 +0200 -->
 </html>
