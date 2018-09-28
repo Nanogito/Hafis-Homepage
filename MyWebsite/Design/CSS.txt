@@ -1,3 +1,4 @@
+
 /* -----------------------------------------------
 Layout 1001: Screen Styles
 ----------------------------------------------- */
@@ -16,10 +17,10 @@ body {
 
 div#container {
 	margin: 0 auto;
-	width: 940px;
+	width: 878px;
 	background-image: url(1001-container_bg.gif);
 	background-repeat: repeat-y;
-	background-position: 239px 0;
+	background-position: 180px 0;
 }
 
 
@@ -27,7 +28,7 @@ div#container {
 
 div#header {
 	position: relative;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	background: #fff;
 	zoom: 1;
 }
@@ -48,22 +49,51 @@ div#emotion-header strong#emotion-header-title {
 /* Content */
 
 div#content {
-	width: 700px;
+	width: 680px;
 	float: right;
 	background: #fff;
 }
 div#content div.gutter {
-	padding: 0 100px 60px 20px;
+	padding: 0px 0px 60px 0px;
 }
-h2 {
-   color: #f00;
+
+
+/* "Style": Schriftart und Größe            */
+/* ------------------------------------------- 
+  ACHTUNG: Regeln hier heben die Einstellungen
+            unter "Style" in MyWebsite auf!
+------------------------------------------- */
+
+/* Text */
+.diyw, .diyw p {
+	font: normal 16px/120% Arial, Helvetica, sans-serif;
+	color: #000000;
+	//text-align: justify;
 }
+/* Überschrift 1 */
+.diyw h1 {
+	font: bold 25px/140% Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+/* Überschrift 2 */
+.diyw h2 {
+	font: bold 17px/140% Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+/* Linkfarbe */
+.diyw a, .diyw p a {
+	color: #0325bc;
+}
+.diyw a:visited, .diyw p a:visited {
+	color: #0000ff;
+}
+
 
 
 /* Sidebar */
 
 div#sidebar {
-	width: 239px;
+	width: 170px;
 	float: left;
 	padding: 0 0 40px 0;
 }
@@ -88,16 +118,15 @@ ul.mainNav1 {
 	//background: url(1001-dots.gif) repeat-x;
 }
 ul.mainNav1 li {
-	width: 239px;
+	//width: 239px;
 }
 ul.mainNav1 li a {
 	font-weight: bold;
 	display: block;
-	width: 219px;
-	padding: 5px 10px;
+	padding: 5px 10px 5px 1px;
 	//background: url(1001-dots.gif) repeat-x 0 100%;
 	background-color: #fff !important;
-	text-align: right;
+	text-align: right;  // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 	text-decoration: none;
 }
 ul.mainNav1 li a:hover, ul.mainNav1 li a.current {
@@ -110,8 +139,7 @@ ul.mainNav2 {
 	list-style: none;
 }
 ul.mainNav2 li a {
-	padding: 5px 30px 5px 10px;
-	width: 199px;
+	padding: 5px 20px 5px 10px;
 }
 ul.mainNav3 {
 	margin: 0;
@@ -119,8 +147,7 @@ ul.mainNav3 {
 	list-style: none;
 }
 ul.mainNav3 li a {
-	padding: 5px 50px 5px 10px;
-	width: 179px;
+	padding: 5px 40px 5px 10px;
 }
 
 div#sidebar_content {
@@ -133,7 +160,7 @@ div#sidebar_content {
 
 div#footer {
 	width: 700px;
-	margin-left: 240px;
+	margin-left: 180px;
 }
 div#footer div.gutter {
 	background: url(1001-dots.gif) repeat-x;
