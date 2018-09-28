@@ -5,7 +5,8 @@
 * [mirror-wget/](mirror-wget) enthält eine mit [wget](https://www.gnu.org/software/wget) erstellte Spiegelung der gesamten Site
 * [MyWebsite/](MyWebsite) enthält Resourcen für die Website, wie Bilder, eigenes Javascript etc. (mehr in: [MyWebsite/README.md](MyWebsite/README.md))
 * [scratch/](scratch) ("Schmierzettel") enthält Sachen die noch einzuordnen sind
-* [i/](i) enthält Icons (![check](i/check.png), ![question](i/question.png), ...) und screenshots, die in der Dokumentation - also den `.md`-Dateien verwedentet werden.
+* [i/](i) enthält Icons (![check](i/check.png), ![question](i/question.png), ...) und screenshots, die in der Dokumentation - also den `.md`-Dateien verwendet werden.
+* [i/wiki/](i/wiki) enthält Bilder (hauptsächlich screenshots), die *ausschließlich* im [Wiki](https://github.com/meisl/hafis/wiki) verwendet werden.
 
 ---
 #### git für Windows
