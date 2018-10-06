@@ -20,14 +20,14 @@
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1538163565" rel="stylesheet" type="text/css"/>
     <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1537880851685" rel="stylesheet" type="text/css"/>
 <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1537880851685" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1538164342" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1538835446" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1538164342"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1538835446"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -321,7 +321,7 @@ var stagingMode = '';
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/mein-fabelhaftes-deutschheft/"/>
     <meta property="og:title" content="Hafis e.V., München - Mein fabelhaftes Deutschheft"/>
             <meta property="og:description" content="Neue Seite"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1538164342"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1538819974"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -349,9 +349,10 @@ var stagingMode = '';
         	<div id="content_start"></div>
         	
         
-        <div id="matrix_391223" class="sortable-matrix" data-matrixId="391223"><div class="n module-type-header diyfeLiveArea "> <h1><span class="diyfeDecoration">Mein fabelhaftes Deutschheft</span></h1> </div><div class="n module-type-text diyfeLiveArea "> <p><strong>Deutsch leichter lernen</strong> - vor dieser Aufgabe stand Petra Cordua vor 2 Jahren in ihrer Ü-Klasse, die mit Flüchtlingen und Sprachanfängern gefüllt war.</p> </div><div class="n module-type-text diyfeLiveArea "> <p>So entstanden viele kleine Geschichten zum Ausmalen und Nachspuren für unseren Unterricht.</p>
+        <div id="matrix_391223" class="sortable-matrix" data-matrixId="391223"><div class="n module-type-header diyfeLiveArea "> <h1><span class="diyfeDecoration">Mein fabelhaftes Deutschheft</span></h1> </div><div class="n module-type-text diyfeLiveArea "> <p><strong>Deutsch leichter lernen</strong> - vor dieser Aufgabe stand Petra Cordua vor 3 Jahren in ihrer Ü-Klasse, die mit Flüchtlingen und Sprachanfängern gefüllt war.Leider gab es keine
+Schulbücher und um aus der Zettelwirtschaft herauzukommen, hatte Christian Dörr die Idee aus den schönsten Unterrichtsstunden ein Buch zu machen.</p> </div><div class="n module-type-text diyfeLiveArea "> <p>So entstanden viele kleine Geschichten zum Ausmalen und Nachspuren für unseren Unterricht und die nachfolgenden Klassen.</p>
 <p> </p>
-<p>Band 1 und 2 liegen nun in Buchform vor, Band 3 ist in Arbeit und wird schon sehnsüchtig erwartet!</p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
+<p>Band 1 und 2 liegen bereits in Buchform vor, Band 3 ist in Arbeit und wird schon sehnsüchtig erwartet!</p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
 <div class="clearover " id="textWithImage-4344311">
 <div class="align-container imgleft imgblock" style="max-width: 100%; width: 361px;">
     <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_2803917.jpg?t=1531322366" rel="lightbox[4344311]">
@@ -368,10 +369,11 @@ var stagingMode = '';
 <p>Geschichten und Bilder von Elfen, Drachen und Zwergen zum Ausmalen und Nachspuren</p>
 <p> </p>
 <p>Format: DIN A 4<br/>
-Seiten: 44<br/>
+44 Seiten Farbdruck</p>
+<p>Broschiert<br/>
 <br/>
 ISBN: 978-3-00-054153-7<br/>
- </p>
+(vergriffen)</p>
 </div>
 </div> 
 <script type="text/javascript">
@@ -396,7 +398,7 @@ ISBN: 978-3-00-054153-7<br/>
 </script>
  </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4344610" style="height: 10px;">
 </div>
- </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-4350701">
+ </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle imageFitWidth" id="imageSubtitle-4350701">
     <div class="align-container align-left" style="max-width: 870px">
         <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_2808906.jpg?t=1474197599" rel="lightbox[4350701]">
             <img id="image_2808906" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_2808906.jpg?t=1474197599" alt="" style="max-width: 870px; height:auto"/>
@@ -427,9 +429,16 @@ jQuery(function($) {
 });
 //]]>
 </script>
- </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4350665" style="height: 40px;">
-</div>
- </div><div class="n module-type-matrix diyfeLiveArea "> 
+ </div><div class="n module-type-text diyfeLiveArea "> <p>Wie oben zu erkennen, handelt es sich bei dem Druck nicht nur um einen einfachen Schwarz-Weiß-Druck. Mit Absicht wurden die Graustufen des Bleistifts beibehalten, um den Kindern zu ermöglichen
+auch die Umrisse und die Linienführung der Figuren zu ihren eigenen zu machen und ggf. auch abweichen zu können. Das fördert eine sichere Hand und lässt die Kinder die Figuren selbst er- fahren und
+nicht nur ausmalen.</p>
+<p>Auch die Schrift ist so gestaltet, dass jedes Kind sich die deutsche Schrift durch Nachspuren leicht aneignen kann. Differenziert werden kann nach Großbuchstaben, nach Silben und nach
+Besonderheiten der Rechtschreibung.</p>
+<p>Die hohe Qualität des Papiers gewährleistet, dass selbst Filzstift nicht auf die Rückseite durchklekst; es weist die Farben der Filz- und Buntstifte nicht ab,  lässt sie aber auch
+nicht </p>
+<p>verlaufen, sondern bringt sie optimal zur Geltung.</p>
+<p> </p>
+<p>Seit 2017 fördert  das Stadtjugendamt unser Programm und stattet alle Teilnehmer unserer Sprachlernkurse mit diesen Deutschheften aus.</p> </div><div class="n module-type-matrix diyfeLiveArea "> 
 
 <div class="diyfeModGridGroup diyfeModGrid3">
             <div class="diyfeModGridElement diyfeModGridCol33">
@@ -468,7 +477,8 @@ jQuery(function($) {
  </div><div class="n module-type-header diyfeLiveArea "> <h2><span class="diyfeDecoration">Mein fabelhaftes Deutschheft 2           </span></h2> </div><div class="n module-type-hr diyfeLiveArea "> <div style="padding: 0px 0px">
     <div class="hr"></div>
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> <p>Letzte Neuerscheinung im März 2017</p>
+ </div><div class="n module-type-text diyfeLiveArea "> <p>56 Seiten Farbdruck</p>
+<p>Broschiert DIN A4</p>
 <p> </p>
 <p> </p> </div></div>            </div>
         </div>
@@ -543,14 +553,15 @@ jQuery(function($) {
 });
 //]]>
 </script>
- </div><div class="n module-type-header diyfeLiveArea "> <h2><span class="diyfeDecoration">Buch der labyrinthischen Tierstaben</span></h2> </div><div class="n module-type-hr diyfeLiveArea "> <div style="padding: 0px 0px">
+ </div><div class="n module-type-header diyfeLiveArea "> <h2><span class="diyfeDecoration">Buch                    der labyrinthischen Tierstaben</span></h2> </div><div class="n module-type-hr diyfeLiveArea "> <div style="padding: 0px 0px">
     <div class="hr"></div>
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> <p>Erschienen im November 2016</p> </div></div>            </div>
+ </div><div class="n module-type-text diyfeLiveArea "> <p>36 Seiten Farbdruck</p>
+<p>Broschiert DIN A4</p> </div></div>            </div>
         </div>
         <div style="clear: both;"></div>
 </div>
- </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4344995" style="height: 60px;">
+ </div><div class="n module-type-text diyfeLiveArea "> <p>Wenn auch Sie diese Deutschhefte erwerben wollen, wenden Sie sich bitte an den Herausgeber Christian Dörr, Konrad-Dreher.Straße 26, 80689 München. Tel: 089/54781525 </p> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4344995" style="height: 83px;">
 </div>
  </div></div>
         
@@ -598,5 +609,5 @@ jQuery(function($) {
     </body>
 
 
-<!-- rendered at Fri, 28 Sep 2018 21:52:22 +0200 -->
+<!-- rendered at Sat, 06 Oct 2018 11:59:34 +0200 -->
 </html>

@@ -15,7 +15,7 @@ window.diy.context.isMobilePreviewView = /mobilepreview=1/.test(location.search)
                 jQuery("<link/>", {
                     rel: "stylesheet",
                     type: "text/css",
-                    href: jimdoData.cdnUrl + "s/css/web/logincallout.css?1538164336"
+                    href: jimdoData.cdnUrl + "s/css/web/logincallout.css?1538835442"
                 }).appendTo("head");
                 jQuery.getScript(webPath + 'cc/logincallout.php');
             }
