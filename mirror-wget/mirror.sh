@@ -25,7 +25,7 @@ echo "..."
 awk '{ p = $0; sub(/[^\/]*$/, "", p); "realpath --relative-to=" p " mirror" | getline rp; sub(/\//,"\\/", rp); print rp "\t" $0 }' ~fix-stupid.lst >~fix-stupid.dat
 
 # drop protocol, make relative paths
-awk '{ p = "(href|src)[:space:]*=[:space:]*\\\"(https?:)?\\/(\\/123\\.(sb|mod)\\.mywebsite-editor\\.com[^\\\"]*)\\\""; r = sprintf("\\1=\\\"%s\\3\\\"", $1); printf("sed -i -E \"s/%s/%s/g\" %s\n", p, r, $2)}' ~fix-stupid.dat | /bin/sh.exe
+awk '{ p = "(href|src)[[:space:]]*=[[:space:]]*\\\"(https?:)?\\/(\\/123\\.(sb|mod)\\.mywebsite-editor\\.com[^\\\"]*)\\\""; r = sprintf("\\1=\\\"%s\\3\\\"", $1); printf("sed -i -E \"s/%s/%s/g\" %s\n", p, r, $2)}' ~fix-stupid.dat | /bin/sh.exe
 
 # fix (js|css)\.php?site=...
 awk '{ p = "((href|src)=\\\"(\\.\\.\\/)*123\\.([a-z]+)[^\\\"]*-(js|css)\\.php)\\?(site=[0-9]+)([^\\\"]*)\\\""; r = "\\1@\\6\\.\\5\\\""; printf("sed -i -E \"s/%s/%s/g\" %s\n", p, r, $2)}' ~fix-stupid.dat | /bin/sh.exe
@@ -57,6 +57,7 @@ cat index.html | sed -E "s/^.*$/\t\0/"
 
 echo "cleaning up..."
 rm ~wget-start.txt ~wget-end.txt ~fix-stupid.lst ~fix-stupid.dat ~fix-crossorigin.lst
+rm index-part*.html
 
 echo ""
 read -p "All done. Press enter to continue. "
