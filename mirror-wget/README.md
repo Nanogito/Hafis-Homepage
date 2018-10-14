@@ -10,4 +10,6 @@ Das Shell-Skript [mirror.sh](mirror.sh)
 		https://www.lernhilfe-hafis.de/home-alt
 		https://www.lernhilfe-hafis.de/test
 	
- * [index.html](index.html): wird von `mirror.sh` erzeugt, um das Backup bequem im Browser inspizieren zu können. Sieht etwa so aus: ![screenshot-mirror-index.png](/i/screenshot-mirror-index.png)
+ * [index.html](index.html): wird von `mirror.sh` erzeugt, um das Backup bequem im Browser inspizieren zu können.
+   - Sieht etwa so aus:
+   - ![screenshot-mirror-index.png](/i/screenshot-mirror-index.png)
