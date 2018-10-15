@@ -20,14 +20,14 @@
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1538163565" rel="stylesheet" type="text/css"/>
     <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1537880851685" rel="stylesheet" type="text/css"/>
 <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1537880851685" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1539552817" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1539611700" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1539552817"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1539611700"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -321,7 +321,7 @@ var stagingMode = '';
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/aktuell/"/>
     <meta property="og:title" content="Aktuell"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1539552779"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1539610960"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -527,13 +527,41 @@ jQuery(function($) {
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 16.07.2013 - Ausflug auf den Alten Peter und ins Rathaus, zum Viktualienmarkt und zur Isar </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297449" style="height: 10px;">
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> 17.07.2013 - Infoabend für die Eltern der Ittlinger-Grundschule </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297481" style="height: 10px;">
+ </div><div class="n module-type-text diyfeLiveArea "> <p>17.07.2013 - Infoabend für die Eltern der Ittlinger-Grundschule</p>
+<p> </p> </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-9488830">
+    <div class="align-container align-left" style="max-width: 251px">
+        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_10085092.jpg?t=1539610841" rel="lightbox[9488830]">
+            <img id="image_10085092" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_10085092.jpg?t=1539610841" alt="" style="max-width: 251px; height:auto"/>
+        </a>
+
+        
+    </div>
+
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> 18.07.2013 - Teilnahme am diesjährigen Schlachthof-Glockenbach-Fußball-Cup: </div><div class="n module-type-text diyfeLiveArea "> Sieger im U-10- und 2.Platz im U-12-Wettbewerb ! </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297484" style="height: 10px;">
-</div>
- </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297489" style="height: 10px;">
-</div>
- </div><div class="n module-type-text diyfeLiveArea "> 28.11.2013 - REGSAM - Fachgespräch über Lernhilfeangebote im 24.Stadtbezirk (im 2411) </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297511" style="height: 10px;">
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+    var $target = $('#imageSubtitle-9488830');
+
+    if ($.fn.swipebox && Modernizr.touch) {
+        $target
+            .find('a[rel*="lightbox"]')
+            .addClass('swipebox')
+            .swipebox();
+    } else {
+        $target.tinyLightbox({
+            item: 'a[rel*="lightbox"]',
+            cycle: false,
+            hideNavigation: true
+        });
+    }
+});
+//]]>
+</script>
+ </div><div class="n module-type-text diyfeLiveArea "> <p>18.07.2013 - Teilnahme am diesjährigen Schlachthof-Glockenbach-Fußball-Cup:</p>
+<p>Sieger im U10- und 2. Platz im U12-Wettbewerb!</p>
+<p> </p> </div><div class="n module-type-text diyfeLiveArea "> 28.11.2013 - REGSAM - Fachgespräch über Lernhilfeangebote im 24.Stadtbezirk (im 2411) </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297511" style="height: 10px;">
 </div>
  </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297540" style="height: 10px;">
 </div>
@@ -624,37 +652,34 @@ jQuery(function($) {
  </div><div class="n module-type-text diyfeLiveArea "> 13.02.2015 - Schlittschuhlaufen im Olympia-Eisstadion </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297689" style="height: 10px;">
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> <p><b>04.05.2015 -</b> <b>100%</b> <b>unserer 4.Klässler erhalten eine Übertrittsempfehlung für Gymnasium, Real- und Gesamtschule</b></p>
-<p> </p> </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-9428662">
-    <div class="align-container align-left" style="max-width: 202px">
-        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_9976572.jpg?t=1537808202" rel="lightbox[9428662]">
-            <img id="image_9976572" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_9976572.jpg?t=1537808202" alt="" style="max-width: 202px; height:auto"/>
-        </a>
+<p> </p> </div><div class="n module-type-gallery diyfeLiveArea "> <div class="ccgalerie clearover" id="lightbox-gallery-9488780">
 
-        
-    </div>
+<div class="thumb_pro1" id="gallery_thumb_10085080" style="width: 158px; height: 158px;">
+	<div class="innerthumbnail" style="width: 158px; height: 158px;">		<a rel="lightbox[9488780]" href="https://www.lernhilfe-hafis.de/s/cc_images/cache_10085080.jpg?t=1539610295">			<img src="https://www.lernhilfe-hafis.de/s/cc_images/thumb_10085080.jpg?t=1539610295" id="image_10085080" alt=""/>
+		</a>
+	</div>
 
 </div>
+</div>
+   <script type="text/javascript">
+  //<![CDATA[
+      jQuery(document).ready(function($){
+          var $galleryEl = $('#lightbox-gallery-9488780');
 
-<script type="text/javascript">
-//<![CDATA[
-jQuery(function($) {
-    var $target = $('#imageSubtitle-9428662');
-
-    if ($.fn.swipebox && Modernizr.touch) {
-        $target
-            .find('a[rel*="lightbox"]')
-            .addClass('swipebox')
-            .swipebox();
-    } else {
-        $target.tinyLightbox({
-            item: 'a[rel*="lightbox"]',
-            cycle: false,
-            hideNavigation: true
-        });
-    }
-});
-//]]>
-</script>
+          if ($.fn.swipebox && Modernizr.touch) {
+              $galleryEl
+                  .find('a[rel*="lightbox"]')
+                  .addClass('swipebox')
+                  .swipebox();
+          } else {
+              $galleryEl.tinyLightbox({
+                  item: 'a[rel*="lightbox"]',
+                  cycle: true
+              });
+          }
+      });
+    //]]>
+    </script>
  </div><div class="n module-type-text diyfeLiveArea "> <p>23.07.2015 - Unsere U10 gewinnt den Schyren-Cup 2015, im Finale besiegen wir Schülerfreiraum mit 7:2! Teilnehmende Mannschaften: Nachbarschaftstreff Westermühlbach, Rotznasen, Kubu, Konfetti,
 Isarkrabben, Schülerfreiraum und wir.</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> 14.10.2015 - Unsere Ü1 und Ü3 besuchen den Abenteuerspielplatz "Maulwurfshausen" </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297708" style="height: 10px;">
@@ -670,8 +695,43 @@ Nau erzählt eine Geschichte und unsere Ü1 trommelt.</b></p> </div><div class="
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> <p><strong>02.05.2016 -</strong> <strong>Erneut schaffen</strong> <strong>100%</strong> <strong>unserer 4.Klässler den Übertritt auf eine höhere Schulart!</strong></p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>07.07.2016 - Geschichtenerfinderwerkstatt mit Markus Nau für unsere Kinder aus Übergangs- und Deutschförderklassen</p>
-<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>29.09.2016 - Gewinn des Schyren-Cups 2016: Die Titelverteidigung ist geglückt, Hafis gewinnt jedes Spiel. Die Teilnehmer in der Reihenfolge der Platzierung: Westermühlbach, Schülerfreiraum,
-Aardwaark, Konfetti, Isarkrabben und Rotznasen</p>
+<p> </p> </div><div class="n module-type-gallery diyfeLiveArea "> <div class="ccgalerie clearover" id="lightbox-gallery-9488424">
+
+<div class="thumb_pro1" id="gallery_thumb_10085052" style="width: 158px; height: 158px;">
+	<div class="innerthumbnail" style="width: 158px; height: 158px;">		<a rel="lightbox[9488424]" href="https://www.lernhilfe-hafis.de/s/cc_images/cache_10085052.jpg?t=1539607874">			<img src="https://www.lernhilfe-hafis.de/s/cc_images/thumb_10085052.jpg?t=1539607874" id="image_10085052" alt=""/>
+		</a>
+	</div>
+
+</div>
+
+<div class="thumb_pro1" id="gallery_thumb_10085053" style="width: 158px; height: 158px;">
+	<div class="innerthumbnail" style="width: 158px; height: 158px;">		<a rel="lightbox[9488424]" href="https://www.lernhilfe-hafis.de/s/cc_images/cache_10085053.jpg?t=1539607874">			<img src="https://www.lernhilfe-hafis.de/s/cc_images/thumb_10085053.jpg?t=1539607874" id="image_10085053" alt=""/>
+		</a>
+	</div>
+
+</div>
+</div>
+   <script type="text/javascript">
+  //<![CDATA[
+      jQuery(document).ready(function($){
+          var $galleryEl = $('#lightbox-gallery-9488424');
+
+          if ($.fn.swipebox && Modernizr.touch) {
+              $galleryEl
+                  .find('a[rel*="lightbox"]')
+                  .addClass('swipebox')
+                  .swipebox();
+          } else {
+              $galleryEl.tinyLightbox({
+                  item: 'a[rel*="lightbox"]',
+                  cycle: true
+              });
+          }
+      });
+    //]]>
+    </script>
+ </div><div class="n module-type-text diyfeLiveArea "> <p>29.09.2016 - Gewinn des Schyren-Cups 2016: Die Titelverteidigung ist geglückt, Hafis gewinnt jedes Spiel. Die weiteren Teilnehmer in der Reihenfolge der Platzierung: Westermühlbach,
+Schülerfreiraum, Aardwaark, Konfetti, Isarkrabben und Rotznasen.</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>05.10.2016 - <a href="https://www.lernhilfe-hafis.de/mein-fabelhaftes-deutschheft/" target="_self">"Mein fabelhaftes Deutschheft 1"</a> erscheint</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>03.11.2016 - Unsere Schülerin Dona Marinova verbrennt mit ihrem Vater und ihrer Schwester in einem Arbeiterwohnheim in der Dachauerstr. 24</p>
 <p>                     Ursache: Brandstiftung</p>
@@ -682,49 +742,83 @@ Aardwaark, Konfetti, Isarkrabben und Rotznasen</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>13.05.2017 - Beginn des <a href="https://www.lernhilfe-hafis.de/puppentheater/" target="_self">Puppenbauworkshops "Kraraoke"</a> mit Kruno Ruf in der Ü1 im Hasenbergl</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>22.06.2017 - Erste-Hilfe-Kurs in leichter Sprache für alle unsere Kinder aus Dfk- und Ü-Klassen</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>12.07.2017 - Elternabend für die zweiten und dritten Klassen </p>
-<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>13.07.2017 - Schyren-Cup 2017: Das Triple ist geschafft, Hafis gewinnt zum dritten Mal nacheinander den Schyren-Cup. Im Finale besiegen wir Westermühlbach mit 3:0. Dritter wird Aardwaark, Vierter
+<p> </p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
+<div class="clearover " id="textWithImage-9488456">
+<div class="align-container imgright" style="max-width: 100%; width: 174px;">
+    <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_10084875.jpg?t=1539606543" rel="lightbox[9488456]">
+        <img src="https://www.lernhilfe-hafis.de/s/cc_images/cache_10084875.jpg?t=1539606543" id="image_9488456" alt="" style="width:100%"/>
+    </a>
+
+
+</div> 
+<div class="textwrapper">
+<p>13.07.2017 - Schyren-Cup 2017: Das Triple ist geschafft, Hafis gewinnt zum dritten Mal nacheinander den Schyren-Cup. Im Finale besiegen wir Westermühlbach mit 3:0. Dritter wird Aardwaark, Vierter
 die Rotznasen und Fünfter unsere 2. Mannschaft (aus Ü1 und 2. und 3. Klasse) - dann kommen Konfetti, Isarkrabben und SFR.</p>
-<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>15.11.2017 - Führung unserer Ü3 aus dem Hasenbergl durchs Bayerische Nationalmuseum</p>
+</div>
+</div> 
+<script type="text/javascript">
+    //<![CDATA[
+    jQuery(document).ready(function($){
+        var $target = $('#textWithImage-9488456');
+
+        if ($.fn.swipebox && Modernizr.touch) {
+            $target
+                .find('a[rel*="lightbox"]')
+                .addClass('swipebox')
+                .swipebox();
+        } else {
+            $target.tinyLightbox({
+                item: 'a[rel*="lightbox"]',
+                cycle: false,
+                hideNavigation: true
+            });
+        }
+    });
+    //]]>
+</script>
+ </div><div class="n module-type-text diyfeLiveArea "> <p> </p>
+<p>15.11.2017 - Führung unserer Ü3 aus dem Hasenbergl durchs Bayerische Nationalmuseum</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>20.12.2017- Besuch unserer DFK1 aus Pasing beim Märchen-Marathon im Gasteig</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>13.04.2018 - Beginn unserer <a href="https://www.lernhilfe-hafis.de/hafis-kampagne/" target="_self">Spendenkampagne</a>: 5 Texte, von denen jeder für sich spricht, die aber zusammengenommen, die Geschichte eines kleinen
 Jungens namens Hafis erzählen. Zu sehen für 10 Tage im ganzen Münchner MVV-Gebiet an über 330 Litfaßsäulen/Allgemeinstellen. Herzlichen Dank an die Firma Ströer, die uns diese Werbung durch ihren
 Verzicht auf das Werbehonorar ermöglicht hat.</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p><strong>02.05.2018 - 80% unserer 4.Klässler schaffen den Übertritt auf Realschule, Gesamtschule und Gymnasium! Münchenweit liegt die Quote der Zuwandererkinder, die auf eine höhere Schulart als
 die Mittelschule kommen, nach wie vor bei rund 30%.</strong></p>
-<p> </p> </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-9428519">
-    <div class="align-container align-left" style="max-width: 229px">
-        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_9974813.jpg?t=1537805920" rel="lightbox[9428519]">
-            <img id="image_9974813" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_9974813.jpg?t=1537805920" alt="" style="max-width: 229px; height:auto"/>
-        </a>
+<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>11.07.2018 - Schyren-Cup 2018:</p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
+<div class="clearover " id="textWithImage-9488489">
+<div class="align-container imgleft" style="max-width: 100%; width: 176px;">
+    <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_10084885.jpg?t=1539606823" rel="lightbox[9488489]">
+        <img src="https://www.lernhilfe-hafis.de/s/cc_images/cache_10084885.jpg?t=1539606823" id="image_9488489" alt="" style="width:100%"/>
+    </a>
 
-        
-    </div>
 
+</div> 
+<div class="textwrapper">
+<p>Hafis gewinnt den U12 -Wettbewerb und wird Zweiter in der Altersgruppe U10 (Sieger Rotznasen, 2. Hafis, 3. Aadwaark, 4. Konfetti, 5. Westermühlbach, 6. Schülerfreiraum, 7. Isarkrabben)</p>
 </div>
-
+</div> 
 <script type="text/javascript">
-//<![CDATA[
-jQuery(function($) {
-    var $target = $('#imageSubtitle-9428519');
+    //<![CDATA[
+    jQuery(document).ready(function($){
+        var $target = $('#textWithImage-9488489');
 
-    if ($.fn.swipebox && Modernizr.touch) {
-        $target
-            .find('a[rel*="lightbox"]')
-            .addClass('swipebox')
-            .swipebox();
-    } else {
-        $target.tinyLightbox({
-            item: 'a[rel*="lightbox"]',
-            cycle: false,
-            hideNavigation: true
-        });
-    }
-});
-//]]>
+        if ($.fn.swipebox && Modernizr.touch) {
+            $target
+                .find('a[rel*="lightbox"]')
+                .addClass('swipebox')
+                .swipebox();
+        } else {
+            $target.tinyLightbox({
+                item: 'a[rel*="lightbox"]',
+                cycle: false,
+                hideNavigation: true
+            });
+        }
+    });
+    //]]>
 </script>
- </div><div class="n module-type-text diyfeLiveArea "> <p>11.07.2018 - Schyren-Cup 2018: Hafis gewinnt den U12 -Wettbewerb und wird Zweiter in der Altersgruppe U10 (Sieger Rotznasen, 2. Hafis,  3. Aadwaark, 4. Konfetti, 5. Westermühlbach, 6.
-Schülerfreiraum, 7. Isarkrabben)</p>
-<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>Juni/Juli 2018 - An 5 Freitagen Geschichtenwerkstatt mit Markus Nau für unsere Ü3 im Hasenbergl</p>
+ </div><div class="n module-type-text diyfeLiveArea "> <p> </p>
+<p>Juni/Juli 2018 - An 5 Freitagen Geschichtenwerkstatt mit Markus Nau für unsere Ü3 im Hasenbergl</p>
 <p> </p> </div></div>
         
         
@@ -771,5 +865,5 @@ Schülerfreiraum, 7. Isarkrabben)</p>
     </body>
 
 
-<!-- rendered at Sun, 14 Oct 2018 23:33:00 +0200 -->
+<!-- rendered at Mon, 15 Oct 2018 15:42:41 +0200 -->
 </html>
