@@ -57,7 +57,6 @@ cat index.html | sed -E "s/^.*$/\t\0/"
 
 echo "cleaning up..."
 rm ~wget-start.txt ~wget-end.txt ~fix-stupid.lst ~fix-stupid.dat ~fix-crossorigin.lst
-rm index-part*.html
 
 echo ""
 read -p "All done. Press enter to continue. "
