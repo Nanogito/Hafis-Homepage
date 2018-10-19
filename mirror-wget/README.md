@@ -1,4 +1,31 @@
-## Site-backup mit wget ##
+## Site-backup mit wget & javascript ##
+
+#### Erstes Setup nach dem Klonen des repos ####
+
+Es wird angenommen, dass das repo in einen Ordner `hafis/` geklont wurde:
+`git clone --progress -v git@github.com:meisl/hafis.git hafis`
+
+Außerdem werden benötigt:
+
+* [wget v1.19.4](https://eternallybored.org/misc/wget): `wget.exe` z.B. nach `%ProgramFiles%\Git\usr\bin\` kopieren
+* [Node.js](https://nodejs.org) (v8/LTS) installieren
+* Diverse javascript Module (Abhängigkeiten) holen
+  - `cd hafis/mirror-wget`
+  - `npm install`
+  - Tests laufen lassen: `npm test`
+    Output sollte etwa so aussehen:
+    	
+		```
+
+			$ npm test
+			
+			> hafis-mirror@0.0.1 test E:\hafis\mirror-wget
+			> mocha
+
+			sadfa
+		```
+
+---  
 
 * [mirror.sh](mirror.sh): Shell-Skript das die Spiegelung durchführt. In [git bash](https://gitforwindows.org/index.html): `time ./mirror.sh`. Es wird noch [wget v1.19.4](https://eternallybored.org/misc/wget) benötigt (`wget.exe` z.B. nach `%ProgramFiles%\Git\usr\bin\` kopieren).
 * [mirror/](mirror/): das eigentliche Backup. Alle Links umgeschrieben, s.d. es komplett lokal funktioniert. Original-(`.html`/`.css`) Dateien gespeichert als `*.orig`
