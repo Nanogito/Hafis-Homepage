@@ -13,16 +13,18 @@ Außerdem werden benötigt:
   - `cd hafis/mirror-wget`
   - `npm install`
   - Tests laufen lassen: `npm test`
-    Output sollte etwa so aussehen:
-    	
-		```
+    Output sollte etwa so aussehen:```
 
 			$ npm test
 			
 			> hafis-mirror@0.0.1 test E:\hafis\mirror-wget
 			> mocha
 
-			sadfa
+			
+			  √ mirror should get the version: 10ms
+			
+			  1 passing (91ms)
+
 		```
 
 ---  

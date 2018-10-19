@@ -13,8 +13,6 @@ JSDOM.fromFile("mirror/www.lernhilfe-hafis.de/index.html")
 const glob = require('glob');
 const cheerio = require('cheerio');
 
-foo = "asdf";
-
 const entries = glob.sync('**/*.htm?(l).orig', { cwd: "mirror" });
 return;
 

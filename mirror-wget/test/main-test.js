@@ -1,7 +1,5 @@
 var expect = require("expect.js"),
 	mirror = require("../");
-	
-global.foo = "asdf";
 
 describe('mirror', function() {
 
