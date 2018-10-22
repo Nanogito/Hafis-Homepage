@@ -19,16 +19,15 @@ Außerdem werden benötigt:
 			
 			> hafis-mirror@0.0.1 test E:\hafis\mirror-wget
 			> mocha
-
 			
-			  √ mirror should get the version: 10ms
-			
-			  1 passing (91ms)
+			  ...............
 
+			  15 passing (115ms)
 		```
 
 ---  
 
+* [test/](test/): Tests mit [mocha](https://mochajs.org) und [expect.js](https://www.npmjs.com/package/expect.js)
 * [mirror.sh](mirror.sh): Shell-Skript das die Spiegelung durchführt. In [git bash](https://gitforwindows.org/index.html): `time ./mirror.sh`. Es wird noch [wget v1.19.4](https://eternallybored.org/misc/wget) benötigt (`wget.exe` z.B. nach `%ProgramFiles%\Git\usr\bin\` kopieren).
 * [mirror/](mirror/): das eigentliche Backup. Alle Links umgeschrieben, s.d. es komplett lokal funktioniert. Original-(`.html`/`.css`) Dateien gespeichert als `*.orig`
 * [.wgetrc](.wgetrc): Konfiguration für die Spiegelung mit [wget v1.19.4](https://eternallybored.org/misc/wget) (evtl. Alternative mit GUI: [VisualWget](https://sites.google.com/site/visualwget))
