@@ -1,6 +1,7 @@
 const expect = require("expect.js");
 
-const dom = require("../lib/dom-jsdom");
+const dom = require("../lib/dom-cheerio");
+//const dom = require("../lib/dom-jsdom");
 
 const { fromText } = dom;
 
@@ -54,7 +55,7 @@ describe('test-helper', function () {
 			expect($('html > head > *')).to.have.length(1);
 			let elem = $('html > head > *')[0];
 			expect(elem.tagName).to.match(/link/i);
-			expect(elem.children).to.have.length(0);
+			expect(elem.childNodes).to.have.length(0);
 		});
 	});
 	describe('bodyFrag', function () {
@@ -67,7 +68,7 @@ describe('test-helper', function () {
 			expect($('html > body > *')).to.have.length(1);
 			let elem = $('html > body > *')[0];
 			expect(elem.tagName).to.match(/a/i);
-			expect(elem.children).to.have.length(0);
+			expect(elem.childNodes).to.have.length(1);
 		});
 	});
 });
