@@ -1,5 +1,5 @@
 --recursive
 --check-leaks
 --colors
---reporter dot
+--reporter list
 --watch
