@@ -1,6 +1,7 @@
 'use strict';
 
 const cheerio = require('cheerio');
+const fs = require('fs');
 
 const options =  {
 	lowerCaseTags: false,
@@ -47,5 +48,13 @@ let fromText = exports.fromText = function (htmlStr) {
 			return this.window.$.root().html();
 		}
 	};
-}
+};
+
+let fromFile = exports.fromFile = function (fileName) {
+	return new Promise((resolve, reject) =>
+		fs.readFile(fileName, (err, data) =>
+			err ?  reject(err) : resolve(fromText(data))
+		)
+	);
+};
 

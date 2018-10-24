@@ -1,7 +1,6 @@
 const expect = require("expect.js");
 
-const dom = require("../lib/dom-cheerio");
-//const dom = require("../lib/dom-jsdom");
+const dom = require("../lib/dom");
 
 const { fromText } = dom;
 
@@ -128,20 +127,21 @@ describe('dom', function () {
 		const x = '<div data-message="msg"></div><br><span></span><div>still here</div>';
 		expect_to_render(bodyFrag, s, x);
 	});
-	/*
-	it('should render <link .../> as self-closing tag', function () {
-		let s = '<link rel="dns-prefetch" href="//some.host.com"/>';
-		expect_to_render(headFrag, s, s);
+	describe.skip('self-closing tag', function () {
+		it('<link .../> should render as self-closing tag', function () {
+			let s = '<link rel="dns-prefetch" href="//some.host.com"/>';
+			expect_to_render(headFrag, s, s);
+		});
+		it('<meta .../> should render as self-closing tag', function () {
+			let s = '<meta name="robots" content="index,follow"/>';
+			expect_to_render(headFrag, s, s);
+		});
 	});
-	it('should render <meta .../> as self-closing tag', function () {
-		let s = '<meta name="robots" content="index,follow"/>';
-		expect_to_render(headFrag, s, s);
-	});
-	it('should render camel-cased attributes as is', function () {
+	it.skip('should render camel-cased attributes as is', function () {
 		let s = '<div data-matrixId="foo">bar</div>';
 		expect_to_render(bodyFrag, s, s);
 	});
-	*/
+	
 });
 
 
@@ -174,21 +174,6 @@ describe("cheerio", function () {
 });
 
 
-	  '<!DOCTYPE html><html lang="de"     ><head>'
-	+ '\n' + '    <link rel="dns-prefetch" href="../123.mod.mywebsite-editor.com/"/>'
-	+ '\n' + '            <meta name="robots" content="index,follow"/>'
-	+ '\n' + '<script type="text/javascript" src="../cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js@1537880851685"></script>'
-	+ '\n' + '<script type="text/javascript" src="../cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js@1537880851685"></script>'
-	+ '\n' + '</head>'
-	+ '\n' + '<body>'
-	+ '\n' + '  <div id="matrix_257567" class="sortable-matrix" data-matrixId="257567">'
-	+ '\n' + '    <b>something in bold</b>'
-	+ '\n' + '  </div>'
-	+ '\n' + '  <div> </div>'
-	+ '\n' + '  <div></div>'
-	+ '\n' + '  <b></b>'
-	+ '\n' + '  <font></font>'
-	+ '\n' + '</body>'
 	, options
 );
 $("script[src]").text("");
