@@ -1,15 +1,10 @@
 const fs = require('fs');
+const util = require('util');
 
 const dom = require('./dom-jsdom');
 //const dom = require('./dom-cheerio');
 
 module.exports = {
 	fromText: dom.fromText,
-	fromFile: function (fileName) {
-		return new Promise((resolve, reject) =>
-			fs.readFile(fileName, (err, data) =>
-				err ?  reject(err) : resolve(dom.fromText(data))
-			)
-		);
-	}
+	fromFile: fileName => util.promisify(fs.readFile)(fileName).then(dom.fromText)
 };
