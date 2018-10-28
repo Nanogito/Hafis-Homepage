@@ -86,6 +86,14 @@ describe('dom', function () {
 		let $ = fromText('').window.$;
 		expect($('html').html()).to.equal('<head></head><body></body>');
 	});
+	it('should leave encoded entities in attr values as is', function () {
+		let s = '<title id="1&amp;1 MyWebsite"></title>';
+		expect_to_render(headFrag, s, s);
+	});
+	it.skip('should leave encoded entities in text nodes as is', function () {
+		let s = '<title>M&uuml;&gt;nchen</title>';
+		expect_to_render(headFrag, s, s);
+	});
 	it('should render <br> as is', function () {
 		let s = '<br>foo';
 		expect_to_render(bodyFrag, s, s);
