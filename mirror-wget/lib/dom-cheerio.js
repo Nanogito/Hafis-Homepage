@@ -11,7 +11,7 @@ const options =  {
 	normalizeWhitespace: false,
 	xmlMode: false,
 	//xml: true,
-	decodeEntities: false
+	decodeEntities: true
 };
 
 /* Must use xmlMode because otherwise
@@ -28,13 +28,13 @@ let fromText = exports.fromText = function (htmlStr) {
 	if (htmlStr == '') {
 		htmlStr = emptyDocHtml;
 	}
-	let $ = cheerio.load(htmlStr, { xmlMode: false });
+	let $ = cheerio.load(htmlStr, options);
 	if (!$.prototype._html) {
 		$.prototype._html = $.prototype.html;
 		$.prototype.html = function () {
 			if (arguments.length)
 				return this._html(arguments[0]);
-			//this.find('*').not(voidElems).filter((i, e) => !e.children || !e.children.length).text('');
+			this.find('*').not(voidElems).filter((i, e) => !e.children || !e.children.length).text('');
 			let orig_xmlMode = this.options.xmlMode;
 			//this.options.xmlMode = true;
 			let result = this._html();
