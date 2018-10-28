@@ -15,16 +15,3 @@ let fromText = exports.fromText = function (html) {
 	};
 	return dom;
 };
-
-let fromFile = exports.fromFile = function (fileName) {
-	return JSDOM.fromFile(fileName, options)
-		.then(dom => {
-			dom.$ = jquery(dom.window);
-			dom.render = function () {
-				let $ = this.window.$;
-				return this.serialize();
-			};
-			return dom;
-		});
-};
-
