@@ -24,25 +24,34 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
 #### Status quo: ####
 
 - [Ittlinger](http://www.gsittlinger.musin.de/cms)
-  * Erwähnung:
+  * Erwähnung: http://www.gsittlinger.musin.de/cms/Betreuung/Hausaufgabenhilfe.html
+    - nur "Hafis" ("e.V." fehlt)
+    - Ok: "Intensive Hausaufgaben- und Nachhilfe für Gruppen bis zu 12 Kinder"
   * Details:
   * Link:
   * Logo:
 - [Schererplatz](http://www.gs-scherer.musin.de/)
-  * Erwähnung:
+  * Erwähnung: http://www.gs-scherer.musin.de/Schule/Foerder/Foerder.htm
+    - nur "HAFIS" ("e.V." fehlt)
+    - Naja...: "Der Lernhilfe-Verein "Hausaufgabenbetreuung für internationale Schüler" (Hafis)"
   * Details:
   * Link:
   * Logo:
 - [Weißensee](https://gsweiss.musin.de/)
-  * Erwähnung:
+  * Erwähnung: https://gsweiss.musin.de/zusatzangebote/
+    - Kacke: Seite sieht richtig *kaputt* aus - eine ganze Bildschirmseite nur weiss (sic!), erst danach kommen die restlichen Einträge...
+    - Ok: "Lernhilfe Hafis e.V."
+    - Ok: "Hausaufgaben und Nachhilfe für 12 Kinder der ersten und zweiten Klassen; kostenfrei mit Mittagessen"
   * Details:
-  * Link: Rektorin Monica Schröger: *"Leider mag die Stadt München Ihre Homepage nicht, deshalb habe ich keinen Link eingestellt."* Dazu ein Bild (screenshot?)
-     -> rausfinden, was das Problem hier ist
+  * Link: ~Rektorin Monica Schröger: *"Leider mag die Stadt München Ihre Homepage nicht, deshalb habe ich keinen Link eingestellt."* Dazu ein Bild (screenshot?)~ ging dann wohl doch...
+     -> rausfinden, was das Problem hier ~ist~ war
   * Logo:
 - [Eduard-Spranger](http://www.ed-sprang.musin.de/)
-  * Erwähnung:
+  * Erwähnung: http://www.ed-sprang.musin.de/index.php/kooperationspartner
+    - Ok: "Hafis e.V."
+    - *keine Beschreibung des Angebots* - allerdings genauso wie für alle anderen Einträge dort
   * Details:
   * Link:
   * Logo:
-- [Königswieser](http://www.gs-koenigs.musin.de)
-  * keine Kooperation mehr ab Schuljahr 2018/19
+- [Königswieser](http://www.gs-koenigs.musin.de) *(keine Kooperation mehr ab Schuljahr 2018/19)*
+  * Erwähnung (nach wie vor): http://www.gs-koenigs.musin.de/www/betreu.php (eigener Menüpunkt "Verein Hafis"); [darunter](http://www.gs-koenigs.musin.de/www/betreu_hafis.php): **leere Seite...** (!)
