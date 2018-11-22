@@ -1,5 +1,5 @@
 ## Site-backup mit wget ##
-Das Shell-Skript [mirror.sh](mirror.sh)
+
 * [mirror.sh](mirror.sh): Shell-Skript das die Spiegelung durchführt. In [git bash](https://gitforwindows.org/index.html): `time ./mirror.sh`. Es wird noch [wget v1.19.4](https://eternallybored.org/misc/wget) benötigt (`wget.exe` z.B. nach `%ProgramFiles%\Git\usr\bin\` kopieren).
 * [mirror/](mirror/): das eigentliche Backup. Alle Links umgeschrieben, s.d. es komplett lokal funktioniert. Original-(`.html`/`.css`) Dateien gespeichert als `*.orig`
 * [.wgetrc](.wgetrc): Konfiguration für die Spiegelung mit [wget v1.19.4](https://eternallybored.org/misc/wget) (evtl. Alternative mit GUI: [VisualWget](https://sites.google.com/site/visualwget))
