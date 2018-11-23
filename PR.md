@@ -71,8 +71,10 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
      - rausfinden, was das Problem hier ~ist~ war
      - Links finden sich nur ganz oben in einer Übersicht, nicht bei den einzelnen Einträgen (alle Einträge).
   * Logo: nein (*anders* als andere)
-     - Auf *jeder* Seite ist rechts eine Spalte mit verlinkten Logos - *aber keines für Hafis*
+     - Auf *jeder* Seite ist rechts eine Spalte mit verlinkten Logos - **aber keines für Hafis**
 - [Königswieser](http://www.gs-koenigs.musin.de) (Fürstenried) *keine Kooperation mehr ab Schuljahr 2018/19*
   * Erwähnung (nach wie vor): http://www.gs-koenigs.musin.de/www/betreu.php (eigener Menüpunkt "Verein Hafis"); [darunter](http://www.gs-koenigs.musin.de/www/betreu_hafis.php): **leere Seite...** (!)
 
+---
+Das Bild aus Fr. Schrögers mail, "Leider mag die Stadt München Ihre Homepage nicht" (vmtl. ein Screenshot, Originalname `Unbenannt.PNG`):
 ![Weißensee: "Stadt mag Ihre Homepage nicht"](i/Stadt-mag-Hafis-HP-nicht.png)
