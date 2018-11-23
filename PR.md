@@ -61,13 +61,18 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
   * Erwähnung: https://gsweiss.musin.de/zusatzangebote/
     - Ok: "Lernhilfe Hafis e.V."
     - Ok: "Hausaufgaben und Nachhilfe für 12 Kinder der ersten und zweiten Klassen; kostenfrei mit Mittagessen"
+    - Auch in einem vmtl. an die Eltern verschickten Infobrief (.pdf). Es gibt einen Bereich "Elternbriefe", der ist aber passwortgeschützt.
   * Details:
     - weder Name noch Tel.-Nr
     - Kosten: "kostenfrei mit Mittagessen"
     - Zeiten: "an allen Schultagen im Anschluss an den Unterricht bis 15.15 Uhr; Freitag bis 14.15 Uhr"
-  * Link: ~Rektorin Monica Schröger: *"Leider mag die Stadt München Ihre Homepage nicht, deshalb habe ich keinen Link eingestellt."* Dazu ein Bild (screenshot?)~ ging dann wohl doch...
+    - Es gibt zwei Einträge **mit Bild!**, z.B. "AsA – Alternatives schulisches Angebot". **Vielleicht auch möglich für Hafis?**
+  * Link: ~Rektorin Monica Schröger: *"Leider mag die Stadt München Ihre Homepage nicht, deshalb habe ich keinen Link eingestellt."* Dazu ein Bild (screenshot? s.h. unten)~ ging dann wohl doch...
      - rausfinden, was das Problem hier ~ist~ war
-     - Links finden sich nur ganz oben in einer Übersicht, nicht bei den einzelnen Einträgen (durchgehend). Allerdings sind die Logos - *keines für Hafis* - auf der rechten Seite verlinkt
+     - Links finden sich nur ganz oben in einer Übersicht, nicht bei den einzelnen Einträgen (alle Einträge).
   * Logo: nein (*anders* als andere)
+     - Auf *jeder* Seite ist rechts eine Spalte mit verlinkten Logos - *aber keines für Hafis*
 - [Königswieser](http://www.gs-koenigs.musin.de) (Fürstenried) *keine Kooperation mehr ab Schuljahr 2018/19*
   * Erwähnung (nach wie vor): http://www.gs-koenigs.musin.de/www/betreu.php (eigener Menüpunkt "Verein Hafis"); [darunter](http://www.gs-koenigs.musin.de/www/betreu_hafis.php): **leere Seite...** (!)
+
+![Weißensee: "Stadt mag Ihre Homepage nicht"](i/Stadt-mag-Hafis-HP-nicht.png)
