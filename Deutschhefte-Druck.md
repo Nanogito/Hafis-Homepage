@@ -2,20 +2,29 @@
 
 [bis500 die Onlinedruckerei](https://www.bis500druck.de): Parameter wie Format, Bindung, Papier etc. auswählen und "druckbares PDF" hochladen.
 
-Preisbeispiele (Stand Nov. 2018):
+#### Preisbeispiele (Stand Nov. 2018): ####
 * Bruttopreis bei 19% Mwst. pro Exemplar etwa 2,56 €, ges. 512 € (200x 40 Seiten A4 + Umschlag, alles in Farbe, Rückendrahtheftung, Kartoncover)
 * mit Außenkaschierung des Covers käme das obige Bsp. auf ges. 602 € brutto (3,01 € pro Exemplar).
 
-### Bild- und Seitengröße ###
+### DIN A Maße in cm, inches und Pixeln ###
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Papierformat#ISO-_und_DIN-Papierformate)
 
-#### DIN A ####
+#### Definition ####
+A0 hat
+* eine Fläche 1 m²
+* ein Seitenverhältnis von 1 zu Wurzel aus 2 (*nicht:* goldener Schnitt), d.h. die längere Seite hat ca. 141% der kürzeren
+* um das nächstkleinere Format (A0 -> A1, A1 -> A2, etc.) zu erhalten wird die jeweils längere Seite halbiert - durch die spezielle Wahl des Seitenverhältnisses bleibt es in allen so abgeleiteten Formaten erhalten.
+
+#### Konkret: A4 und A3 ####
+Nach der obigen Definition ergeben sich "krumme" Werte in mm.
+In der Praxis wird deshalb auf ganze mm gerundet und eine Toleranz vorgegeben.
 
 * DIN A4 (hochkant): 210 x 297 mm bzw. 8,268 x 11,693 inches.
 Bei 300 dpi ("dots per inch", ~11,8 Punkte/mm): 2480 x 3508 Pixel.
 * DIN A3 (quer): 420 x 297 x 420 mm bzw. 16,535 x 11,693 inches.
 Bei 300 dpi: 4960 x 3508 Pixel.
 
-Die Toleranz beträgt ±1,5 mm bei Maßen bis 150 mm (±2 mm bis 600 mm und darüber ±3 mm).
+Die offizielle Toleranz beträgt ±1,5 mm bei Maßen bis 150 mm (±2 mm bis 600 mm und darüber ±3 mm).
 
 1,5 mm entsprechen:
 
@@ -25,15 +34,16 @@ Die Toleranz beträgt ±1,5 mm bei Maßen bis 150 mm (±2 mm bis 600 mm und dar�
 * bei 150 dpi: ~8,9 Pixel
 * bei 100 dpi: ~5,9 Pixel
 
-Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Papierformat#ISO-_und_DIN-Papierformate)
-
 
 #### Beschnittzugabe ####
-Für randlosen Druck und um bei Heftung die Breitenzunahme von innen nach außen ausgleichen zu können wird üblicherweise Rand von 3 mm auf jeder Seite zugegeben.
+Für randlosen Druck 
+und um bei Heftung die Breitenzunahme von innen nach außen ausgleichen zu können
+wird üblicherweise ein Rand von 3 mm auf jeder Seite zugegeben.
 Für A4 ergibt das dann 216 x 303 mm (aka A4+).
-Das ist auch die Seitengröße in Krunos pdfs.
+Das ist auch die Seitengröße in den bisherigen Arbeitsdaten (pdfs, sh. unten).
 
 Mit diesem Rand ergäben sich bei 300 dpi für A4+ 2551,18 x 3578,74 Pixel, um aber auf jeder Seite einen Rand von genau 36 Pixeln zu haben werden 2552 x 3580 Pixel verwendet.
+
 
 
 ### Bemerkungen zu den bisherigen Arbeitsdateien ###
