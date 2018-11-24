@@ -11,9 +11,12 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Papierformat#ISO-_und_DIN-Papi
 
 #### Definition ####
 A0 hat
+
 * eine Fläche 1 m²
 * ein Seitenverhältnis von 1 zu Wurzel aus 2 (*nicht:* goldener Schnitt), d.h. die längere Seite hat ca. 141% der kürzeren
-* um das nächstkleinere Format (A0 -> A1, A1 -> A2, etc.) zu erhalten wird die jeweils längere Seite halbiert - durch die spezielle Wahl des Seitenverhältnisses bleibt es in allen so abgeleiteten Formaten erhalten.
+
+Um das nächstkleinere Format (A0 -> A1, A1 -> A2, etc.) zu erhalten wird die jeweils längere Seite halbiert.
+Die spezielle Wahl des Seitenverhältnisses von 1 : Wurzel aus 2 garantiert *dasselbe* Verhältnis in allen abgeleiteten Formaten.
 
 #### Konkret: A4 und A3 ####
 Nach der obigen Definition ergeben sich "krumme" Werte in mm.
