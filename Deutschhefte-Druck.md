@@ -2,6 +2,7 @@
 
 [bis500 die Onlinedruckerei](https://www.bis500druck.de): Parameter wie Format, Bindung, Papier etc. auswählen und "druckbares PDF" hochladen.
 
+Preisbeispiele (Stand Nov. 2018):
 * Bruttopreis bei 19% Mwst. pro Exemplar etwa 2,56 €, ges. 512 € (200x 40 Seiten A4 + Umschlag, alles in Farbe, Rückendrahtheftung, Kartoncover)
 * mit Außenkaschierung des Covers käme das obige Bsp. auf ges. 602 € brutto (3,01 € pro Exemplar).
 
