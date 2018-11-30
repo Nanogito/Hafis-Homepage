@@ -2,5 +2,6 @@ User-agent: *
 Disallow: https://www.lernhilfe-hafis.de/c/
 Disallow: https://www.lernhilfe-hafis.de/protected/
 Disallow: /home-alt/
+Disallow: /deutschheft-neu/
 Disallow: /test/
 Sitemap: https://www.lernhilfe-hafis.de/sitemap.xml
