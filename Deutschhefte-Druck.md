@@ -1,13 +1,37 @@
 ### Druckerei ###
 
-[bis500 die Onlinedruckerei](https://www.bis500druck.de): Parameter wie Format, Bindung, Papier etc. auswählen und "druckbares PDF" hochladen.
+[bis500 die Onlinedruckerei](https://www.bis500druck.de) macht Digitaldruck von PDFs mit 600 dpi (Farb-)Laserdruckern. Bei Auflagen bis etwa 500 Stück ist das günstiger als herkömmliche Verfahren, da praktisch keine Einrichtungskosten anfallen.
+
+Zum Namen: auf [www.bis500druck.de](https://www.bis500druck.de) heißt es
+
+	```
+	bis500 ist eine Marke der
+		
+	Klicks GmbH
+	Ziegelhüttenweg 4
+	D 98693 Ilmenau
+	``` 
+
+#### Ablauf ####
+
+* Im "Preiskalkulator" Parameter wie Format, Bindung, Papier etc. konfigurieren
+* Formular mit Kontaktdaten ausfüllen; hier auch evtl. Anmerkungen z.B. zu Schwarz/Weiss-Seiten (sh. unten)
+* Man bekommt eine email mit FTP-Zugangsdaten 
+* per FTP hochladen: je ein PDF für Inhalt und Cover (zu deren Format und Namen sh. unten)
+* man kann vorab ein Probeexemplar ("Probedruck") bekommen (+ 25 € netto)
+* Versand ca. 1 Woche später durch DHL (+ 2-3 Tage) oder Express (+ 1 Tag)
+* man erhält eine Rechnung und bezahlt per Überweisung
 
 #### Preisbeispiele (Stand Nov. 2018): ####
-* Bruttopreis bei 19% Mwst. pro Exemplar etwa 2,56 €, ges. 512 € (200x 40 Seiten A4 + Umschlag, alles in Farbe, Rückendrahtheftung, Kartoncover)
-* mit Außenkaschierung des Covers käme das obige Bsp. auf ges. 602 € brutto (3,01 € pro Exemplar).
+* laut den [FAQ von bis500](https://www.bis500druck.de/faq) sollte für die Übungshefte ein Mwst.-Satz von 7% möglich sein
+* Bruttopreis bei 7% Mwst. und einer Auflage von 200 pro Exemplar etwa 2,30 €, ges. 460 € (40 Seiten A4 + Kartoncover, alles in Farbe, Rückendrahtheftung)
+* Versandkosten sind praktisch vernachlässigbar (hier: 5 €, schon inkl.)
+* mit Außenkaschierung des Covers käme das obige Bsp. auf ges. 540 € brutto (2,70 € pro Exemplar).
+* Schwarz/Weiß-Druck ist billiger als Farbe, und kann für jede Seite einzeln gewählt werden. Im obigen Bsp. würde jede schwarz/weiß-Seite den Bruttopreis der ganzen Auflage um 4,81 € verringern (d.h. alle 40 Seiten in s/w ~> -193 €).
+* Leerseiten kosten nichts, müssen aber im PDF enthalten sein
 
 ### DIN A Maße in cm, inches und Pixeln ###
-Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Papierformat#ISO-_und_DIN-Papierformate)
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Papierformat#ISO-_und_DIN-Papierformate) und [www.bis500druck.de](https://www.bis500druck.de)
 
 #### Definition ####
 A0 hat
@@ -47,6 +71,11 @@ Das ist auch die Seitengröße in den bisherigen Arbeitsdaten (pdfs, sh. unten).
 
 Mit diesem Rand ergäben sich bei 300 dpi für A4+ 2551,18 x 3578,74 Pixel, um aber auf jeder Seite einen Rand von genau 36 Pixeln zu haben werden 2552 x 3580 Pixel verwendet.
 
+Bei 150 dpi entsprechend die Hälfte:
+
+* Rand: 18 Pixel auf jeder Seite
+* **1276 x 1790** mit Rand
+* **1240 x 1754** ohne Rand (in mm: 209,973 x 297,011)
 
 
 ### Bemerkungen zu den bisherigen Arbeitsdateien ###
@@ -75,9 +104,11 @@ Aufgrund der Diskrepanzen zu den Endprodukten (Details sh. unten) können dies a
   * außen hinten (S. 38)
   * außen vorne (S. 39)
   * innen vorne (S. 40)
-- es sind Seiten enthalten, die fertigen Produkt nicht auftauchen
+- es sind Seiten enthalten, die im fertigen Produkt nicht auftauchen
 - sehr viele Unsauberkeiten in den Scans (Fussel auf dem Scannerglas)
-- auf manchen Seiten fehlt die Seitenzahl (z.B. Seite 21, K - die Katze)
+- auf manchen Seiten fehlt die Seitenzahl
+  * Seite 21, K - die Katze
+  * ...?
 - auf manchen Seiten fehlt das "&copy; Petra Cordua" (z.B. Seite 22, M - die Maus)
 - eingebettete Bilder bedecken nicht die ganze Seite, sondern sind verschieden groß, und um die Ränder (einigermaßen) gleich zu bekommen sind sie individuell auf der jeweiligen Seite platziert
 - einige Seiten sind ungünstig beschnitten:
