@@ -2,7 +2,8 @@
 
 [bis500 die Onlinedruckerei](https://www.bis500druck.de) macht Digitaldruck von PDFs mit 600 dpi (Farb-)Laserdruckern. Bei Auflagen bis etwa 500 Stück ist das günstiger als herkömmliche Verfahren, da praktisch keine Einrichtungskosten anfallen.
 
-Zum Namen: auf [www.bis500druck.de](https://www.bis500druck.de) heißt es
+#### Zum Namen der Druckerei (für Impressum) #####
+Auf [www.bis500druck.de](https://www.bis500druck.de) heißt es im "Footer" (am Ende jeder Seite im Browser):
 
 	```
 	bis500 ist eine Marke der
@@ -12,9 +13,22 @@ Zum Namen: auf [www.bis500druck.de](https://www.bis500druck.de) heißt es
 	D 98693 Ilmenau
 	``` 
 
+Im Bereich [`Downloads`](https://www.bis500druck.de/service/download/) gibt es Anleitungs-.pdfs zum Runterladen (zum Bsp. ["Beschnitt und Sicherheitsabstand"](https://www.bis500druck.de/wp-content/uploads/2015/04/beschnitt.pdf)). In diesen ist folgende Fußzeile enthalten:
+
+	```
+	Klicks GmbH - bis500 Digitaldruck - Ziegelhüttenweg 4 - 98693 Ilmenau - Telefon 03677/469243 - kundenservice@bis500druck.de
+	```
+
+Also schreiben wir im Impressum:
+
+	```
+	Druck: Klicks GmbH Ilmenau / bis500 Digitialdruck (www.bis500druck.de)
+	```
+...oder wir rufen an und fragen sie einfach, was sie gerne hätten :)
+
 #### Ablauf ####
 
-* Im "Preiskalkulator" Parameter wie Format, Bindung, Papier etc. konfigurieren
+* Im ["Preisrechner"](https://www.bis500druck.de) Parameter wie Format, Bindung, Papier etc. konfigurieren
 * Formular mit Kontaktdaten ausfüllen; hier auch evtl. Anmerkungen z.B. zu Schwarz/Weiss-Seiten (sh. unten)
 * Man bekommt eine email mit FTP-Zugangsdaten 
 * per FTP hochladen: je ein PDF für Inhalt und Cover (zu deren Format und Namen sh. unten)
