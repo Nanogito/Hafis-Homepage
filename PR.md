@@ -34,8 +34,8 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
     - Hinweis auf Intensivierung fehlt
   * Link: **FEHLT** (*anders* als die anderen Einträge)
   * Logo: keins
-- [Ittlinger](http://www.gsittlinger.musin.de/cms) (Hasenbergl, mit Intensivierung)
-  * Erwähnung: http://www.gsittlinger.musin.de/cms/Betreuung/Hausaufgabenhilfe.html
+- [Ittlinger](http://www.gsittlinger.musin.de) (Hasenbergl, mit Intensivierung)
+  * Erwähnung: http://www.gsittlinger.musin.de/Betreuung/Hausaufgabenhilfe.html
     - nur "Hafis" ("e.V." fehlt)
     - Ok: "Intensive Hausaufgaben- und Nachhilfe für Gruppen bis zu 12 Kinder"
   * Details:
@@ -70,8 +70,9 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
   * Link: ~Rektorin Monica Schröger: *"Leider mag die Stadt München Ihre Homepage nicht, deshalb habe ich keinen Link eingestellt."* Dazu ein Bild (screenshot? s.h. unten)~ ging dann wohl doch...
      - rausfinden, was das Problem hier ~ist~ war
      - Links finden sich nur ganz oben in einer Übersicht, nicht bei den einzelnen Einträgen (alle Einträge).
-  * Logo: nein (*anders* als andere)
-     - Auf *jeder* Seite ist rechts eine Spalte mit verlinkten Logos - **aber keines für Hafis**
+  * Logo: ja (auf *jeder* Seite ist rechts eine Spalte mit verlinkten Logos)
+     - nicht verlinkt - **die anderen schon**
+     - Logo ist das von der www.lernhilfe-hafis.de - **sieht dort richtig schlecht und unscharf aus**, fällt negativ auf neben den anderen!
 - [Königswieser](http://www.gs-koenigs.musin.de) (Fürstenried) *keine Kooperation mehr ab Schuljahr 2018/19*
   * Erwähnung (nach wie vor): http://www.gs-koenigs.musin.de/www/betreu.php (eigener Menüpunkt "Verein Hafis"); [darunter](http://www.gs-koenigs.musin.de/www/betreu_hafis.php): **leere Seite...** (!)
 
