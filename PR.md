@@ -26,7 +26,8 @@ den Homepages aller Grundschulen**, mit denen Hafis kooperiert, angemessen
 - [Eduard-Spranger](http://www.ed-sprang.musin.de/) (Hasenbergl, mit Intensivierung)
   * Erwähnung: http://www.ed-sprang.musin.de/index.php/kooperationspartner
     - Ok: "Hafis e.V."
-    - *keine Beschreibung des Angebots* - allerdings genauso wie für alle anderen Einträge dort
+    - ***keinerlei** Beschreibung des Angebots*
+    - nicht mal Stichworte wie etwa "Hausaufgaben- und Nachhilfe" (*anders* als die anderen)
   * Details
     - weder Name noch Tel.-Nr
     - Kosten: fehlt
