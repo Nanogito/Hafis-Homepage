@@ -22,11 +22,10 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 ---
 
 ### `Logo_Hafis-2016_klein-Weissensee.jpeg` ###
-von https://gsweiss.musin.de/wp-content/uploads/2018/12/Hafis-e.V.-logo-2016-j-e1544036687234.jpeg
 
 ![](Logo_Hafis-2016_klein-Weissensee.jpeg)
 
-* Herkunft: https://gsweiss.musin.de/wp-content/uploads/2018/12/Hafis-e.V.-logo-2016-j-e1544036687234.jpeg
+* Herkunft: [HP der Weissensee-Grundschule](https://gsweiss.musin.de/wp-content/uploads/2018/12/Hafis-e.V.-logo-2016-j-e1544036687234.jpeg).
   Offensichtlich einfach eine schlecht skalierte Version von obigem `Logo_Hafis-2016_HP-Titel.jpg`, erstellt kürzlich (Nov. 2018) von jemand bei der Weissensee-GS.
 * Format: 222 x 33 px @ 96 dpi, tatsächlicher Inhalt 222 x 23 px
 * Insbesondere das Ziel neben anderen Logos auf der Weissensee-HP wenigstens nicht negativ aufzufallen ist *eindeutig verfehlt*. TODO: screenshot
