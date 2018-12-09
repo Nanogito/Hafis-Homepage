@@ -1,6 +1,28 @@
 ## Status quo Dez. 2018 ##
 
-### `Logo_Hafis-2016_HP-Titel.jpg` ###
+### Übersicht / Quellen ###
+* 1&1/IONOS, MyWebsite-Editor unter `Einstellungen | Bilder` (im repo: [`/MyWebsite/Bilder/`](../../MyWebsite/Bilder/))
+  - `Logo_Hafis-2016_HP-Titel.jpg` [`logo-2016-j.jpg` = `logo-2016-capital-J.jpg`]
+  - `Eule-2016_anim.gif` [`ggEule.gif`]
+  - `Eule-2016_192x128.png` [`Eule192x128.png`]
+* email
+  - `Logo_Hafis-2016_mail-2018-11-22.gif` [`logo.gif`]
+* [Homepage der Grundschule an der Weißenseestraße](https://gsweiss.musin.de/zusatzangebote) (aka "Weissensee-HP")
+  - `Logo_Hafis-2016_klein-Weissensee.jpeg`
+* TODO: Kruno-Stick (erhalten 2018-12-01):
+  Auf diesem Stick fanden sich neben Daten zu Deutschheft1 auch zwei Ordner, die u.a. Logos bzw. Elemente davon enthalten
+  - [`Kruno-Stick/FLYER/...`]
+  - [`Kruno-Stick/WEB2016/...`]
+* [Youtube-Kanal "Christian Doerr"](https://www.youtube.com/channel/UC8E3QP7VHt7u6CBszPK8miA) (dort ist das Video vom Puppentheater)
+  - Profilbild `Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg`
+* Profil chdoerr auf github.com (nur der Vollständigkeit halber; Profilbild aus vorhandenem Material)
+  - `Avatar_chdoerr@github-(Eule-2016)_70x70.png`
+
+
+### Vorhandenes Material ###
+
+
+#### `Logo_Hafis-2016_HP-Titel.jpg` ####
 Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg), also in [`/MyWebsite/Bilder/Logo/`](../../MyWebsite/Bilder/Logo/).
 ![](./Logo_Hafis-2016_HP-Titel.jpg)
 
@@ -21,12 +43,12 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Logo_Hafis-2016_klein-Weissensee.jpeg` ###
+#### `Logo_Hafis-2016_klein-Weissensee.jpeg` ####
 
 ![](Logo_Hafis-2016_klein-Weissensee.jpeg)
 
-* Herkunft: [HP der Weissensee-Grundschule](https://gsweiss.musin.de/wp-content/uploads/2018/12/Hafis-e.V.-logo-2016-j-e1544036687234.jpeg).
-  Offensichtlich einfach eine schlecht skalierte Version von obigem `Logo_Hafis-2016_HP-Titel.jpg`, erstellt kürzlich (Nov. 2018) von jemand bei der Weissensee-GS.
+* Herkunft: [Weissensee-HP](https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg) (Bild-URL: https://gsweiss.musin.de/wp-content/uploads/2018/12/Hafis-e.V.-logo-2016-j-e1544036687234.jpeg).
+  Offensichtlich einfach eine schlecht skalierte Version von obigem `Logo_Hafis-2016_HP-Titel.jpg`; erstellt Anfang Dez. 2018 von jemand bei der Weissensee-GS (vermutet aufgrund Bild-URL).
 * Format: 222 x 33 px @ 96 dpi, tatsächlicher Inhalt 222 x 23 px
 * Insbesondere das Ziel neben anderen Logos auf der Weissensee-HP wenigstens nicht negativ aufzufallen ist *eindeutig verfehlt*. TODO: screenshot
 * Anordnung der Elemente für dieses kleine Format ungeeignet:
@@ -36,7 +58,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Logo_Hafis-2016_mail-2018-11-22.gif` ###
+#### `Logo_Hafis-2016_mail-2018-11-22.gif` ####
 
 ![](./Logo_Hafis-2016_mail-2018-11-22.gif)
 
@@ -57,7 +79,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Eule-2016_anim.gif` ###
+#### `Eule-2016_anim.gif` ####
 
 ![](./Eule-2016_anim.gif)
 
@@ -69,7 +91,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Eule-2016_192x128.png` ###
+#### `Eule-2016_192x128.png` ####
 
 ![](./Eule-2016_192x128.png)
 
@@ -80,7 +102,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Avatar_chdoerr@github-(Eule-2016)_70x70.png` ###
+#### `Avatar_chdoerr@github-(Eule-2016)_70x70.png` ####
 
 ![](./Avatar_chdoerr@github-(Eule-2016)_70x70.png)
 
@@ -93,7 +115,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 
 ---
 
-### `Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg` ###
+#### `Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg` ####
 
 ![](./Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg)
 
