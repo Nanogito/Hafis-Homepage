@@ -48,8 +48,8 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
   - Eule exakt gleich gross: 53 x 67 px hoch
   - Schrift praktisch gleich groß: 470 x 48 statt 468 x 49 (+/- Artefakte im jpg)
   - Eule auf der Grundlinie (mit recht wenig Platz zu "Hausaufgabenbetreuung..."
-  - "Hafis e.V." ragt um 10 px (13% der Gesamtbreite) über Oberkante Eule hinaus
-  - recht grosser Zeichenabstand in "Hausaufgabenbetreuung...", dadurch noch länger als ohnehin schon -> viel weiße Fläche zwischen Eule und "Hafis e.V." (188 px / 27%)
+  - "Hafis e.V." ragt um 10 px (13% in der Höhe) über Oberkante Eule hinaus
+  - recht grosser Zeichenabstand in "Hausaufgabenbetreuung...", dadurch noch länger als ohnehin schon -> viel weiße Fläche zwischen Eule und "Hafis e.V." (188 px / 27% in der Breite)
   - Farben:
     * Hellblau: 200° / 60% / 100% (bis auf 1,1 °/% genau), dort: 200° / 100% / 100% (also satter)
     * Orange/Braun: 20° / 75% / 80% (exakt), dort: genau gleich
