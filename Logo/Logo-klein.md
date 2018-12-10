@@ -65,3 +65,12 @@ TODOs:
 
 ----
 
+#### screenshots Weissensee-HP ####
+
+Zum Vergleich im Kontext zwei screenshots (status-quo vs. 03c):
+
+![](screenshot_Logo_Hafis-2016_00-klein-auf-Weissensee-HP.png)
+
+![](screenshot_Logo_Hafis-2018_03c-klein-auf-Weissensee-HP.png)
+
+ 
