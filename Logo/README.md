@@ -9,8 +9,8 @@
 
 #### Verwendungszwecke / Zielformate ####
 
-* für die eigene Homepage: 880 x 128 px
-* für andere Websites, die auf www.lernhilfe-hafis.de verweisen: 220 x 30-40 px
+* [für die eigene Homepage: 880 x 128 px](../MyWebsite/Bilder/Logo/Logo_Hafis-2016_HP-Titel.png) 
+* [für andere Websites, die auf www.lernhilfe-hafis.de verweisen: 220 x 30-40 px](Logo-klein.md)
 * Avatar für github:
   - winzig: 20 x 20 px
   - klein: 26 x 26 px
