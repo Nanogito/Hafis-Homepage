@@ -9,14 +9,24 @@
   - `Logo_Hafis-2016_mail-2018-11-22.gif` [`logo.gif`]
 * [Homepage der Grundschule an der Weißenseestraße](https://gsweiss.musin.de/zusatzangebote) (aka "Weissensee-HP")
   - `Logo_Hafis-2016_klein-Weissensee.jpeg`
-* TODO: Kruno-Stick (erhalten 2018-12-01):
-  Auf diesem Stick fanden sich neben Daten zu Deutschheft1 auch zwei Ordner, die u.a. Logos bzw. Elemente davon enthalten
-  - [`Kruno-Stick/FLYER/...`]
-  - [`Kruno-Stick/WEB2016/...`]
-* [Youtube-Kanal "Christian Doerr"](https://www.youtube.com/channel/UC8E3QP7VHt7u6CBszPK8miA) (dort ist das Video vom Puppentheater)
-  - Profilbild `Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg`
+* Kruno-Stick (erhalten 2018-12-01) - **Bingo!**:
+  Auf diesem Stick fanden sich neben Daten zu Deutschheft1 auch zwei Ordner, die u.a. Logos bzw. Elemente davon enthalten (hier nur Logo-Relevantes):
+  - [`Kruno-Stick/WEB2016/`]
+    * `logo-2016.png`
+    * `logo-2016.psd` <<<<<<< !
+    * `logo-2016-J.jpg` = `Logo_Hafis-2016_HP-Titel.jpg`
+    * [`grafik/`]
+      - `buttons_133b.gif`
+      - `buttons_133w.gif`
+      - `buttons_22q.gif`
+      - `logo.gif` = `Logo_Hafis-2016_mail-2018-11-22.gif`
+      - `logocubline.gif`
+      - `logograph2010.gif`
+  - TODO: [`Kruno-Stick/FLYER/...`]
 * Profil chdoerr auf github.com (nur der Vollständigkeit halber; Profilbild aus vorhandenem Material)
   - `Avatar_chdoerr@github-(Eule-2016)_70x70.png`
+* [Youtube-Kanal "Christian Doerr"](https://www.youtube.com/channel/UC8E3QP7VHt7u6CBszPK8miA) (dort ist das Video vom Puppentheater)
+  - Profilbild `Avatar_Christian-Doerr@Youtube-(Selfie)_288x288.jpg`
 
 
 ### Vorhandenes Material ###
@@ -27,6 +37,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 ![](./Logo_Hafis-2016_HP-Titel.jpg)
 
 * Herkunft: `logo-2016-j.jpg`, bzw. *identisch* `logo-2016-capital-J.jpg` in [`/MyWebsite/Bilder/`](../../MyWebsite/Bilder/)
+* Außerdem *identisch* mit `Kruno-Stick/WEB2016/logo-2016-J.gif` - anscheinend stehen "-j", "-capital-J" und "-J" einfach nur für "jpg"...
 * Dateiformat `.jpg` ungeeignet - Artefakte. Insbesondere in der Eule. Aber auch alle anderen Flächen (Farbkästchen, Schriftfüllung und Hintergrund) sind nicht homogen -> Freistellen erschwert.
 * Format 880 x 129 px @ 300 x 300 dpi, tatsächlicher Inhalt 878 x 89 px
   - horizontal nicht exakt zentriert: weißer Rand links von 2 px
@@ -63,6 +74,7 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
 ![](./Logo_Hafis-2016_mail-2018-11-22.gif)
 
 * Herkunft: mail "besseres Logo" von @chdoerr an @meisl vom 22. Nov. 2018; Name dort schlicht `logo.gif`
+* *Identisch* mit `Kruno-Stick/WEB2016/grafik/logo.gif`
 * Format: 726 x 95 px @ 300 x 300 dpi, tatsächlicher Inhalt: 709 x 78 px
 * durch Dateiformat `.gif` keine Artefakte, homogene Flächen
 * Gestaltung im Vergleich zu `Logo_Hafis-2016_HP-Titel`:
@@ -76,6 +88,68 @@ Derzeit auf der [Homepage verwendet](https://www.lernhilfe-hafis.de/s/img/logo-2
     * Hellblau: 200° / 60% / 100% (bis auf 1,1 °/% genau), dort: 200° / 100% / 100% (also satter)
     * Orange/Braun: 20° / 75% / 80% (exakt), dort: genau gleich
 
+
+---
+
+#### `Kruno-Stick/WEB2016/`: `logo-2016.png` & `logo-2016.psd` ####
+
+![](./Kruno-Stick/WEB2016/logo-2016.png)
+
+* Herkunft: Kruno-Stick, erhalten 2018-12-01
+* Format: exakt wie `Logo_Hafis-2016_HP-Titel.jpg` - **nur eben ohne Artefakte!**
+* Die `.psd` (Photoshop-) Datei
+  - **ist die Arbeitsdatei, aus der der Rest abgeleitet ist**
+  - enthält 6 Ebenen:
+    * `Ebene 2`: die Eule wie unten, leider ohne Transparenz (auf weißem Hintergrund)
+    * `Hintergrund Kopie #1`: Die Farbkästchen (TODO: Farbraumkonvertierung Adobe -> ?)
+    * `Ebene 1`: Schriftzug "Hafis e.V." - leider *nicht* als Vektoren; Hellblau:  191,3°/100%/100%, Orange: 18,8°/81,4%/90,6%
+    * `Hintergrund Kopie`: ein winziges Stück Orange, Teil vom "H"
+    * `Form 1`: ein Stückchen weißer Hintergrund
+    * `Hintergrund`: weißer Hintergrund mit schwarzem Loch bei der Eule
+ 
+
+
+---
+
+#### `Kruno-Stick/WEB2016/grafik`: `logocubline.gif` ####
+
+![](./Kruno-Stick/WEB2016/grafik/logocubline.gif)
+
+* Herkunft: Kruno-Stick, erhalten 2018-12-01
+* Format: 726 x 22 px @ -/- dpi, tatsächlicher Inhalt: 724 x 20 px (1px weißer Rand)
+  - Palette: 15 Farben (4 bit)
+  - einzelnes Kästchen: 20 x 20 px, davon 2 px oranger Rand
+
+---
+
+
+#### `Kruno-Stick/WEB2016/grafik`: `logograph2010.gif` ####
+
+![](./Kruno-Stick/WEB2016/grafik/logograph2010.gif)
+
+* Herkunft: Kruno-Stick, erhalten 2018-12-01
+* Format: 992 x 22 px @ -/- dpi, tatsächlicher Inhalt: 988 x 20 px (3px weißer Rand rechts, 1px restliche Seiten)
+  - Palette: 15 Farben (4 bit)
+  - einzelnes Kästchen: 20 x 20 px, davon 2 px oranger Rand
+  - **also eigentlich dasselbe wie `logocubline.gif`**, nur mit zusätzlichen Kästchen links
+
+
+---
+
+
+#### `Kruno-Stick/WEB2016/grafik`: `buttons_133b.gif`, `buttons_133w.gif` & `buttons_22q.gif` ####
+
+133b: ![](./Kruno-Stick/WEB2016/grafik/buttons_133b.gif) (133 x 22 px, "b" = "blau"?)
+
+133w: ![](./Kruno-Stick/WEB2016/grafik/buttons_133w.gif) (133 x 22 px weiß, "w" = "weiß"?)
+
+22q: ![](./Kruno-Stick/WEB2016/grafik/buttons_22q.gif) (22 x 22 px, "q" = "Quadrat"?)
+
+* Herkunft: Kruno-Stick, erhalten 2018-12-01
+* Farben (gleich in 133b und 22q):
+  - Hellblau: 20°/75%/80%
+  - Orange: 20°/75%/80%
+  - Helles Orange (1 px Ecken Kästchen): 20°/40%/88,2%
 
 ---
 
