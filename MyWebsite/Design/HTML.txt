@@ -1,20 +1,20 @@
 <div id="container">
-	<div id="wrapper">
-		<div id="header">
-			<div id="header_wrapper"><a href="/"><img src="logo-2016-j.jpg" alt="" /></a></div>
-		</div>
-		<div class="c"></div>
-		<div id="content">
-			<div class="gutter"><var>content</var></div>
-		</div>
-		<div id="sidebar">
-			<div id="navigation"><var>navigation[1|2|3]</var></div>
-			<div id="sidebar_content"><var>sidebar</var></div>
-		</div>
-	</div>
-	<div class="c"></div>
-	<div id="footer">
-		<div class="gutter"><var>footer</var></div>
-	</div>
-	<div class="c"></div>
+<div id="wrapper">
+<div id="header">
+<div id="header_wrapper"><a href="/"><img src="logo-hafis-2016-hp-titel.png" alt="Hafis e.V." /></a></div>
+</div>
+<div class="c"></div>
+<div id="content">
+<div class="gutter"><var>content</var></div>
+</div>
+<div id="sidebar">
+<div id="navigation"><var>navigation[1|2|3]</var></div>
+<div id="sidebar_content"><var>sidebar</var></div>
+</div>
+</div>
+<div class="c"></div>
+<div id="footer">
+<div class="gutter"><var>footer</var></div>
+</div>
+<div class="c"></div>
 </div>
