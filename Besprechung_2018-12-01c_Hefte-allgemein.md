@@ -14,5 +14,5 @@
   * §52a UrhG existiert nicht mehr. Dieser Satz kann so also nicht mehr rein. TODO: Links
   * Mit Absicht kein langes Vorwort an die Eltern/Lehrer - es soll gleich mit dem Inhalt für die Kinder losgehen
   * -> maximal die untere Hälfte des Innencovers vorn für Impressum und **Verweis auf Text am Ende des Heftes**
-  * Dafür (Impressum & Klappentext) ist eine Computerschrift, die wie Handschrift durchaus akzeptabel - Segoe Script
+  * Dafür (Impressum & Klappentext) ist eine Computerschrift, die wie Handschrift aussieht, durchaus akzeptabel - Segoe Script
   * ![question](i/question.png) ist die Schrift *als Grafik* im Druck ok? Bei wieviel dpi?
