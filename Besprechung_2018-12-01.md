@@ -1,4 +1,4 @@
-### Besprechung Sa, 01.12.2018, 10:30-14:00: CD, PC, MK ###
+### Besprechung Sa, 01.12.2018, 10:30-14:30: CD, PC, MK ###
 *(Legende: siehe [Besprechung_2018-06-29](Besprechung_2018-06-29.md))*
 
 ---

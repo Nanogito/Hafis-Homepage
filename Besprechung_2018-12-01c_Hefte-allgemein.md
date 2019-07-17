@@ -1,4 +1,4 @@
-### Teil c) von [Besprechung Sa, 01.12.2018, 10:30-14:00: CD, PC, MK](Besprechung_2018-12-01.md) ###
+### Teil c) von [Besprechung Sa, 01.12.2018, 10:30-14:30: CD, PC, MK](Besprechung_2018-12-01.md) ###
 *(Legende: siehe [Besprechung_2018-06-29](Besprechung_2018-06-29.md))*
 
 ---
