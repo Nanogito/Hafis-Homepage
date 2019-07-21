@@ -5,7 +5,7 @@
 
 
 [i001]: ./20190717_182144.jpg "adsf asdf"
-[i001r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182144.jpg
+[i001r]: .20190717_182144.jpg?raw=true
 [i002]: ./20190717_182158.jpg
 [i002r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182158.jpg "asdf"
 [i003]: ./20190717_182205.jpg
