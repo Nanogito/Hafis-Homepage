@@ -4,8 +4,13 @@
 
 
 [i001]: ./20190717_182144.jpg "adsf asdf"
-[i001r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182144.jpg "asdf"
+[i001r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182144.jpg
 [i002]: ./20190717_182158.jpg
-[i002r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182158.jpg
+[i002r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182158.jpg "asdf"
 [i003]: ./20190717_182205.jpg
 [i003r]: ../../../../../raw/master/Material/Schyren-Cup/2019/20190717_182205.jpg
+
+
+<script>
+  alert(document.links);
+</script>
