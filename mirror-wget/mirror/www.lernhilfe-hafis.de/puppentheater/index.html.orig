@@ -15,19 +15,19 @@
         <meta name="keywords" content="Lernhilfe,Hausaufgaben,München,Hausaufgabenbetreuung,Nachhilfe,Hausaufgabenbetreuung,Lernhilfe,Migranten,Migrationshintergrund,Ganztagesklasse,Notenverbesserung,Lernmentor,Mittagsbetreuung,LRS,ADHS,Grundschule,Integration,Inklusion,Lernen,Noten,Schule,Lehrer,Klasse,Unterricht,Intensivierung,Deutsch,Mathematik,Schüler,international"/>
             <meta name="description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
             <meta name="robots" content="index,follow"/>
-        <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1538163565" rel="stylesheet" type="text/css"/>
-    <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1538163565" rel="stylesheet" type="text/css"/>
-    <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1538163565" rel="stylesheet" type="text/css"/>
-    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1540819346161" rel="stylesheet" type="text/css"/>
-<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1540819346161" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1543611544" rel="stylesheet" type="text/css"/>
+        <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1544480758" rel="stylesheet" type="text/css"/>
+    <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1544480758" rel="stylesheet" type="text/css"/>
+    <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1544480758" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1561539304052" rel="stylesheet" type="text/css"/>
+<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1561539304052" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1568311222" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1543611544"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1568311222"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -62,7 +62,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1540819346161" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1540819346161" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1540819346161"></script>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1561539304052" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1561539304052" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1561539304052"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -317,11 +317,11 @@ var stagingMode = '';
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1540819346161" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1561539304052" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/puppentheater/"/>
     <meta property="og:title" content="Hafis e.V., München - Puppentheater"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1543043173"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1562011829"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -340,7 +340,7 @@ var stagingMode = '';
         <div id="container">
 <div id="wrapper">
 <div id="header">
-<div id="header_wrapper"><a href="/"><img src="https://www.lernhilfe-hafis.de/s/img/logo-2016-j.jpg" alt=""/></a></div>
+<div id="header_wrapper"><a href="/"><img src="https://www.lernhilfe-hafis.de/s/img/logo-hafis-2016-hp-titel.png" alt="Hafis e.V."/></a></div>
 </div>
 <div class="c"></div>
 <div id="content">
@@ -404,8 +404,6 @@ begeistert an und waren begierig darauf, selbst welche anzufertigen.</p>
 den Puppen zeigt.</p>
 <p> </p>
 <p>Der Workshop erstreckte sich über einen Zeitraum von mehreren Monaten, und gegen Ende erhielt jedes Kind eine CD mit Photos sowie den Filmen, die mit den Puppen entstanden sind.</p>
-<p> </p>
-<p>Weitere Projekte sind geplant.</p>
 </div>
 </div> 
 <script type="text/javascript">
@@ -474,5 +472,5 @@ den Puppen zeigt.</p>
     </body>
 
 
-<!-- rendered at Sat, 24 Nov 2018 08:06:14 +0100 -->
+<!-- rendered at Mon, 01 Jul 2019 22:10:29 +0200 -->
 </html>
