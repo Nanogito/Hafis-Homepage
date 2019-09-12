@@ -12,4 +12,4 @@
 	
  * [index.html](index.html): wird von `mirror.sh` erzeugt, um das Backup bequem im Browser inspizieren zu können.
    - Sieht etwa so aus:
-   - ![screenshot-mirror-index.png](/i/screenshot-mirror-index.png)
+   - ![screenshot-mirror-index.png](../i/screenshot-mirror-index.png)
