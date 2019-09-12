@@ -18,16 +18,16 @@
         <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1544480758" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1544480758" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1544480758" rel="stylesheet" type="text/css"/>
-    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1561539304052" rel="stylesheet" type="text/css"/>
-<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1561539304052" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1568311221" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1568123296067" rel="stylesheet" type="text/css"/>
+<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1568123296067" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1568319970" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1568311221"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1568319970"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -62,7 +62,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1561539304052" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1561539304052" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1561539304052"></script>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1568123296067" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1568123296067" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1568123296067"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -317,11 +317,11 @@ var stagingMode = '';
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1561539304052" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1568123296067" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/aktuell/"/>
     <meta property="og:title" content="Aktuell"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1562007078"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1568318669"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -334,7 +334,7 @@ var stagingMode = '';
 </head>
 
 
-<body class="body diyBgActive  cc-pagemode-default" data-pageid="108661" id="page-108661">
+<body class="body diyBgActive  cc-pagemode-default diy-market-de_DE" data-pageid="108661" id="page-108661">
     
     <div class="diyw">
         <div id="container">
@@ -353,8 +353,8 @@ var stagingMode = '';
 </div>
  </div><div class="n module-type-imageSubtitle diyfeLiveArea "> <div class="clearover imageSubtitle" id="imageSubtitle-2059984">
     <div class="align-container align-left" style="max-width: 442px">
-        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208121.png?t=1470476249" rel="lightbox[2059984]">
-            <img id="image_1208121" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_1208121.png?t=1470476249" alt="" style="max-width: 442px; height:auto"/>
+        <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_1208121.png?t=1568316956" rel="lightbox[2059984]">
+            <img id="image_1208121" src="https://www.lernhilfe-hafis.de/s/cc_images/cache_1208121.png?t=1568316956" alt="" style="max-width: 442px; height:auto"/>
         </a>
 
         
@@ -730,8 +730,8 @@ Nau erzählt eine Geschichte und unsere Ü1 trommelt.</b></p> </div><div class="
       });
     //]]>
     </script>
- </div><div class="n module-type-text diyfeLiveArea "> <p>29.09.2016 - Gewinn des Schyren-Cups 2016: Die Titelverteidigung ist geglückt, Hafis gewinnt jedes Spiel. Die weiteren Teilnehmer in der Reihenfolge der Platzierung: Westermühlbach,
-Schülerfreiraum, Aardwaark, Konfetti, Isarkrabben und Rotznasen.</p>
+ </div><div class="n module-type-text diyfeLiveArea "> <p>29.09.2016 - Gewinn des Schyren-Cups 2016: Die Titelverteidigung ist geglückt, Hafis gewinnt jedes Spiel. Die weiteren Teilnehmer in der Reihenfolge der Platzierung: Westermühlenbach,
+Schülerfreiraum, Aardvark, Konfetti, Isarkrabben und Rotznasen.</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>05.10.2016 - <a href="https://www.lernhilfe-hafis.de/mein-fabelhaftes-deutschheft/" target="_self">"Mein fabelhaftes Deutschheft 1"</a> erscheint</p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>03.11.2016 - Unsere Schülerin Dona Marinova verbrennt mit ihrem Vater und ihrer Schwester in einem Arbeiterwohnheim in der Dachauerstr. 24</p>
 <p>                     Ursache: Brandstiftung</p>
@@ -752,7 +752,7 @@ Schülerfreiraum, Aardwaark, Konfetti, Isarkrabben und Rotznasen.</p>
 
 </div> 
 <div class="textwrapper">
-<p>13.07.2017 - Schyren-Cup 2017: Das Triple ist geschafft, Hafis gewinnt zum dritten Mal nacheinander den Schyren-Cup. Im Finale besiegen wir Westermühlbach mit 3:0. Dritter wird Aardwaark, Vierter
+<p>13.07.2017 - Schyren-Cup 2017: Das Triple ist geschafft, Hafis gewinnt zum dritten Mal nacheinander den Schyren-Cup. Im Finale besiegen wir Westermühlenbach mit 3:0. Dritter wird Aardvark, Vierter
 die Rotznasen und Fünfter unsere 2. Mannschaft (aus Ü1 und 2. und 3. Klasse) - dann kommen Konfetti, Isarkrabben und SFR.</p>
 </div>
 </div> 
@@ -782,8 +782,8 @@ die Rotznasen und Fünfter unsere 2. Mannschaft (aus Ü1 und 2. und 3. Klasse) -
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>13.04.2018 - Beginn unserer <a href="https://www.lernhilfe-hafis.de/hafis-kampagne/" target="_self">Spendenkampagne</a>: 5 Texte, von denen jeder für sich spricht, die aber zusammengenommen, die Geschichte eines kleinen
 Jungens namens Hafis erzählen. Zu sehen für 10 Tage im ganzen Münchner MVV-Gebiet an über 330 Litfaßsäulen/Allgemeinstellen. Herzlichen Dank an die Firma Ströer, die uns diese Werbung durch ihren
 Verzicht auf das Werbehonorar ermöglicht hat.</p>
-<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p><strong>02.05.2018 - 80% unserer 4.Klässler schaffen den Übertritt auf Realschule, Gesamtschule und Gymnasium! Münchenweit liegt die Quote der Zuwandererkinder, die auf eine höhere Schulart als
-die Mittelschule kommen, nach wie vor bei rund 30%.</strong></p>
+<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p><strong>02.05.2018 - 80% unserer 4.-Klässler schaffen den Übertritt auf Realschule, Gesamtschule und Gymnasium! Münchenweit liegt die Quote der Zuwandererkinder, die auf eine höhere Schulart als
+die Mittelschule kommen, nach wie vor bei nur rund 30%.</strong></p>
 <p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>11.07.2018 - Schyren-Cup 2018:</p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
 <div class="clearover " id="textWithImage-9488489">
 <div class="align-container imgleft" style="max-width: 100%; width: 176px;">
@@ -794,7 +794,7 @@ die Mittelschule kommen, nach wie vor bei rund 30%.</strong></p>
 
 </div> 
 <div class="textwrapper">
-<p>Hafis gewinnt den U12 -Wettbewerb und wird Zweiter in der Altersgruppe U10 (Sieger Rotznasen, 2. Hafis, 3. Aadwaark, 4. Konfetti, 5. Westermühlbach, 6. Schülerfreiraum, 7. Isarkrabben)</p>
+<p>Hafis gewinnt den U12 -Wettbewerb und wird Zweiter in der Altersgruppe U10 (Sieger Rotznasen, 2. Hafis, 3. Aardvark, 4. Konfetti, 5. Westermühlenbach, 6. Schülerfreiraum, 7. Isarkrabben)</p>
 </div>
 </div> 
 <script type="text/javascript">
@@ -822,12 +822,46 @@ die Mittelschule kommen, nach wie vor bei rund 30%.</strong></p>
 <p> </p>
 <p>17.12.2018 - Ausflug unserer Deutschfördergruppe von der GS Weißensee zum Märchen-marathon im Gasteig</p>
 <p> </p>
-<p>18.12.2018 - Unsere Ü1 aus dem Hasenbergl besucht den Weihnachtsmarkt am ChinesischenTurm</p>
+<p>18.12.2018 - Unsere Ü1 aus dem Hasenbergl besucht den Weihnachtsmarkt am Chinesischen Turm</p>
 <p> </p>
-<p>12.02.2019 - Ausflug mit unserer Deutschklasse (Ü1) und den 3.und 4.Klassen aus dem Hasenbergl ins Olympia-Eissportstadion zum Schlittschuhlaufen</p>
+<p>12.02.2019 - Ausflug mit unserer Deutschklasse (Ü1) und den 3. und 4.Klassen aus dem Hasenbergl ins Olympia-Eissportstadion zum Schlittschuhlaufen</p>
 <p> </p>
-<p><strong>02.05.2019 - 91% unserer 4.Klässler schaffen dieses Jahr den Übertritt auf eine höhere Schulart als die der Mittelschule.</strong></p>
-<p> </p> </div></div>
+<p><strong>02.05.2019 - 91% unserer 4.-Klässler schaffen dieses Jahr den Übertritt auf eine höhere Schulart als die der Mittelschule.</strong></p>
+<p> </p> </div><div class="n module-type-text diyfeLiveArea "> <p>17.07.2016 - Schyren-Cup 2019</p> </div><div class="n module-type-textWithImage diyfeLiveArea "> 
+<div class="clearover " id="textWithImage-10283450">
+<div class="align-container imgleft" style="max-width: 100%; width: 166px;">
+    <a class="imagewrapper" href="https://www.lernhilfe-hafis.de/s/cc_images/teaserbox_11497049.jpg?t=1568318654" rel="lightbox[10283450]">
+        <img src="https://www.lernhilfe-hafis.de/s/cc_images/cache_11497049.jpg?t=1568318654" id="image_10283450" alt="" style="width:100%"/>
+    </a>
+
+
+</div> 
+<div class="textwrapper">
+<p>Dieses Jahr wurde das Turnier im Liga-Modus ausgetragen. Die U10 Mannschaft von Hafis verliert nur ein Spiel von sieben: gegen den späteren Turniersieger - 2. Platz!<br/>
+Die Platzierungen: 1. Westermühlenbach, 2. Hafis, 3. Aardvark, 4. Konfetti, 5. Rotznasen, 6. Isarkrabben, 7. Schülerfreiraum, 8. KuBu.</p>
+</div>
+</div> 
+<script type="text/javascript">
+    //<![CDATA[
+    jQuery(document).ready(function($){
+        var $target = $('#textWithImage-10283450');
+
+        if ($.fn.swipebox && Modernizr.touch) {
+            $target
+                .find('a[rel*="lightbox"]')
+                .addClass('swipebox')
+                .swipebox();
+        } else {
+            $target.tinyLightbox({
+                item: 'a[rel*="lightbox"]',
+                cycle: false,
+                hideNavigation: true
+            });
+        }
+    });
+    //]]>
+</script>
+ </div></div>
         
         
         </div></div>
@@ -873,5 +907,5 @@ die Mittelschule kommen, nach wie vor bei rund 30%.</strong></p>
     </body>
 
 
-<!-- rendered at Mon, 01 Jul 2019 20:51:20 +0200 -->
+<!-- rendered at Thu, 12 Sep 2019 22:04:30 +0200 -->
 </html>
