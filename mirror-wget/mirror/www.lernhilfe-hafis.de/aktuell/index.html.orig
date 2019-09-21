@@ -20,14 +20,14 @@
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1544480758" rel="stylesheet" type="text/css"/>
     <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1568123296067" rel="stylesheet" type="text/css"/>
 <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1568123296067" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1568319970" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1569066257" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1568319970"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1569066257"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -321,7 +321,7 @@ var stagingMode = '';
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/aktuell/"/>
     <meta property="og:title" content="Aktuell"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1568318669"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1569065437"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -686,8 +686,44 @@ Isarkrabben, Schülerfreiraum und wir.</p>
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 10.11.2015 - Unsere Schüler aus dem Hasenbergl besuchen im 2411 das Stück "Nero Corleone" </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297710" style="height: 10px;">
 </div>
- </div><div class="n module-type-text diyfeLiveArea "> <p>26.01.2016 - <b>Hafis wird 10 Jahre alt! Jubiläumsfeier in der Ittlinger-GS mit allen Sponsoren, Wegbegleitern, Förderern und Freunden: Der Tenor Michael Elliscasis singt Schubertlieder, Markus
-Nau erzählt eine Geschichte und unsere Ü1 trommelt.</b></p> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297713" style="height: 10px;">
+ </div><div class="n module-type-gallery diyfeLiveArea "> <div class="ccgalerie clearover" id="lightbox-gallery-10297774">
+
+<div class="thumb_pro1" id="gallery_thumb_11517664" style="width: 158px; height: 158px;">
+	<div class="innerthumbnail" style="width: 158px; height: 158px;">		<a rel="lightbox[10297774]" href="https://www.lernhilfe-hafis.de/s/cc_images/cache_11517664.jpg?t=1569065016">			<img src="https://www.lernhilfe-hafis.de/s/cc_images/thumb_11517664.jpg?t=1569065016" id="image_11517664" alt=""/>
+		</a>
+	</div>
+
+</div>
+
+<div class="thumb_pro1" id="gallery_thumb_11517665" style="width: 158px; height: 158px;">
+	<div class="innerthumbnail" style="width: 158px; height: 158px;">		<a rel="lightbox[10297774]" href="https://www.lernhilfe-hafis.de/s/cc_images/cache_11517665.jpg?t=1569065016">			<img src="https://www.lernhilfe-hafis.de/s/cc_images/thumb_11517665.jpg?t=1569065016" id="image_11517665" alt=""/>
+		</a>
+	</div>
+
+</div>
+</div>
+   <script type="text/javascript">
+  //<![CDATA[
+      jQuery(document).ready(function($){
+          var $galleryEl = $('#lightbox-gallery-10297774');
+
+          if ($.fn.swipebox && Modernizr.touch) {
+              $galleryEl
+                  .find('a[rel*="lightbox"]')
+                  .addClass('swipebox')
+                  .swipebox();
+          } else {
+              $galleryEl.tinyLightbox({
+                  item: 'a[rel*="lightbox"]',
+                  cycle: true
+              });
+          }
+      });
+    //]]>
+    </script>
+ </div><div class="n module-type-text diyfeLiveArea "> <p><strong>26.01.2019 - Hafis wird 10 Jahre alt!</strong></p>
+<p><strong>Jubiläumsfeier in der Ittlinger-GS mit allen Sponsoren, Wegbegleitern, Förderern und Freunden: Der Tenor Michael Elliscasis singt Schubertlieder, Markus Nau erzählt eine Geschichte und
+unsere Ü1 trommelt.</strong></p> </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297713" style="height: 10px;">
 </div>
  </div><div class="n module-type-text diyfeLiveArea "> 20.02.2016 - Rodeln in Seefeld/Tirol </div><div class="n module-type-spacer diyfeLiveArea "> <div class="the-spacer id4297718" style="height: 10px;">
 </div>
@@ -907,5 +943,5 @@ Die Platzierungen: 1. Westermühlenbach, 2. Hafis, 3. Aardvark, 4. Konfetti, 5. 
     </body>
 
 
-<!-- rendered at Thu, 12 Sep 2019 22:04:30 +0200 -->
+<!-- rendered at Sat, 21 Sep 2019 13:30:38 +0200 -->
 </html>
