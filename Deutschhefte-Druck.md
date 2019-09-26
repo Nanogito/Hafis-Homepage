@@ -174,6 +174,11 @@ um aber die unmodifizierten Bilddaten zu erhalten - so wie sie im pdf eingebette
 - Dort auf gewünschtes Bild klicken und per Copy&Paste z.B. in IrfanView, und dort speichern. 
 
 
+#### Inkscape
+- Datei öffnen | `pdf` auswählen
+- im folgenden Dialog die Seite wählen (man kann nur eine Seite auf einmal öffnen)
+- darin sind dann *alle* im `pdf` vorhandenen Elemente (für diese Seite) enthalten; auch unsichtbare und "geclippte"
+
 ### Vorgehen für zukünftige Produktion ###
 Dateiformat Einzelbilder: TIFF (Endung `.tif`), intern zip-komprimiert.
 
