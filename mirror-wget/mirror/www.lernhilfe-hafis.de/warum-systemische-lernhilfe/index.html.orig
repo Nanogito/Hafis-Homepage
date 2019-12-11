@@ -18,16 +18,16 @@
         <link href="https://www.lernhilfe-hafis.de/s/style/layout.css?1544480758" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/main.css?1544480758" rel="stylesheet" type="text/css"/>
     <link href="https://www.lernhilfe-hafis.de/s/style/font.css?1544480758" rel="stylesheet" type="text/css"/>
-    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1561539304052" rel="stylesheet" type="text/css"/>
-<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1561539304052" rel="stylesheet" type="text/css"/>
-    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1569066258" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.css?1572260577794" rel="stylesheet" type="text/css"/>
+<link href="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1572260577794" rel="stylesheet" type="text/css"/>
+    <link href="https://123.sb.mywebsite-editor.com/app/logstate2-css.php?site=690615453&amp;t=1576085007" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
     /* <![CDATA[ */
 var stagingMode = '';
     /* ]]> */
 </script>
-<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1569066258"></script>
+<script src="https://123.sb.mywebsite-editor.com/app/logstate-js.php?site=690615453&amp;t=1576085007"></script>
     <script type="text/javascript">
     /* <![CDATA[ */
     var systemurl = 'https://123.sb.mywebsite-editor.com/';
@@ -62,7 +62,7 @@ var stagingMode = '';
     /* ]]> */
 </script>
 
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1561539304052" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1561539304052" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1561539304052"></script>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/web.js?1572260577794" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/s/build/web.bundle.js?1572260577794" crossorigin="anonymous"></script><script src="//cdn.eu.mywebsite-editor.com/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1572260577794"></script>
 <script type="text/javascript" src="https://cdn.eu.mywebsite-editor.com/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
                     if (typeof require !== 'undefined') {
                         require.config({
@@ -317,11 +317,11 @@ var stagingMode = '';
 //]]>
 </script>
 <script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
-<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1561539304052" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+<script type="text/javascript" src="//cdn.eu.mywebsite-editor.com/app/cdn/min/group/pfcsupport.js?1572260577794" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
     <meta property="og:url" content="https://www.lernhilfe-hafis.de/warum-systemische-lernhilfe/"/>
     <meta property="og:title" content="Warum systemische Lernhilfe?"/>
             <meta property="og:description" content="Lernhilfe und Hausaufgabenbetreuung in München für Grundschüler mit Migrationshintergrund"/>
-                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1562011831"/>
+                <meta property="og:image" content="https://www.lernhilfe-hafis.de/s/misc/logo.jpg?t=1573567314"/>
         <meta property="business:contact_data:country_name" content="Deutschland"/>
     <meta property="business:contact_data:street_address" content="Konrad-Dreher-Str. 26"/>
     <meta property="business:contact_data:locality" content="München"/>
@@ -334,7 +334,7 @@ var stagingMode = '';
 </head>
 
 
-<body class="body diyBgActive  cc-pagemode-default" data-pageid="108666" id="page-108666">
+<body class="body diyBgActive  cc-pagemode-default diy-market-de_DE" data-pageid="108666" id="page-108666">
     
     <div class="diyw">
         <div id="container">
@@ -456,5 +456,5 @@ intensive, sprich: systemische Lernhilfe, an.</p>
     </body>
 
 
-<!-- rendered at Mon, 01 Jul 2019 22:10:31 +0200 -->
+<!-- rendered at Tue, 12 Nov 2019 15:01:55 +0100 -->
 </html>
